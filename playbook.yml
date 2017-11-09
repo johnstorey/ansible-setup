@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Install cowsay.
+      sudo: yes
+      when: ansible_os_family == "Debian"
+      apt:
+        name: cowsay
+        state: present
+ 
+  roles:
+    - ansible-role-dotfiles
+

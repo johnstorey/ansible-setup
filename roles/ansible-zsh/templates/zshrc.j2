@@ -1,0 +1,21 @@
+# {{ ansible_managed }}
+
+fpath=("$HOME/.zfunctions" $fpath)
+
+{%- for username, options in __users__.iteritems() %}
+  {%- if username == item.key %}
+    {# Install prompt #}
+    {%- if options.has_key('zsh_prompt_install') and options.zsh_prompt_install %}
+
+autoload -U promptinit && promptinit
+prompt {{ options.zsh_prompt_name | default(zsh_default_prompt_name) }}
+
+    {%- endif %}
+    {# Add custom lines #}
+    {%- if options.has_key('zsh_zshrc_content') and options.zsh_zshrc_content %}
+
+{{ options.zsh_zshrc_content }}
+
+    {%- endif %}
+  {% endif %}
+{% endfor %}
