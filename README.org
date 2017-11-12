@@ -1,0 +1,7 @@
+# Install command line tools, scripts, etc.
+
+#+BEGIN_SRC bash
+
+ansible-playbook -i localhost, -c local playbook-terminal.yml -K
+
+#+END_SRC
