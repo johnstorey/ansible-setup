@@ -1,0 +1,16 @@
+---
+- git_config:
+    name: core.editor
+    scope: global
+    value: vim
+
+- git_config:
+    name: user.email
+    scope: global
+    value: 'john@johnstorey.org'
+
+- git_config:
+    name: user.name
+    scope: global
+    value: 'John R Storey'
+
