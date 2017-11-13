@@ -1,0 +1,30 @@
+{
+  "vim.disableAnnoyingNeovimMessage": true,
+  "editor.fontSize": 22,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 5,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "prettier.eslintIntegration": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["e", "u"],
+      "after": ["d", "d"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.cursorStylePerMode": {
+    "normal": "underline",
+    "insert": "line-thin",
+    "replace": "block-outline"
+  },
+  "workbench.colorTheme": "An Old Hope"
+}

@@ -1,0 +1,78 @@
+---
+- name: Install VS Code.
+  become_user: root
+  become: yes
+  dnf:
+    name: code
+    state: latest
+
+- name: Install VS Code extensions.
+  command: "code --install-extension '{{ item.publisher }}'.'{{ item.extensionName}}'"
+  with_items:
+    - { publisher: "13xforever", extensionName: "language-x86-64-assembly" }
+    - { publisher: "EQuimper", extensionName: "react-native-react-redux" }
+    - { publisher: "EditorConfig", extensionName: "EditorConfig" }
+    - { publisher: "Poorchop", extensionName: "theme-darktooth" }
+    - { publisher: "Shan", extensionName: "code-settings-sync" }
+    - { publisher: "SolarLiner", extensionName: "linux-themes" }
+    - { publisher: "SynCap", extensionName: "sc-themes" }
+    - { publisher: "alefragnani", extensionName: "delphi-themes" }
+    - { publisher: "be5invis", extensionName: "theme-verdandi" }
+    - { publisher: "blanu", extensionName: "vscode-styled-jsx" }
+    - { publisher: "bubersson", extensionName: "theme-hop-light" }
+    - { publisher: "casualjim", extensionName: "theme-desertex" }
+    - { publisher: "christian-kohler", extensionName: "npm-intellisense" }
+    - { publisher: "christian-kohler", extensionName: "path-intellisense" }
+    - { publisher: "cometeer", extensionName: "spacemacs" }
+    - { publisher: "dbaeumer", extensionName: "vscode-eslint" }
+    - { publisher: "dsznajder", extensionName: "es7-react-js-snippets" }
+    - { publisher: "dustinsanders", extensionName: "an-old-hope-theme-vscode" }
+    - { publisher: "dzannotti", extensionName: "vscode-babel-coloring" }
+    - { publisher: "eamodio", extensionName: "gitlens" }
+    - { publisher: "eg2", extensionName: "vscode-npm-script" }
+    - { publisher: "emmanuelbeziat", extensionName: "vscode-great-icons" }
+    - { publisher: "esbenp", extensionName: "prettier-vscode" }
+    - { publisher: "flowtype", extensionName: "flow-for-vscode" }
+    - { publisher: "formulahendry", extensionName: "code-runner" }
+    - { publisher: "gerane", extensionName: "Theme-Easyballs" }
+    - { publisher: "gerane", extensionName: "Theme-Hail" }
+    - { publisher: "gerane", extensionName: "Theme-Humane" }
+    - { publisher: "gerane", extensionName: "Theme-Kimbielight" }
+    - { publisher: "gerane", extensionName: "Theme-Resesif" }
+    - { publisher: "gerane", extensionName: "Theme-Trixie" }
+    - { publisher: "gerane", extensionName: "Theme-Userscape" }
+    - { publisher: "gerane", extensionName: "Theme-Zenburn" }
+    - { publisher: "gerane", extensionName: "Theme-peel" }
+    - { publisher: "gerane", extensionName: "Theme-Solarized-dark" }
+    - { publisher: "gerane", extensionName: "Theme-Solarized-light" }
+    - { publisher: "gozala", extensionName: "flow-language-mode" }
+    - { publisher: "humao", extensionName: "rest-client" }
+    - { publisher: "jalisimo", extensionName: "react-jest-vscode-snippets" }
+    - { publisher: "jasonnutter", extensionName: "search-node-modules" }
+    - { publisher: "jawandarajbir", extensionName: "react-vscode-extension-pack" }
+    - { publisher: "jchannon", extensionName: "csharpextensions" }
+    - { publisher: "k--kato", extensionName: "docomment" }
+    - { publisher: "luqimin", extensionName: "tiny-light" }
+    - { publisher: "momosct", extensionName: "momotheme" }
+    - { publisher: "ms-vscode", extensionName: "csharp" }
+    - { publisher: "ms-vscode", extensionName: "node-debug2" }
+    - { publisher: "msjsdiag", extensionName: "debugger-for-chrome" }
+    - { publisher: "reloadedextensions", extensionName: "reloaded-themes" }
+    - { publisher: "rust-lang", extensionName: "rust" }
+    - { publisher: "taichi", extensionName: "react-beautify" }
+    - { publisher: "thenikso", extensionName: "github-plus-theme" }
+    - { publisher: "tootone", extensionName: "org-mode" }
+    - { publisher: "vadimcn", extensionName: "vscode-lldb" }
+    - { publisher: "vscodevim", extensionName: "vim" }
+    - { publisher: "vsmobile", extensionName: "vscode-react-native" }
+    - { publisher: "xabikos", extensionName: "JavaScriptSnippets" }
+    - { publisher: "xabikos", extensionName: "ReactSnippets" }
+    - { publisher: "ybaumes", extensionName: "highlight-trailing-white-spaces" }
+    - { publisher: "yogipatel", extensionName: "solarized-light-no-bold" }
+  register: vscode_result
+  changed_when: "'already installed' not in vscode_result.stdout"
+
+- name: Copy custom VS Code settings.
+  copy: src="vscode/settings.json" dest="~/.config/Code/User/settings.json"
+
+
