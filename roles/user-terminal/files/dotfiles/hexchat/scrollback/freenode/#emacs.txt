@@ -1,0 +1,875 @@
+T 1510413283 22*	Topic for 22#emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+T 1510413283 22*	Topic for 22#emacs set by 26kodein!1710@fukushima.lysator.liu.se (24Thu Nov  2 06:21:50 2017)
+T 1510413283 22*	Channel 22#emacs url: 24https://www.emacswiki.org/emacs/EmacsChannel
+T 1510413295 23*	aw1 (~aw1@unaffiliated/aw123) has joined
+T 1510413349 19*	Now talking on 22#emacs
+T 1510413349 22*	Topic for 22#emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+T 1510413349 22*	Topic for 22#emacs set by 26kodein!1710@fukushima.lysator.liu.se (24Thu Nov  2 06:21:50 2017)
+T 1510413350 22*	Channel 22#emacs url: 24https://www.emacswiki.org/emacs/EmacsChannel
+T 1510413371 24*	n2o4 has quit (Quit: It is time to go)
+T 1510413400 23*	dmartincy (~user@201.red-83-51-36.dynamicip.rima-tde.net23) has joined
+T 1510413456 23*	atw (~user@24.148.50.1623) has joined
+T 1510413564 23*	smathew (~user@2600:8803:7885:f401:6ccd:978:f13e:f94c23) has joined
+T 1510413585 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510413638 23*	jabranham (~user@2605:6000:e9c9:5c01:751f:b432:e3a2:815c23) has joined
+T 1510413738 24*	python476 has quit (Read error: Connection reset by peer)
+T 1510413876 24*	it3ration has quit (Ping timeout: 240 seconds)
+T 1510413908 23*	CrazyEddy (crazyed@wrongplanet/CrazyEddy23) has joined
+T 1510414003 23*	n2o4 (n2o4@kapsi.fi23) has joined
+T 1510414141 23*	fledermaus (~vivek@78.32.176.24923) has joined
+T 1510414231 24*	twrk has quit (Remote host closed the connection)
+T 1510414302 23*	twrk (~user@unaffiliated/twrk23) has joined
+T 1510414325 18<loke`18>	thebigj: Hello
+T 1510414548 24*	bokuno has quit (Quit: ERC (IRC client for Emacs 25.3))
+T 1510414612 24*	dys has quit (Ping timeout: 240 seconds)
+T 1510414645 23*	Major_Biscuit (~Major_Bis@global-184-110.nat-1.net.cam.ac.uk23) has joined
+T 1510414722 18<tamouse__18>	oh #emacs how i've missed you
+T 1510414777 18<offby118>	likewise
+T 1510414827 24*	zh2683 has quit (Remote host closed the connection)
+T 1510414886 24*	DavidCanHelp has quit (Ping timeout: 250 seconds)
+T 1510414927 24*	finkata__ has quit (Ping timeout: 248 seconds)
+T 1510415134 23*	davr0s (~textual@host86-157-69-50.range86-157.btcentralplus.com23) has joined
+T 1510415184 23*	finkata__ (~finkata@gateway/tor-sasl/finkata23) has joined
+T 1510415362 23*	fcarrijo (~fcarrijo@189-74-163-107.gnale700.dsl.brasiltelecom.net.br23) has joined
+T 1510415375 23*	peterbecich (~peterbeci@47.37.164.7823) has joined
+T 1510415407 24*	seen_ has quit (Ping timeout: 248 seconds)
+T 1510415517 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510415544 23*	seen_ (~seen_@gateway/tor-sasl/seen/x-5070674723) has joined
+T 1510415602 24*	boudiccas has quit (Ping timeout: 240 seconds)
+T 1510415614 24*	jabranham has quit (Remote host closed the connection)
+T 1510415715 23*	boudiccas (~boudiccas@95.45.198.146.dyn.plus.net23) has joined
+T 1510415753 24*	seen_ has quit (Remote host closed the connection)
+T 1510415766 23*	seen_ (~seen_@gateway/tor-sasl/seen/x-5070674723) has joined
+T 1510415799 24*	it3ration has quit (Ping timeout: 240 seconds)
+T 1510416174 23*	DavidCanHelp (~dcl@freecode-project/hacker/spiderbyte23) has joined
+T 1510416206 23*	bwv (~user@unaffiliated/kripke23) has joined
+T 1510416257 23*	zeratul_ (uid212289@gateway/web/irccloud.com/x-anfxgmbhhpkpixms23) has joined
+T 1510416356 18<twrk18>	wat
+T 1510416360 23*	magic_cookie (~user@unaffiliated/magic-cookie/x-535003423) has joined
+T 1510416434 23*	skali (~skali@77.79.141.159.dynamic.ufanet.ru23) has joined
+T 1510416555 24*	grimsley has quit (Quit: Leaving)
+T 1510416653 24*	peterbecich has quit (Ping timeout: 260 seconds)
+T 1510416708 24*	skali has quit (Ping timeout: 248 seconds)
+T 1510416758 23*	SpikeMaster (~user@dyn-170-253-149.myactv.net23) has joined
+T 1510416773 23*	pt1 (~pt1@31-208-142-54.cust.bredband2.com23) has joined
+T 1510416803 23*	roadie (~user@87.116.176.9223) has joined
+T 1510416808 23*	skali (~skali@77.79.141.159.dynamic.ufanet.ru23) has joined
+T 1510416856 23*	thecliguy (~thecliguy@77.68.12.24423) has joined
+T 1510416943 24*	magic_cookie (~user@unaffiliated/magic-cookie/x-535003424) has left ("ERC (IRC client for Emacs 25.2.1)")
+T 1510416947 18<roadie18>	when you do a C-x 3 and split the frame there is a 1 pixel divider line - how can I find the name/face for that?
+T 1510417032 18<wasamasa18>	go through faces.el
+T 1510417038 24*	pt1 has quit (Ping timeout: 260 seconds)
+T 1510417046 18<roadie18>	ok
+T 1510417058 18<roadie18>	I meant thank you :)
+T 1510417084 18<tephra18>	roadie: I did M-x apropos and there is a face called window-divider 
+T 1510417096 24*	skali has quit (Ping timeout: 250 seconds)
+T 1510417099 18<SpikeMaster18>	i think it is "vertical-border"
+T 1510417101 18<wasamasa18>	it has docstrings that explain why there's three faces for it
+T 1510417104 18<SpikeMaster18>	'(vertical-border ((t (:foreground "gray50"))))
+T 1510417108 24*	je has quit (Quit: je)
+T 1510417113 24*	thecliguy (~thecliguy@77.68.12.24424) has left ("WeeChat 1.9")
+T 1510417117 18<wasamasa18>	four even if you count vertical-border
+T 1510417129 18<roadie18>	isnt that for terminal?
+T 1510417133 18<wasamasa18>	yes it is
+T 1510417140 18<wasamasa18>	but you'd know if you read the sources
+T 1510417179 18<roadie18>	I have a dark gray assigned for vertical-border and the divider I mean shines in bright white almost
+T 1510417188 18<twrk18>	"read the sources" lol
+T 1510417196 18<wasamasa18>	read the sources for the sources
+T 1510417204 18<roadie18>	I know I know
+T 1510417251 23*	magic_cookie_ (~magic_coo@unaffiliated/magic-cookie/x-535003423) has joined
+T 1510417260 18<SpikeMaster18>	roadie: if you're in a terminal, the colors are more limited, so it might automatically go to the nearest color which may be pure white.
+T 1510417268 18<offby118>	Men often buy horses / for girls who read sources
+T 1510417273 18<offby118>	-- Dorothy Parker
+T 1510417323 18<roadie18>	thank you tephra and SpikeMaster 
+T 1510417460 23*	novakboskov (~user@109-92-75-85.dynamic.isp.telekom.rs23) has joined
+T 1510417529 18<novakboskov18>	Anyone has an idea how to make bash aliases from .bashrc available to async-shell-command? Aliases work for M-x shell but don't for async-shell-command.
+T 1510417552 23*	skali (~skali@77.79.141.159.dynamic.ufanet.ru23) has joined
+T 1510417604 18<offby118>	novakboskov: you could run "bash -i" instead of "bash" I think
+T 1510417611 18<offby118>	i.e., tell the new shell to read your init file
+T 1510417738 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510417854 18<novakboskov18>	offby1: bash -i "ls" -> bash: /usr/bin/pwd: cannot execute binary file
+T 1510417858 24*	skali has quit (Ping timeout: 248 seconds)
+T 1510417902 23*	dys (~dys@tmo-103-37.customers.d1-online.com23) has joined
+T 1510417914 23*	python476 (~user@mfl93-6-88-169-195-97.fbx.proxad.net23) has joined
+T 1510417924 18<novakboskov18>	offby1: I have to go with bash -ic and then it works but then projectile lists some obscure bash errors as file names...
+T 1510417935 24*	SpikeMaster has quit (Quit: ERC (IRC client for Emacs 27.0.50))
+T 1510417936 24*	fcarrijo has quit (Quit: Leaving)
+T 1510418020 24*	it3ration has quit (Ping timeout: 248 seconds)
+T 1510418076 24*	dqx has quit (Ping timeout: 268 seconds)
+T 1510418099 23*	sellout (~user@75.171.208.023) has joined
+T 1510418136 24*	roadie has quit (Remote host closed the connection)
+T 1510418185 24*	novakboskov has quit (Quit: ERC (IRC client for Emacs 25.3.1))
+T 1510423821 20*	Disconnected (20)
+T 1510423994 19*	Now talking on 22#emacs
+T 1510423994 22*	Topic for 22#emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+T 1510423994 22*	Topic for 22#emacs set by 26kodein!1710@fukushima.lysator.liu.se (24Thu Nov  2 03:21:50 2017)
+T 1510423994 22*	Channel 22#emacs url: 24https://www.emacswiki.org/emacs/EmacsChannel
+T 1510424145 24*	macrobat has quit (Quit: WeeChat 1.9.1)
+T 1510424151 24*	atw has quit (Read error: Connection reset by peer)
+T 1510424192 23*	atw (~user@24.148.50.1623) has joined
+T 1510424214 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510424304 18<defanor18>	"My Cat from Hell is an American reality television series that airs on Animal Planet and premiered in May 2011. It stars Jackson Galaxy, a cat behaviorist by day and a musician by night, who visits the homes of cat owners in order to resolve conflicts or behavior issues between the owners and their cats or between the cats and other pets. Behavioral issues can include attacks by the cats on their owners."
+T 1510424392 24*	jjttjj has quit (Quit: Leaving.)
+T 1510424422 18<rocx18>	3> can
+T 1510424439 18<rocx18>	pssh. cats only have an issue with someone else thinking they own them.
+T 1510424471 18<parsnip18>	i have some off-topic questions on #emacs-offtopic, if someone could help, it might be offensive, i don't actually understand, it's very vague to me right now.
+T 1510424502 24*	it3ration has quit (Ping timeout: 240 seconds)
+T 1510424566 24*	zeratul_ has quit (Quit: Connection closed for inactivity)
+T 1510424638 23*	maarhart (~user@dyn-130-234-240-073.vpn.jyu.fi23) has joined
+T 1510424645 18<defanor18>	that's intriguing, but would also be weird to join it and get offended
+T 1510424689 18<offby118>	as far as I can tell, my cat considers us to be "The people who live in the house that I chose to live in"
+T 1510424716 24*	widp has quit (Quit: WeeChat 1.4)
+T 1510424737 18<maarhart18>	nothing feels as fast as an emacs -q. what is the best way to find out which package(s) in my init are to blame?
+T 1510424758 18<offby118>	I seem to recall there was some sorta "profile-my-dot-emacs"
+T 1510424759 18<maarhart18>	I mean, I don't care about startup times, but about responsiveness. 
+T 1510424760 18<offby118>	,profile
+T 1510424760 18<fsbot18>	profile: [0] M-x locate-library elp
+T 1510424760 18<fsbot18>	[1] try DopeEmacs for .emacs profiling
+T 1510424760 18<fsbot18>	[2] See also DumpingEmacs
+T 1510424760 18<fsbot18>	[3] elp
+T 1510424768 18<offby118>	,1
+T 1510424769 18<fsbot18>	[TMDM] offby1: i hope your meta-key breaks and your escape-key stops escaping
+T 1510424773 18<offby118>	,DopeEmacs
+T 1510424774 18<fsbot18>	Try: CategoryDotEmacs dope.el profile
+T 1510424777 18<offby118>	*shrug*
+T 1510424796 18<maarhart18>	offby: so what should I try?
+T 1510424817 18<offby118>	,g DopeEmacs
+T 1510424817 18<fsbot18>	rudybot: g DopeEmacs
+T 1510424819 18<rudybot18>	fsbot: EmacsWiki: Debug File Loading https://www.emacswiki.org/emacs/DebugFileLoading
+T 1510424825 18<maarhart18>	I have used benchmark-init but it is not too informative
+T 1510424886 18<offby118>	,elp
+T 1510424887 18<fsbot18>	elp: [0/5] elp-instrument-package to instrument a functions starting with a certain prefix.
+T 1510424887 18<fsbot18>	[1] elp-results to show profiling results
+T 1510424887 18<fsbot18>	[2] see also ,EmacsLispProfiler
+T 1510424887 18<fsbot18>	[3] run `C-x X =' after ,instrumenting ;;[ ,more/ ,dump]
+T 1510424897 18<offby118>	,EmacsLispProfiler
+T 1510424898 18<fsbot18>	offby1, hmm, EmacsLispProfiler is at http://www.emacswiki.org/emacs/EmacsLispProfiler
+T 1510424922 24*	dqx has quit (Ping timeout: 250 seconds)
+T 1510424927 23*	systemfault (~rcyr@unaffiliated/rcyr23) has joined
+T 1510424930 18<defanor18>	how does elp help to debug init?
+T 1510424939 18<defanor18>	s/debug/profile/
+T 1510424965 18<offby118>	beats me!
+T 1510424991 24*	damke_ has quit (Ping timeout: 240 seconds)
+T 1510425018 24*	hariel has quit (Ping timeout: 260 seconds)
+T 1510425021 18<defanor18>	https://raw.github.com/emacsmirror/dope/master/dope.el says 404
+T 1510425038 18<defanor18>	same with https://github.com/emacsmirror/dope
+T 1510425040 18<maarhart18>	I'm not sure if you're still trying to answer my question or what
+T 1510425051 23*	hariel (~alhariel@179.191.223.24623) has joined
+T 1510425053 24*	wolfcub has quit (Ping timeout: 260 seconds)
+T 1510425053 24*	alhariel has quit (Ping timeout: 260 seconds)
+T 1510425069 23*	alhariel (~alhariel@179.191.223.24623) has joined
+T 1510425071 23*	wolfcub (~alhariel@179.191.223.24623) has joined
+T 1510425123 23*	magic_cookie (~magic_coo@unaffiliated/magic-cookie/x-535003423) has joined
+T 1510425146 23*	maarhart` (~user@dyn-130-234-240-073.vpn.jyu.fi23) has joined
+T 1510425153 24*	maarhart has quit (Remote host closed the connection)
+T 1510425168 24*	28maarhart` is now known as 18maarhart
+T 1510425400 18<parsnip18>	maarhart: what is slow in particular?
+T 1510425438 18<defanor18>	oh, i've misread that – thought it's about init profiling
+T 1510425449 18<offby118>	me too
+T 1510425456 18*	defanor is distracted by the cat expert on tv, who helps to make some cat more confident
+T 1510425509 18<offby118>	gimme link
+T 1510425523 18*	offby1 is playing touch football with a catnip cigar as we speak
+T 1510425541 18<offby118>	i.e., sitting on the couch, throwing it, and hollering "Go long!!"
+T 1510425544 18<defanor18>	touch football?
+T 1510425574 18<defanor18>	https://en.wikipedia.org/wiki/Touch_football_(American)
+T 1510425614 18<defanor18>	and if you were serious about a link, well, it's on tv. but it's that show i've mentioned above
+T 1510425615 24*	Actualeyes has quit (Remote host closed the connection)
+T 1510425618 18<parsnip18>	it's like tag, but with a ball
+T 1510425639 18<maarhart18>	parsnip: I mean when you notice some lag between your typing and what you see
+T 1510425653 18<maarhart18>	not a huge lag, though, but compared to what you see in emacs -q it is.
+T 1510425682 18<maarhart18>	but maybe it's because my cursor is not blinking... maybe it's my imagination. anyway, it would be nice to know, if there is a way
+T 1510425685 24*	magic_cookie has quit (Read error: Connection reset by peer)
+T 1510425688 18<parsnip18>	maarhart: if it's easily reproducible, i would start by commenting out entire config, than bisect uncommenting.
+T 1510425727 18<maarhart18>	parsnip: yeah, I would have done that, but I thought there was an easier thing to od
+T 1510425728 18<parsnip18>	i usually edit config in my first emacs, then iterate with `emacs -nw` in a second terminal
+T 1510425728 18<maarhart18>	do
+T 1510425823 23*	random_numbers (~random@unaffiliated/random-numbers/x-283947323) has joined
+T 1510425921 23*	pt1 (~pt1@31-208-142-54.cust.bredband2.com23) has joined
+T 1510425964 18<parsnip18>	maarhart: you could also skim through C-h m to try to take a guess at which minor-modes might be likely candidates
+T 1510425987 18<offby118>	defanor: I'm sorry to report that I am exactly the target audience for that show.  Mrs offby1 too.
+T 1510425989 23*	lazerbeast (~user@dhcp-108-170-150-33.cable.user.start.ca23) has joined
+T 1510425996 18<offby118>	I hate being a cliché, but what you gonna do?
+T 1510426008 24*	lazerbeast has quit (Client Quit)
+T 1510426011 18<offby118>	i yam what i yam
+T 1510426015 18<parsnip18>	is that the guy with the guitar case?
+T 1510426033 24*	peterbecich has quit (Ping timeout: 260 seconds)
+T 1510426062 24*	kerananw has quit (Ping timeout: 240 seconds)
+T 1510426084 18<defanor18>	i haven't seen a case, but he's bald, with earrings, and with fancy trimmed sideburns and beard
+T 1510426090 18<parsnip18>	yep https://meow-meow.jp/wp-content/uploads/2016/08/My-Cat-From-Hell1.jpg
+T 1510426143 18<offby118>	cat toys
+T 1510426162 23*	rumbler31 (~rumbler31@c-76-100-127-232.hsd1.md.comcast.net23) has joined
+T 1510426173 18<parsnip18>	cat simulation environments
+T 1510426185 18<maarhart18>	parsnip: http://paste.debian.net/995207 okay, who is to blame?
+T 1510426188 18<twrk18>	the only thing I seem to succeed at is gaining and losing weight
+T 1510426197 18<parsnip18>	it's a bird, it's a plane, no, it's a FEATHER!
+T 1510426207 24*	pt1 has quit (Ping timeout: 260 seconds)
+T 1510426210 24*	wandermind has quit (Ping timeout: 248 seconds)
+T 1510426220 23*	energizer (~energizer@unaffiliated/energizer23) has joined
+T 1510426224 18<wasamasa18>	hey, that's my razor blades brand
+T 1510426230 18<wasamasa18>	supposedly japanese
+T 1510426238 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510426244 18<parsnip18>	maarhart: lol, that's for you to figure out!
+T 1510426264 18<maarhart18>	:-(
+T 1510426285 18<wasamasa18>	it's like the advent of bugs
+T 1510426293 18<wasamasa18>	one treat every day
+T 1510426304 18<parsnip18>	lol
+T 1510426324 18<twrk18>	do you wake up with a renewed sense of optimism that bugs will always exist?
+T 1510426326 18<parsnip18>	are we talking about the guitar case or the minor-modes?
+T 1510426328 23*	johnw (~johnw@haskell/developer/johnw23) has joined
+T 1510426342 18<parsnip18>	or your github issue tracker
+T 1510426363 18<wasamasa18>	I thought of finding issues generally
+T 1510426437 18<parsnip18>	i've given you two ideas, you have log(n) minutes to find it.
+T 1510426437 18<twrk18>	"you can't replace me skynet! who will fix your bugs? who will know you HAVE bugs??"
+T 1510426457 18<twrk18>	base 10?
+T 1510426461 18<parsnip18>	*lg(n)
+T 1510426469 18<johnw18>	I've decided that you can replace me with skynet
+T 1510426480 18<parsnip18>	;_;
+T 1510426541 18<mrm18>	johnw: Will skynet be able to merge use-package into core?
+T 1510426557 24*	it3ration has quit (Ping timeout: 260 seconds)
+T 1510426559 18<johnw18>	ouch, low blow
+T 1510426566 18<lemonpie18>	once it's killed all other maintainers, sure
+T 1510426573 18<twrk18>	do blind people have built in VR
+T 1510426589 18<johnw18>	making sure that's in my daily Org agenda from this day forward...
+T 1510426597 18<johnw18>	work deadlines keep jumping up on me
+T 1510426602 18<lemonpie18>	what? killing all other maintainers?
+T 1510426613 18<bremner18>	johnw: that kinda makes it look premeditated
+T 1510426628 18<parsnip18>	oh, that reminds me, only a few people seem to be aware that package-archives should be set before package-initialize, for smoother experience.
+T 1510426632 18<mrm18>	johnw: Don't take that too seriously. Your sanity is far more important.
+T 1510426657 23*	Kaligule (~Kaligule@2001:a62:14cf:8700:5e51:4fff:fe9f:fe5723) has joined
+T 1510426667 18<offby118>	"Don't take life so serious, son.  It ain't nohow permanent." -- Porkypine
+T 1510426680 18<mrm18>	lol
+T 1510426705 18<parsnip18>	wise words from a many that doesn't know gooder grammar
+T 1510426711 24*	maarhart has quit (Remote host closed the connection)
+T 1510426713 18<parsnip18>	*man
+T 1510426717 23*	peterbecich (~peterbeci@47.37.164.7823) has joined
+T 1510426746 18<bremner18>	we are legion. we talks how we wants.
+T 1510426758 18<parsnip18>	til nohow is a word
+T 1510426822 24*	gnufied has quit (Ping timeout: 240 seconds)
+T 1510426825 18<defanor18>	"1. (slang[12]) In no way; not at all[13]; by no available means."
+T 1510426825 18<defanor18>	just a slang word
+T 1510426828 18<twrk18>	you knowhow nowhow isn't a woyd
+T 1510426830 18<defanor18>	from 1883 though
+T 1510426850 18<defanor18>	didn't get it into mainstream, apparently
+T 1510426855 18<defanor18>	hrm, s/get/make/
+T 1510426856 18<parsnip18>	johnw: work is still mostly haskell?
+T 1510426874 18<twrk18>	yet 'canceled' is a thing
+T 1510426881 18<johnw18>	parsnip: it's 60% Haskell and 40% Coq right now, because I'm spread across two projects
+T 1510426893 18<twrk18>	just another coq in the machina
+T 1510426896 18<wasamasa18>	lol
+T 1510426901 18<johnw18>	at this moment I'm writing Haskell to generate SVG diagrams
+T 1510426911 18<mrm18>	Woa, where do you work that uses coq?
+T 1510426919 18<parsnip18>	^
+T 1510426920 18<johnw18>	in order to pictorially represent a solution being generated by Z3, an SMT solver
+T 1510426925 18<bremner18>	writing css to generate Haskell would be more impressive.
+T 1510426926 18<johnw18>	mrm: a defense contractor
+T 1510426933 18<wasamasa18>	rudybot: just another error in the -Wall
+T 1510426939 18<mrm18>	Ah. That makes sense.
+T 1510426946 18<rudybot18>	wasamasa: http://www.rollingstone.com/politics/blogs/taibblog/jp-morgan-chase-fine-another-slap-on-the-wrist-for-wall-street-20110708 isn't particularly informative but is a decent rant on how investment banks are treated.
+T 1510426952 18<wasamasa18>	nice
+T 1510426954 18<johnw18>	I really enjoy Coq programming too, it's my favorite so far
+T 1510426979 18<wasamasa18>	but can you write a lisp interpreter in it??
+T 1510426979 18<fsbot18>	It is decidedly so!
+T 1510426984 18<twrk18>	I bet it doesnt have semicolons, but has braces
+T 1510427062 23*	gnufied (~gnufied@2602:304:b2c9:7470:becb:15c7:5bdd:3bbe23) has joined
+T 1510427102 18<twrk18>	rudybot: can coq teach me to be a master at making proofs?
+T 1510427103 18<parsnip18>	programming languages are like levers
+T 1510427107 23*	narendraj9 (~user@1.23.210.22923) has joined
+T 1510427117 18<rudybot18>	twrk: (Coq is a theorem prover, it's a way to formally verify proofs by computer)
+T 1510427121 18<johnw18>	twrk: Coq uses neither braces nor semis much at all
+T 1510427137 18<johnw18>	it's based on ML, so it's more "keyword ... end" type blocks
+T 1510427146 18<parsnip18>	uses periods i guess
+T 1510427148 18<wasamasa18>	last thing I found was that you can write a lisp interpreter in coldfusion
+T 1510427153 18<johnw18>	the tactic language uses periods
+T 1510427163 18<johnw18>	the functional language is just expressions, no statement, so there's no separator
+T 1510427207 18<twrk18>	proofs are a lot like women. I just don't know what to say, or if what I'm thinking of what I should say should be the right thing to say
+T 1510427228 18<johnw18>	so you mean, they're like you talking to women?
+T 1510427242 18<twrk18>	,cry
+T 1510427243 18<fsbot18>	try:  auto-encryption-mode AutoEncryption bat-crying-out-in-joy BbdbAndMailCrypt CategoryCryptography crypto CryptPlusPlus crystalball encrypt.el EncryptingMail Encryption MailCrypt mc-auto-encrypt.el mh-crypt.el ViewMailAndMailCrypt ViewMailMailCrypt
+T 1510427243 24*	davr0s has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+T 1510427251 18<twrk18>	I mean ,,dance
+T 1510427251 18<fsbot18>	^(^-')^ .('-^). ,(>_>)^ ^(<_<).
+T 1510427290 18<forcer18>	If you are unsure if something is appropriate to say, a good rule of thumb is to not say it.
+T 1510427295 23*	xor-xor (~xor-xor@d92-6.icpnet.pl23) has joined
+T 1510427306 18<twrk18>	well then how can I prove anything?!
+T 1510427314 18<parsnip18>	:|
+T 1510427320 18<python47618>	hmm coq
+T 1510427324 18<forcer18>	I would suggest you start by educating yourself.
+T 1510427329 18<wasamasa18>	no need to have a say in everything
+T 1510427359 24*	Kaligule has quit (Ping timeout: 252 seconds)
+T 1510427481 18<defanor18>	https://coinhive.com/ – not just cryptocurrency mining on (potentially unsuspecting) clients is not just a joke anymore, it also gets widespread, apparently
+T 1510427500 18<mrm18>	twrk: You could get started with How to Prove It, 2e. It's a pretty good book, and the exercises are really nice.
+T 1510427505 18<defanor18>	maybe those even were the jokes that gave them the idea
+T 1510427557 18<defanor18>	"software foundations" is also a nice book, on coq specifically
+T 1510427563 18<defanor18>	and free, too
+T 1510427569 18<parsnip18>	that's exactly what i started with, very low learning curve, good preparation
+T 1510427596 18<parsnip18>	How to Prove It has a special place in my heart
+T 1510427644 18<parsnip18>	worked through that on my break before transferring to university
+T 1510427658 23*	trapezoid (~user@47.150.76.6823) has joined
+T 1510427677 18<parsnip18>	then took a proofs class, and benefited from that, i understood mechanics of proofs, so it was just a matter of solving the puzzles they gave us.
+T 1510427681 18<bremner18>	nerd!
+T 1510427684 18<bremner18>	;)
+T 1510427734 18<parsnip18>	:P
+T 1510427738 18<mrm18>	Likewise. When I finally took an actual proof class, I felt so prepared, so it all just ended up being good practice.
+T 1510427758 18<wasamasa18>	time to write "How to elisp it"
+T 1510427768 18<devonrevenge18>	are there any manchester peeps here?
+T 1510427816 18<mrm18>	Step 1: learn how to not hate yourself for doing terrible things with code.
+T 1510427861 24*	finkata__ has quit (Remote host closed the connection)
+T 1510427869 18<devonrevenge18>	because im trying to find a good place to get a roast tommorow - it is an emacs question
+T 1510427910 18<mrm18>	devonrevenge: Have you tried M-x find-roast ?
+T 1510427940 23*	finkata__ (~finkata@gateway/tor-sasl/finkata23) has joined
+T 1510428020 18*	offby1 sniffs
+T 1510428036 18<twrk18>	thanks mrm
+T 1510428052 18<offby118>	,g roast mancuian emacs 
+T 1510428052 18<fsbot18>	rudybot: g roast mancuian emacs
+T 1510428053 18<rudybot18>	fsbot: Eczema https://www.cs.cornell.edu/courses/cs1110/2014sp/labs/lab06/scowl_utf-8.txt
+T 1510428175 18<twrk18>	y'know what's pretty awesome: (define-key key-translation-map (kbd "C-[") (kbd "C-g"))
+T 1510453172 20*	Disconnected (20)
+T 1510453195 19*	Now talking on 22#emacs
+T 1510453195 22*	Topic for 22#emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+T 1510453195 22*	Topic for 22#emacs set by 26kodein!1710@fukushima.lysator.liu.se (24Thu Nov  2 03:21:50 2017)
+T 1510453196 22*	Channel 22#emacs url: 24https://www.emacswiki.org/emacs/EmacsChannel
+T 1510453232 18<tamouse__18>	some of them might be, but the Halon-type are gases
+T 1510453239 24*	feigned has quit (Quit: Leaving)
+T 1510453257 18<aidalgol18>	Is that what most are for server rooms?
+T 1510453268 18<lemonpie18>	well, it's stored as a liquid, boiling point at standard pressure is about -15C
+T 1510453277 18<tamouse__18>	last time i paid any attention to this was in the 80s so i don't know
+T 1510453341 18<lemonpie18>	hmmm, halon is known to cause neurological disorders similar to what i have...
+T 1510453353 18<aidalgol18>	O_O
+T 1510453366 18<lemonpie18>	i wonder if i can try and sue the current owners of the company name that i worked for with the halon system and claim it must have leaked
+T 1510453369 18<diogenese18>	so you'd be immune (sort of)
+T 1510453385 24*	banttu has quit (Ping timeout: 240 seconds)
+T 1510453388 23*	gmcastil (~user@70.58.28.7323) has joined
+T 1510453390 18<aidalgol18>	lemonpie: Was this recent enough?
+T 1510453410 18<lemonpie18>	1992
+T 1510453423 18<lemonpie18>	but Azko Nobel has deep pockets :P
+T 1510453425 18<aidalgol18>	Might be too long ago, but IANAL.
+T 1510453914 20*	Disconnected (20)
+T 1510453941 19*	Now talking on 22#emacs
+T 1510453941 22*	Topic for 22#emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+T 1510453941 22*	Topic for 22#emacs set by 26kodein!1710@fukushima.lysator.liu.se (24Thu Nov  2 03:21:50 2017)
+T 1510453941 22*	Channel 22#emacs url: 24https://www.emacswiki.org/emacs/EmacsChannel
+T 1510453942 18<aidalgol18>	Yes... I have seen this side of Tumblr.
+T 1510453951 18<aidalgol18>	I have seen what no man should have to see...
+T 1510453959 18<aidalgol18>	*thousand-yard stare*
+T 1510453965 24*	mbrgm has quit (Ping timeout: 268 seconds)
+T 1510453969 23*	mbrgm_ (~mbrgm@unaffiliated/mbrgm23) has joined
+T 1510453976 18<twrk18>	yet, one day you'll top yourself
+T 1510453994 24*	28mbrgm_ is now known as 18mbrgm
+T 1510453995 18<twrk18>	(in seeing unwanted things)
+T 1510454014 18<aidalgol18>	I was being dramatic.  It was just stupid.
+T 1510454025 18<aidalgol18>	The disturbing shit is on reddit and 4chan
+T 1510454039 18<twrk18>	there's no room for the arts in #emacs :(
+T 1510454041 18<aidalgol18>	oh, and then there's theh "darkweb"
+T 1510454047 18<lemonpie18>	and deviantart *shudder*
+T 1510454101 24*	bokuno has quit (Ping timeout: 240 seconds)
+T 1510454145 24*	tamouse__2 has quit (Ping timeout: 248 seconds)
+T 1510454188 18<aidalgol18>	lemonpie: I'd put most of that in the stupid basket.
+T 1510454228 23*	banttu (~bantu@154.122.74.9623) has joined
+T 1510454242 24*	tomterl has quit (Ping timeout: 260 seconds)
+T 1510454260 18<lemonpie18>	i dunno, nazi-MLP porn is pretty disturbing
+T 1510454283 23*	tomterl (~tomterl@p5DC702DC.dip0.t-ipconnect.de23) has joined
+T 1510454298 18<aidalgol18>	Whoo-kay, guess there's much worse on DA than I thought.
+T 1510454446 23*	bokuno (~user@unaffiliated/bokuno23) has joined
+T 1510454523 24*	seen_ has quit (Remote host closed the connection)
+T 1510454534 18<holomorph18>	lol da
+T 1510454542 23*	seen_ (~seen_@gateway/tor-sasl/seen/x-5070674723) has joined
+T 1510454662 23*	stardiviner (~numbchild@unaffiliated/stardiviner23) has joined
+T 1510454679 24*	diogenese has quit (Remote host closed the connection)
+T 1510454742 24*	bokuno has quit (Ping timeout: 268 seconds)
+T 1510454751 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510454773 23*	TheWolf (~TheWolf@p548202B7.dip0.t-ipconnect.de23) has joined
+T 1510454819 24*	dqx has quit (Ping timeout: 248 seconds)
+T 1510454838 18<aidalgol18>	What would a .jsm file be?
+T 1510454851 24*	gmcastil has quit (Ping timeout: 248 seconds)
+T 1510454909 18<lemonpie18>	openstreetmap ?
+T 1510454926 18<aidalgol18>	with a 'J'?
+T 1510454935 18<lemonpie18>	google JOSM
+T 1510454942 18<lemonpie18>	it's the main editor people use for it
+T 1510454947 18<aidalgol18>	ah
+T 1510454966 18<aidalgol18>	I'm seeing this from Firefox on stdout: "emit/promises<@resource://gre/modules/ExtensionUtils.jsm"
+T 1510454975 18<aidalgol18>	(that's a snippet of a stack trace)
+T 1510454997 18<lemonpie18>	oh, that's more likely some kind of javascript file, modules maybe?
+T 1510455031 24*	it3ration has quit (Ping timeout: 240 seconds)
+T 1510455045 23*	bokuno (~user@unaffiliated/bokuno23) has joined
+T 1510455122 18<whoman18>	jpen
+T 1510455240 18<aidalgol18>	Does this recruiter's job listings sound a bit suspuciously vague to anyone else? https://www.trademe.co.nz/jobs/listings/agents/4923253.htm
+T 1510455251 24*	enterprisey has quit (Read error: Connection reset by peer)
+T 1510455266 24*	phdzl has quit (Ping timeout: 248 seconds)
+T 1510455266 18<aidalgol18>	As if they might just be fishing for applicants and don't have an actual job lined up?
+T 1510455330 18<twrk18>	"trademe"?
+T 1510455336 24*	mejja has quit (Quit: ChatZilla 0.9.93 [Firefox 56.0/20171003100843])
+T 1510455360 18<twrk18>	isn't the point of a recruiter to collect commission on hiring people?
+T 1510455363 18<aidalgol18>	twrk: No, "Sunstone Talent".
+T 1510455377 18<tamouse__18>	looks like they just scraped other job sites
+T 1510455387 23*	wxie (~Thunderbi@223.166.142.15623) has joined
+T 1510455434 18<tamouse__18>	i get hits from shops like that alla time, and when i go look there's no job there
+T 1510455454 18<tamouse__18>	cybercoders is a huge one
+T 1510455455 18<twrk18>	maybe they actually realize that (related) langauges are similar, and candidates are usually able to showcase relative knowledge from one area to another
+T 1510455486 18<twrk18>	nvm... that would be asking too much
+T 1510455492 18<aidalgol18>	haha!
+T 1510455757 24*	YoungFrog has quit (Ping timeout: 250 seconds)
+T 1510455799 23*	YoungFrog (~youngfrog@fsf/member/youngfrog23) has joined
+T 1510455908 24*	cobreadmonster has quit (Quit: Connection closed for inactivity)
+T 1510455910 23*	davr0s (~textual@host86-157-69-50.range86-157.btcentralplus.com23) has joined
+T 1510456110 23*	diogenese (~diogenese@diogenese.velotech.net23) has joined
+T 1510456628 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510456664 18<whoman18>	hey smarties, https://medium.com/@karpathy/software-2-0-a64152b37c35
+T 1510456801 24*	bokuno has quit (Ping timeout: 248 seconds)
+T 1510456902 24*	it3ration has quit (Ping timeout: 240 seconds)
+T 1510456945 23*	chandan (~chandan@122.166.164.2123) has joined
+T 1510457045 18<lemonpie18>	damn it ubuntu, 16.04's dovecot is years out of date
+T 1510457433 24*	stardiviner has quit (Read error: Connection reset by peer)
+T 1510457447 24*	cpe has quit (Ping timeout: 250 seconds)
+T 1510457466 23*	stardiviner (~numbchild@unaffiliated/stardiviner23) has joined
+T 1510457621 23*	marusich (~marusich@unaffiliated/marusich23) has joined
+T 1510457752 23*	cpe (~cpe@unaffiliated/cpe23) has joined
+T 1510457857 23*	zh2683 (~user@219.147.95.16223) has joined
+T 1510457858 18<twrk18>	smarties? overestimation is a problem nowadays
+T 1510457998 18<hodapp18>	oh really, would you estimate that it's a problem quite a lot?
+T 1510457998 24*	wxie has quit (Read error: Connection reset by peer)
+T 1510458084 18<twrk18>	well, sometimes I think that having a blog is better able to convey to others that you know sutff rather than knowing stuff and not having a blog
+T 1510458121 18<twrk18>	and , you don't really have to know much, you just need to return in the top results on google
+T 1510458187 18<twrk18>	who remembers when software development was centered around altruism
+T 1510458192 24*	twrk has quit (Read error: Connection reset by peer)
+T 1510458317 18<tamouse__18>	um
+T 1510458326 18<tamouse__18>	you mean working for the governmenet?
+T 1510458399 18<aidalgol18>	"Software 2.0" oh fgs...
+T 1510458438 18<hodapp18>	aidalgol: it's an apt analogy.
+T 1510458466 18<aidalgol18>	hodapp: that's an analogy?
+T 1510458489 18<hodapp18>	aidalgol: I guess I'm seeing it as a sort of figurative use of the term.
+T 1510458504 18<mrm18>	When are things generally going to start upgrading to 3.0?
+T 1510458528 18<hodapp18>	mrm: something something mumble mumble Artificial General Intelligence something something
+T 1510458540 18<hodapp18>	mrm: when Wired articles start actually coming true
+T 1510458548 18<aidalgol18>	mrm: I dunno.  Supposedly we're *at* "Web 2.0", but I haven't seen any clickbaity blog posts about "Web 3.0".
+T 1510458561 24*	smathew has quit (Ping timeout: 240 seconds)
+T 1510458597 23*	wxie (~Thunderbi@223.166.142.15623) has joined
+T 1510458672 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510458726 23*	jameser (~textual@60.24.156.24123) has joined
+T 1510458772 23*	smathew (~user@2600:8803:7885:f401:6ccd:978:f13e:f94c23) has joined
+T 1510458777 18<mrm18>	There was a show called Jake 2.0, and on the last episode he gets upgraded to 3.0, but that's the only example I can think of.
+T 1510458805 18<mrm18>	Probably got cancelled because it would have been too expensive to change the name.
+T 1510458827 18<lemonpie18>	software development was never centered around altruism, except in so much as academic software development was the most visible form of software development to most
+T 1510458964 24*	stardiviner has quit (Remote host closed the connection)
+T 1510458972 18<lemonpie18>	example: the apollo guidance computer is open source, because NASA worked along academic lines, but go try and find the titan-2 guidance system's source code :)
+T 1510458979 24*	it3ration has quit (Ping timeout: 248 seconds)
+T 1510459071 24*	papachan has quit (Quit: WeeChat 0.4.2)
+T 1510459106 18<mrm18>	Now that I think about it, Jake 2.0 was basically just Chuck, but like 4 years too early.
+T 1510459116 18<hodapp18>	most of my software development was centered around trying to destroy humanity
+T 1510459142 24*	dmartincy has quit (Ping timeout: 260 seconds)
+T 1510459171 23*	bokuno (~user@unaffiliated/bokuno23) has joined
+T 1510459224 18<tamouse__18>	did you succeed?
+T 1510459352 24*	snakehsu has quit (Ping timeout: 260 seconds)
+T 1510459394 23*	AxelAlex (~AxelAlex@dynamic-addr-130-13.resnet.rochester.edu23) has joined
+T 1510459463 23*	snakehsu (~Thunderbi@123.121.44.4523) has joined
+T 1510459508 23*	led_belly (~led_belly@S01060050fc1ea715.cg.shawcable.net23) has joined
+T 1510459523 23*	SaganMan (~deepthoug@unaffiliated/saganman23) has joined
+T 1510460048 23*	Anatzum (~michael@gateway/vpn/privateinternetaccess/anatzum23) has joined
+T 1510460063 24*	TRS-80 has quit (Quit: Konversation terminated!)
+T 1510460084 18<hodapp18>	..........yes
+T 1510460121 23*	loplin (~user@cpe-75-86-183-1.wi.res.rr.com23) has joined
+T 1510460218 24*	jameser has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+T 1510460242 18<loplin18>	Hello. I am having an issue where I have tab indent enabled, but in certain scenarios C-M-\ indents with some tabs followed by a single space for a few lines, which looks to be aligning with an opening paren. How can I disable that behaviour?
+T 1510460245 18<Anatzum18>	I've recently started using emacs as a daemon to speed start up but there are a couple of variables I need set which I had in my .bash_profile. My PATH and a GOPATH variable. I've been doing some reading and how and where to place are all over the place and i'm not entirely sure which one is appropriate also If I do set them for systemd/user do I still keep them in my .bash_profile as well?
+T 1510460324 23*	dmartincy (~user@201.red-83-51-36.dynamicip.rima-tde.net23) has joined
+T 1510460393 24*	bokuno has quit (Read error: Connection reset by peer)
+T 1510460413 23*	bokuno (~user@unaffiliated/bokuno23) has joined
+T 1510460419 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510460431 23*	Actualeyes (~user@p763089-ipngn200306okayamahigasi.okayama.ocn.ne.jp23) has joined
+T 1510460448 18<tamouse__18>	Anatzum: are you starting the emacs daemon from a login shell?
+T 1510460526 18<Anatzum18>	tamouse__: it's a systemd user unit
+T 1510460528 18<tamouse__18>	i think that's the only time .bash_profile is read... although i don't know from systemd so i'm probably wrong
+T 1510460551 24*	snakehsu has quit (Ping timeout: 268 seconds)
+T 1510460551 24*	banttu has quit (Ping timeout: 268 seconds)
+T 1510460577 24*	dmartincy has quit (Ping timeout: 248 seconds)
+T 1510460611 18<Anatzum18>	I think i'll ask this in #systemd I think that is probably a better place for this question since the fact that it is emacs is pretty irrelivant in this case :/
+T 1510460696 18<tamouse__18>	Anatzum: sorry
+T 1510460736 24*	it3ration has quit (Ping timeout: 268 seconds)
+T 1510460782 23*	mbuf (~Shakthi@103.219.206.3023) has joined
+T 1510461069 24*	whyNOP has quit (Ping timeout: 268 seconds)
+T 1510463326 20*	Disconnected (20)
+T 1510463351 19*	Now talking on 22#emacs
+T 1510463351 22*	Topic for 22#emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+T 1510463351 22*	Topic for 22#emacs set by 26kodein!1710@fukushima.lysator.liu.se (24Thu Nov  2 03:21:50 2017)
+T 1510463352 22*	Channel 22#emacs url: 24https://www.emacswiki.org/emacs/EmacsChannel
+T 1510463404 18<trux18>	Anatzum: yes, basically I'm in doubt If I switch my machine, how I will get all packages that I'm using right now, is there a way i can get all packages install automatically by emacs, if I put names of packages in emacs?
+T 1510463414 24*	isacdaavid has quit (Quit: Leaving.)
+T 1510463546 18<Anatzum18>	I actually never used init.el, I've always just stuck everything in my $HOME/.emacs file. This is what mine looks like. I didnt paste the whole thing it's too long but you get the general idea. https://codepaste.net/qkgzbc I made sure to list them in alphabetical order so its easy to look around
+T 1510463558 23*	iRocki2 (0e8d9edc@gateway/web/freenode/ip.14.141.158.22023) has joined
+T 1510463600 18<Anatzum18>	So basically if you do something like that all you have to do is hookup melpa, download use-package and then copy/paste your .emacs file and boom it's all setup
+T 1510463703 18<Anatzum18>	Not sure if there is a way to have melpa installed then download use-package first before any of the other items get called so that it is all automatic
+T 1510463899 18<iRocki218>	wht community of emacs in india?
+T 1510463906 18<trux18>	Anatzum: please elaborate Not sure if there is a way to have melpa installed then download use-package first before any of the other items get called so that it is all automatic?
+T 1510463955 18<trux18>	iRocki2: yes Bangalore, Delhi emacs group
+T 1510464029 18<iRocki218>	trux: bangalore? i m from bangalore
+T 1510464057 18<iRocki218>	trux: pls ....share details
+T 1510464072 18<trux18>	iRocki2: check Bangalore emacs meetup group?
+T 1510464094 18<iRocki218>	trux: ok. delhi also meetup group?
+T 1510464140 18<Anatzum18>	Once "use-package" is installed you can write packages in that format in the link I posted which will automatically download/install them from melpa and also set up your custom configurations for them as well. But in order for that to work 2 things must be done. 1) setup melpa, 2) install use-package
+T 1510464177 23*	systemfault (~rcyr@unaffiliated/rcyr23) has joined
+T 1510464185 24*	systemfault has quit (Client Quit)
+T 1510464233 18<trux18>	Anatzum: Thank you :)
+T 1510464260 18<trux18>	iRocki2: I'm not sure it is active right now or not!
+T 1510464317 18<trux18>	iRocki2: how old are you?
+T 1510464392 18<iRocki218>	trux: i m 30
+T 1510464396 18<iRocki218>	trux: u?
+T 1510464628 24*	trux has quit (Quit: Leaving)
+T 1510464632 24*	laertus (~laertus@unaffiliated/radial24) has left ("WeeChat 1.9.1")
+T 1510465081 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510465219 18<codingquark18>	Good morning!
+T 1510465235 18<codingquark18>	Had to break no-computer weekend rule :(
+T 1510465251 24*	aw1 has quit (Ping timeout: 248 seconds)
+T 1510465372 24*	it3ration has quit (Ping timeout: 260 seconds)
+T 1510465483 18<iRocki218>	codingquark: i like working with computer. u not break it.
+T 1510465526 23*	systemfault (~rcyr@unaffiliated/rcyr23) has joined
+T 1510465584 18<codingquark18>	iRocki2: rage makes me do wondrous things!
+T 1510465638 18<codingquark18>	I see people are sharing their age today.
+T 1510465668 18<iRocki218>	codingquark: sorry. my english is poor.
+T 1510465688 18<iRocki218>	codingquark: not meaning wht u r saying.
+T 1510465738 24*	holomorph has quit (Quit: holomorph)
+T 1510465794 24*	tamouse__ has quit (Read error: Connection reset by peer)
+T 1510465832 24*	zjason (~user@36-231-238-129.dynamic-ip.hinet.net24) has left ("ERC (IRC client for Emacs 25.1.1)")
+T 1510465838 23*	zjason (~user@36-231-238-129.dynamic-ip.hinet.net23) has joined
+T 1510465876 24*	dtaht has quit (Read error: Connection reset by peer)
+T 1510465891 23*	dtaht (~user@c-24-6-113-161.hsd1.ca.comcast.net23) has joined
+T 1510466029 23*	aw1 (~aw1@unaffiliated/aw123) has joined
+T 1510466337 18<codingquark18>	iRocki2: give some money to your English. Make sure it has enough to buy food at least.
+T 1510466473 18<iRocki218>	codingquark: hahahahahahaha
+T 1510466591 24*	roadie has quit (Ping timeout: 240 seconds)
+T 1510466796 18<codingquark18>	iRocki2: are you using emacs?
+T 1510466867 23*	roadie (~user@87.116.176.9223) has joined
+T 1510466927 18<iRocki218>	codingquark: little
+T 1510466937 18<iRocki218>	codingquark: i wnt 2 learn
+T 1510466965 18<iRocki218>	codingquark: most atom
+T 1510466970 24*	rpg has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+T 1510467120 23*	hotbobby (nick@vm.piss.tech23) has joined
+T 1510467129 23*	scottj (~s@unaffiliated/scottj23) has joined
+T 1510467307 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510467342 24*	roadie has quit (Quit: ERC (IRC client for Emacs 25.1.1))
+T 1510467559 23*	dmartincy (~user@201.red-83-51-36.dynamicip.rima-tde.net23) has joined
+T 1510467591 24*	it3ration has quit (Ping timeout: 240 seconds)
+T 1510467687 23*	Hi-Angel (~constanti@83.69.0.5023) has joined
+T 1510467718 23*	ewatcher (~user@66.171.188.16323) has joined
+T 1510467811 24*	dmartincy has quit (Ping timeout: 240 seconds)
+T 1510498899 20*	Disconnected (20)
+T 1510498924 19*	Now talking on 22#emacs
+T 1510498924 22*	Topic for 22#emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+T 1510498924 22*	Topic for 22#emacs set by 26kodein!1710@fukushima.lysator.liu.se (24Thu Nov  2 03:21:50 2017)
+T 1510498924 22*	Channel 22#emacs url: 24https://www.emacswiki.org/emacs/EmacsChannel
+T 1510499020 24*	fcarrijo has quit (Quit: fcarrijo)
+T 1510499077 24*	it3ration has quit (Ping timeout: 260 seconds)
+T 1510499150 18<paluche18>	s is on melpa and melpa-stable.
+T 1510499267 23*	DavidCanHelp (~dcl@freecode-project/hacker/spiderbyte23) has joined
+T 1510499380 23*	whoman (~humasect@147.194.20.4123) has joined
+T 1510499484 23*	teej (uid154177@gateway/web/irccloud.com/x-giwqyavgygvnhlly23) has joined
+T 1510499485 23*	caveman (~caveman@unaffiliated/mahmoud23) has joined
+T 1510499496 18<caveman18>	hi - does rms hang here?
+T 1510499520 18<YoungFrog18>	also on marmalade. Is marmalade still maintained btw ? 
+T 1510499523 23*	tecepe (~tcpaiva@c-24-62-206-125.hsd1.ma.comcast.net23) has joined
+T 1510499531 18<YoungFrog18>	rms on irc ??
+T 1510499531 18<fsbot18>	Probably!
+T 1510499544 18<YoungFrog18>	yes, probably, but p = 0.
+T 1510499571 23*	theoceaniscool (~theoceani@224.red-88-1-27.dynamicip.rima-tde.net23) has joined
+T 1510499580 18<caveman18>	he can use gnu/irssi
+T 1510499595 18<caveman18>	or gnu/weechat
+T 1510499609 18<caveman18>	gnu/* since they were compiled with gnu gcc.
+T 1510499623 18<caveman18>	gnu GCC gcc.
+T 1510499642 18<caveman18>	anyway rms is a nice dude. 
+T 1510499671 18<caveman18>	that said, could someone plz help me with emacs? when i do ^C^pp to render latex in emacs, i get an error.
+T 1510499680 24*	cpe has quit (Ping timeout: 258 seconds)
+T 1510499708 18<caveman18>	it says PostScript Error
+T 1510499719 23*	holomorph (~holomorph@unaffiliated/holomorph23) has joined
+T 1510499720 18<rocx18>	something to do with your (la)tex setup?
+T 1510499752 24*	28mrm is now known as 18rms
+T 1510499756 18<caveman18>	i can do pdflatex just fine.
+T 1510499761 18<rms18>	Yes, I do.
+T 1510499766 24*	28rms is now known as 18mrm
+T 1510499770 18<caveman18>	hi rms. is that the real u?
+T 1510499780 18<rocx18>	no.
+T 1510499782 18<caveman18>	mrm? mohammed richard mashallah?
+T 1510499795 24*	banttu has quit (Ping timeout: 258 seconds)
+T 1510499821 18<caveman18>	one with shorter nickname has a higher social status in irc networks
+T 1510499832 18<rocx18>	p much.
+T 1510499852 18<bremner18>	caveman: is that auctex or regular tex mode?
+T 1510499874 18<bremner18>	I guess the latter.
+T 1510499888 18<mrm18>	caveman: You actually guessed my middle name correctly.
+T 1510499967 18<caveman18>	bremner: it  is supposed to render tex inside emacs. i guess this must be auctex?
+T 1510499986 18<caveman18>	it used to render text inside emacs. i updated my distro and things went out of whack
+T 1510499987 18<bremner18>	caveman: C-c C-p is not bound for me in auctex
+T 1510499995 23*	cpe (~cpe@unaffiliated/cpe23) has joined
+T 1510500032 18<caveman18>	bremner: Cc Cp Cp 
+T 1510500072 18<bremner18>	ah, ok, something about preview
+T 1510500083 18<bremner18>	that's always seemed super fragile
+T 1510500105 23*	snakehsu (~Thunderbi@123.121.22.9023) has joined
+T 1510500124 18<caveman18>	it always worked just fine for me.
+T 1510500163 24*	theoceaniscool has quit (Ping timeout: 248 seconds)
+T 1510500164 18<codingquark18>	Oh damn I missed rms scene
+T 1510500218 18<codingquark18>	If you want to keep a secret, you must also hide it from emacs.
+T 1510500233 18<caveman18>	someone plz help me.
+T 1510500238 18<bremner18>	caveman: ok, sorry I've got nothing on preview. It crashes for me.
+T 1510500246 18<caveman18>	welp.
+T 1510500252 18<defanor18>	caveman: do you see error messages or something?
+T 1510500263 18<caveman18>	i guess that means i must uninstall emacs then coz that was the only reason i tolerated this operating system.
+T 1510500277 18<Devon18>	How do I get a different MacOSX icon?  (setq ns-icon-type-alist '(t ("#emacs" . "droplet"))) ; fails
+T 1510500287 18<caveman18>	defanor: yes. i see a stop sign, then a window showing errors
+T 1510500305 18<python47618>	anybody knows some elisp lib to quickly reformat lisp/clojure buffers ?
+T 1510500322 18<defanor18>	caveman: well, there you go. fix the errors
+T 1510500334 18<python47618>	potentially with some kind of formatting rules (no more than 2 new lines in a row, that sort of things)
+T 1510500337 18<Devon18>	python476: Like Control-X h Tab?
+T 1510500347 18<caveman18>	defanor: can't understand what's wrong.
+T 1510500363 18<python47618>	Devon yeah but it doesn't format format
+T 1510500363 18<defanor18>	caveman: maybe paste them, try to search for them using a search engine, etc
+T 1510500372 23*	iRocki2 (67104719@gateway/web/freenode/ip.103.16.71.2523) has joined
+T 1510500373 24*	snakehsu has quit (Ping timeout: 250 seconds)
+T 1510500373 18<defanor18>	caveman: trying to reproduce with a minimal example helps sometimes, too
+T 1510500373 18<python47618>	Devon I know Im fuzzy
+T 1510500395 18<python47618>	I forgot my use case, but reading emacs manual about indentation brings back the question in my mind
+T 1510500403 18<python47618>	(yes I am reading a manual)
+T 1510500462 23*	shackra (~shackra@186.176.49.16523) has joined
+T 1510500465 18<caveman18>	defanor: ty sir. could u plz have a look here? http://codepad.org/pIqzpQzb
+T 1510500479 24*	ychaouche (~ychaouche@197.201.1.5024) has left ("Konversation terminated!")
+T 1510500496 18<caveman18>	defanor: i move cursor to within some latex code, then C-c C-p C-p then error appears.
+T 1510500570 23*	kreetx (~markus@193-40-178-118.sookure.net.edu.ee23) has joined
+T 1510500585 18<defanor18>	caveman: no idea, and it works fine here with that input, but you can search now – https://duckduckgo.com/?q=%22Error%3A+%2Ftypecheck+in+--setfileposition--%22&ia=web
+T 1510500617 18<caveman18>	interesting. is that a recent bug in ghostscript?
+T 1510500620 18<caveman18>	https://bugs.ghostscript.com/show_bug.cgi?id=698680
+T 1510500671 18<defanor18>	could be. i have ghostscript 9.07 here
+T 1510500696 18<caveman18>	ty. highly appreciate ur help. i'm now on track to do something useful.
+T 1510500709 24*	iRocki2 has quit (Ping timeout: 260 seconds)
+T 1510500713 18<defanor18>	np
+T 1510500759 24*	riclima has quit (Quit: ERC (IRC client for Emacs 25.3.1))
+T 1510500800 23*	riclima (~user@198-48-202-89.cpe.pppoe.ca23) has joined
+T 1510500839 23*	theoceaniscool (~theoceani@224.red-88-1-27.dynamicip.rima-tde.net23) has joined
+T 1510500871 24*	zautomata has quit (Quit: WeeChat 1.7)
+T 1510500899 23*	zautomata (~zautomata@unaffiliated/zautomata23) has joined
+T 1510500917 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510500932 18<riclima18>	Hey anyone here works on Django apps using Elpy? Do you know a convenient way to start a Django shell from elpy?
+T 1510501108 23*	musicnate (~Thunderbi@CPEac202e24c153-CMac202e24c150.cpe.net.fido.ca23) has joined
+T 1510501110 23*	dnile (~anonymous@14-201-122-111.static.tpgi.com.au23) has joined
+T 1510501135 23*	atw (~user@24.148.50.1623) has joined
+T 1510501219 24*	it3ration has quit (Ping timeout: 248 seconds)
+T 1510501282 24*	DavidCanHelp has quit (Ping timeout: 260 seconds)
+T 1510501299 23*	raymondillo (~raythepro@cpc86419-seve24-2-0-cust221.13-3.cable.virginm.net23) has joined
+T 1510501611 24*	theoceaniscool has quit (Ping timeout: 240 seconds)
+T 1510501827 24*	delx has quit (Ping timeout: 246 seconds)
+T 1510501867 24*	Actualeyes has quit (Remote host closed the connection)
+T 1510501881 23*	delx (~delx@59.167.161.14223) has joined
+T 1510501904 23*	Actualeyes (~user@p763089-ipngn200306okayamahigasi.okayama.ocn.ne.jp23) has joined
+T 1510502042 23*	davr0s (~textual@host86-157-70-100.range86-157.btcentralplus.com23) has joined
+T 1510502060 18<thebigj18>	Which version control protocol do you people use?
+T 1510502085 18<thebigj18>	And what are the reason for using specific over other?
+T 1510502091 18<bremner18>	protocol? like https?
+T 1510502100 18<thebigj18>	bremner: git / mercruial
+T 1510502104 18<bremner18>	git
+T 1510502114 18<bremner18>	and mercurial when I'm forced to
+T 1510502146 18<thebigj18>	bremner: okay.
+T 1510502148 18<codingquark18>	git, because that's what I started with and it has not given me any problems so far.
+T 1510502216 18<thebigj18>	codingquark: Or it might be like you are not aware what other protocols can do :p
+T 1510502232 23*	opmrcl (~Thunderbi@78.133.34.14123) has joined
+T 1510502239 18<codingquark18>	thebigj: but I *do* know what I want to do.
+T 1510502250 24*	subsonik has quit (Ping timeout: 240 seconds)
+T 1510502257 18<bremner18>	basically both git and mercurial are good enough for me, but I know how to use git, and I don't really know how to use mercurial
+T 1510502259 24*	Actualeyes has quit (Remote host closed the connection)
+T 1510502273 18<bremner18>	so using mercurial is a sequence of frustrations to me.
+T 1510502286 18<opmrcl18>	how can I make a list of clients, so that they autocomplete when writing in journal
+T 1510502289 23*	Actualeyes (~user@p763089-ipngn200306okayamahigasi.okayama.ocn.ne.jp23) has joined
+T 1510502303 24*	dnile has quit (Quit: dnile)
+T 1510502304 23*	subsonik (~subsonik@v22017105028154275.hotsrv.de23) has joined
+T 1510502319 24*	dejanr has quit ()
+T 1510502322 18<opmrcl18>	what does emacs offer for business? 
+T 1510502366 18<wasamasa18>	python476: that kind of task is considerably more difficult than it looks like
+T 1510502376 18<bremner18>	opmrcl:  it's a text editor. Does your business need to edit text?
+T 1510502377 18<defanor18>	rudybot: what does business offer for emacs?
+T 1510502383 18<codingquark18>	I think abbrev can do something like that? Read it in some blog, never used.
+T 1510502387 24*	zh2683 has quit (Remote host closed the connection)
+T 1510502388 18<wasamasa18>	python476: unless of course you've passed your algorithms class with flying colors and can actually apply it to the real world
+T 1510502391 24*	Actualeyes has quit (Remote host closed the connection)
+T 1510502415 18<rudybot18>	defanor: what does emacs offer for business?
+T 1510502426 23*	Actualeyes (~user@p763089-ipngn200306okayamahigasi.okayama.ocn.ne.jp23) has joined
+T 1510502427 18<wasamasa18>	python476: you might be able to cheat and reuse one of the clojure formatters with an elisp thing by technomancy for interfacing
+T 1510502429 18<paluche18>	you'll need Emacs Enterprise Edition.
+T 1510502481 18<opmrcl18>	bremner: it offers accounting with ledger-cli.
+T 1510502486 18<paluche18>	Emacs365
+T 1510502490 18<wasamasa18>	python476: the only ones I'm aware of do pretty-printing which is far away from code formatting
+T 1510502491 23*	banttu (~bantu@154.123.129.11223) has joined
+T 1510502503 18<wasamasa18>	python476: and even those are famous for being slow as molasses
+T 1510502561 23*	DavidCanHelp (~dcl@freecode-project/hacker/spiderbyte23) has joined
+T 1510502812 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510502817 18<bremner18>	opmrcl: I'm aware of ledger, but it's not part of emacs (even though it comes with an emacs mode). Anyway, you'll have a better chance of a sensible answer if you ask about more specific tasks than "business"
+T 1510502883 18<opmrcl18>	bremner: I'm looking on how to autocomplete clients in org-journal?
+T 1510502963 18<bremner18>	right, that's specific enough ;)
+T 1510502986 18<bremner18>	"what does emacs offer for business" is just an invitation nonsense
+T 1510506065 20*	Disconnected (20)
+T 1510506109 19*	Now talking on 22#emacs
+T 1510506109 22*	Topic for 22#emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+T 1510506109 22*	Topic for 22#emacs set by 26kodein!1710@fukushima.lysator.liu.se (24Thu Nov  2 03:21:51 2017)
+T 1510506110 22*	Channel 22#emacs url: 24https://www.emacswiki.org/emacs/EmacsChannel
+T 1510506111 18<bremner18>	s/init files/editors/
+T 1510506135 23*	RandyT (~RandyT@unaffiliated/randyt23) has joined
+T 1510506170 24*	damke has quit (Ping timeout: 240 seconds)
+T 1510506239 23*	DavidCanHelp (~dcl@freecode-project/hacker/spiderbyte23) has joined
+T 1510506283 23*	daveo (~daveo@173-18-178-65.client.mchsi.com23) has joined
+T 1510506297 24*	pt1 has quit (Ping timeout: 240 seconds)
+T 1510506342 18<python47618>	severance package managers
+T 1510506391 23*	dada_cetacean (~user@unaffiliated/dada-cetacean/x-829871723) has joined
+T 1510506420 24*	daveo has quit (Read error: Connection reset by peer)
+T 1510506885 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510506895 23*	alezost (~user@unaffiliated/alezost23) has joined
+T 1510506945 24*	vados has quit (Ping timeout: 248 seconds)
+T 1510507079 24*	tiwula has quit (Quit: Leaving)
+T 1510507097 24*	Sembei has quit (Ping timeout: 268 seconds)
+T 1510507167 24*	it3ration has quit (Ping timeout: 240 seconds)
+T 1510507242 24*	pseudonymous has quit (Remote host closed the connection)
+T 1510507758 18<python47618>	Im starting to get skilled at exceeding max-lisp-eval-depth
+T 1510507981 18*	offby1 hands python476 an award
+T 1510507986 23*	indicator (~me@host81-152-188-78.range81-152.btcentralplus.com23) has joined
+T 1510508007 18<python47618>	and another one
+T 1510508072 24*	alezost has quit (Read error: Connection reset by peer)
+T 1510508136 23*	juiko (~user@pc-215-140-164-190.cm.vtr.net23) has joined
+T 1510508175 18<paluche18>	rudybot: And the award for outstanding evaluation goes to...
+T 1510508187 18<python47618>	heh
+T 1510508191 18<rudybot18>	paluche: "Last weekend The Artist won the PGA award for best picture of 2011, and last night Hazanavicius took the Directors Guild award for Outstanding Achievement in Feature Film in 2011. Given that it has been almost a decade since someone won the DGA award and didnt take the Best Director Oscar we can safely bet on the outcome of the Academy Awards,"
+T 1510508198 18<python47618>	heh²
+T 1510508199 18<indicator18>	I have a weird thing where I can call (load "/path/to/foo-autoloads" nil t) successfully and have it return t, but evaluating an autoloaded function from that package gives me "(void-variable yourfunc)"... BUT if I go and open that autoload file and evaluate the autoload expression for somefunc directly, I get a propertly autoloaded function.  Any pointers???
+T 1510508200 18<fsbot18>	Inconceivable!
+T 1510508211 18<python47618>	james cameron called me for a movie adaptation
+T 1510508226 24*	DavidCanHelp has quit (Ping timeout: 248 seconds)
+T 1510508329 18<riclima18>	Hey, anyone knows how can I set an environment variable for M-x run-python?
+T 1510508403 23*	Felix11H (~fh@x590e253f.dyn.telefonica.de23) has joined
+T 1510508452 18<indicator18>	*for* M-x run-python?  Not sure what you mean there?  Does it have to be set only when that runs, or something?
+T 1510508488 18<bpalmer18>	indicator: make sure you don't have any .elc lying about, and check auto-autoloads.el 
+T 1510508498 18<juiko18>	riclima: You could use the setenv function
+T 1510508500 18<forcer18>	riclima: M-x setenv works
+T 1510524874 20*	Disconnected (20)
+T 1510524899 19*	Now talking on 22#emacs
+T 1510524899 22*	Topic for 22#emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+T 1510524899 22*	Topic for 22#emacs set by 26kodein!1710@fukushima.lysator.liu.se (24Thu Nov  2 03:21:50 2017)
+T 1510524900 22*	Channel 22#emacs url: 24https://www.emacswiki.org/emacs/EmacsChannel
+T 1510524978 24*	angrybacon has quit (Ping timeout: 240 seconds)
+T 1510524997 23*	Dormio (~user@host-233-125.nyropro.rochester.ny.us.clients.pavlovmedia.net23) has joined
+T 1510525077 24*	lemonpie (~lemonpie@host-92-14-103-98.as43234.net24) has left ("ERC (IRC client for Emacs 27.0.50)")
+T 1510525207 23*	drymer (~drymer@unaffiliated/drymer23) has joined
+T 1510525229 24*	LooneyTunes has quit (Ping timeout: 250 seconds)
+T 1510525281 24*	Dormio has quit (Ping timeout: 250 seconds)
+T 1510525404 23*	AX31_A13X (~AxelAlex@172.86.186.17123) has joined
+T 1510525438 24*	webshinra has quit (Ping timeout: 240 seconds)
+T 1510525518 24*	trui has quit (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+T 1510525541 24*	AxelAlex has quit (Ping timeout: 250 seconds)
+T 1510525621 18<aidalgol18>	testacular was just something you never wanted to discuss in a professional setting
+T 1510525626 23*	Dormio (~user@host-233-125.nyropro.rochester.ny.us.clients.pavlovmedia.net23) has joined
+T 1510525705 24*	snakehsu has quit (Ping timeout: 246 seconds)
+T 1510525822 24*	csed has quit (Ping timeout: 240 seconds)
+T 1510525891 24*	Dormio has quit (Ping timeout: 248 seconds)
+T 1510525914 23*	angrybacon (~user@2a01:e35:8bfb:9150:b445:118e:cd65:58ef23) has joined
+T 1510526097 24*	nicesignal has quit (Ping timeout: 260 seconds)
+T 1510526158 24*	angrybacon has quit (Ping timeout: 240 seconds)
+T 1510526204 23*	nicesignal (~leftelse@gateway/vpn/privateinternetaccess/nicesignal23) has joined
+T 1510526263 23*	Dormio (~user@host-233-125.nyropro.rochester.ny.us.clients.pavlovmedia.net23) has joined
+T 1510526278 24*	csantosb (~user@96.164.204.77.rev.sfr.net24) has left ("ERC (IRC client for Emacs 26.0.90)")
+T 1510526303 23*	wxie (~Thunderbi@223.166.142.15623) has joined
+T 1510526429 23*	snakehsu (~Thunderbi@123.121.22.9023) has joined
+T 1510526440 23*	theoceaniscool (~theoceani@224.red-88-1-27.dynamicip.rima-tde.net23) has joined
+T 1510526512 24*	indicator (~me@host81-152-188-78.range81-152.btcentralplus.com24) has left
+T 1510526596 24*	Dormio has quit (Ping timeout: 268 seconds)
+T 1510531476 20*	Disconnected (20)
+T 1510531504 19*	Now talking on 22#emacs
+T 1510531504 22*	Topic for 22#emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+T 1510531504 22*	Topic for 22#emacs set by 26kodein!1710@fukushima.lysator.liu.se (24Thu Nov  2 03:21:50 2017)
+T 1510531504 22*	Channel 22#emacs url: 24https://www.emacswiki.org/emacs/EmacsChannel
+T 1510531560 18<bpalmer18>	bremner: security key?
+T 1510531565 23*	twb (~twb@203.7.155.11923) has joined
+T 1510531577 18<bremner18>	bpalmer: nah, just a mass storage device
+T 1510531591 18<bremner18>	I guess I should just toss it.
+T 1510531600 18<bpalmer18>	the cloud means never having to worry about plugging in a drive
+T 1510531620 18<bremner18>	My neural link to the cloud is down
+T 1510531627 23*	seasea (~user5@c-98-232-63-82.hsd1.wa.comcast.net23) has joined
+T 1510531654 18<bpalmer18>	have you considered renting out some of your neuromass to the cloud?
+T 1510531670 18<bremner18>	I don't have that much to spare
+T 1510531686 18<seasea18>	nooope. rcirc didnt' like me adding `:password ("<password>") to my init file
+T 1510531715 18<bpalmer18>	seasea: perhaps an rcirc user will be along who is familiar with how it does things.
+T 1510531720 18<seasea18>	error was: "wront type argument: characterp, "<password>"
+T 1510531739 24*	it3ration has quit (Ping timeout: 268 seconds)
+T 1510531742 18<bpalmer18>	seasea: ("password")  seems odd; I'd have expected "password" with no parentheses
+T 1510531769 18<seasea18>	kinda funny how irc expands "colon password" to :password. 
+T 1510531782 18<bpalmer18>	?
+T 1510531794 18<seasea18>	reads like lickmy-assword
+T 1510531813 18<bremner18>	that's a keyword argument
+T 1510531814 18<seasea18>	I should say, "funny how pidgin expands..."
+T 1510531831 18<bremner18>	oh. I see. nvm
+T 1510531867 18<seasea18>	tongue-out-emoji + the string "assword". 
+T 1510531889 18<seasea18>	anyway, sorry to digress. 
+T 1510531890 18<bremner18>	,ykinmkbykio
+T 1510531890 18<fsbot18>	ykinmkbykiok is your kink is not my kink but your kink is ok
+T 1510531899 23*	n2o4 (n2o4@217.30.184.16123) has joined
+T 1510531944 18<seasea18>	nice. that is an acronym i've now been exposed to. Thank you
+T 1510532046 23*	Judge_Dredd (~Judge_Dre@unaffiliated/judge-dredd/x-217074223) has joined
+T 1510532047 24*	thc202 has quit (Ping timeout: 260 seconds)
+T 1510532062 23*	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net23) has joined
+T 1510532107 18<seasea18>	holy shite this IPA is tasty
+T 1510532125 18<seasea18>	anywho. This pidgin irc client isnt' so bad. 
+T 1510532134 18<seasea18>	emacs-blasphemy!
+T 1510532191 18<bpalmer18>	rudybot: all beers basically lead to irc problems.
+T 1510532198 18<rudybot18>	bpalmer: When I was staying in the Ritz-Carleton in Washington, D.C., room service charged $40 to deliver two beers.
+T 1510532216 18<Rawriful18>	I like weechat, I'm not a fan of irc buffers being in my listings when I'm searching through them
+T 1510532309 18<seasea18>	rudybot: whoa. were you there for the million womens march? I ask because my wifes phone was depleted of battery similar to what happend at standing rock. 
+T 1510532325 18<rudybot18>	seasea: i'm of european decent, my wifes 3rd gen from africa.  sorry, i couldn't help myself :)
+T 1510532362 18<seasea18>	she reported some wild stuff from that march. 
+T 1510532371 18<seasea18>	anyway. i won't digress
+T 1510532412 18<seasea18>	Rawriful: i'm not hip to weechat. 
+T 1510532439 18<seasea18>	this pidgin thing is pretty cool though. 
+T 1510532446 18<Rawriful18>	seasea: it's just a terminal irc client like irssi, but with more plugin langs instead of just perl.
+T 1510532457 18<Rawriful18>	whatever makes you happy mang :)
+T 1510532469 18<seasea18>	hm. ha! "mang". Love it
+T 1510532507 18<seasea18>	rcirc gives me this: 16:07 -tolkien.freenode.net- *** Looking up your hostname...
+T 1510532508 18<seasea18>	16:07 -tolkien.freenode.net- *** Checking Ident
+T 1510532508 18<seasea18>	16:07 -tolkien.freenode.net- *** Found your hostname
+T 1510532508 18<seasea18>	16:07 -tolkien.freenode.net- *** No Ident response
+T 1510532508 18<seasea18>	16:08 !!! Closing Link: 127.0.0.1 (Connection timed out)
+T 1510532508 18<seasea18>	16:08 !!! irc.freenode.net: connection broken by remote peer
+T 1510532508 18<seasea18>	          (closed)
+T 1510532509 18<seasea18>	> 
+T 1510532548 23*	musicnate (~Thunderbi@CPEac202e24c153-CMac202e24c150.cpe.net.fido.ca23) has joined
+T 1510532551 18<seasea18>	eh. sorry #emacs. Would so love for a multiline paste like other platforms. wtf
+T 1510532560 24*	YoungFrog has quit (Ping timeout: 252 seconds)
+T 1510532565 18<Rawriful18>	I try to be more positive about people's experimentations with software after realising being negative or critical has no real upside to it even if you're right :p
+T 1510532578 18<seasea18>	good point
+T 1510532593 23*	YoungFrog (~youngfrog@fsf/member/youngfrog23) has joined
+T 1510532601 18<seasea18>	a lot of people say I come off negative. trying to spin ones output is not fun!
+T 1510532622 23*	jusss (~user@unaffiliated/jusss23) has joined
+T 1510532662 18<seasea18>	Rawriful: what are you fuggin with today? what kind of projects? 
+T 1510532749 18<Rawriful18>	my current project is to stop procrastinating and go to bed. Otherwise I fiddle in scala with an actor lib called akka
+T 1510532768 18<Rawriful18>	I do absolute minimal elisp hacking but am slowly getting better at it
+T 1510532790 18<Rawriful18>	(currently made a few functions for handling log data at my job to present it nicely)
+T 1510532792 18<seasea18>	"an actor lib"rary? thats something i've not heard of before
+T 1510532802 18<seasea18>	actor
+T 1510532805 18<Rawriful18>	it's an OOP thing. See erlang
+T 1510532829 18<Rawriful18>	not that erlang is strictly OOP just it embodies the actor model of message parsing the most IIRC
+T 1510532899 18<seasea18>	hm. wow. Those are languages I run across often in news.ycombinator.com, but none that i've explored. 
+T 1510532917 18<seasea18>	does emacs help you be more productive?
+T 1510532949 24*	seasea has quit (Quit: Leaving.)
+T 1510532967 23*	seasea (~user5@c-98-232-63-82.hsd1.wa.comcast.net23) has joined
+T 1510532975 18<seasea18>	shit. am I still here? 
+T 1510532978 18<Rawriful18>	yes
+T 1510532980 18<Rawriful18>	lol
+T 1510532985 18<kenzo21518>	LOL https://i.imgur.com/88XysQ4.png
+T 1510533008 18<Rawriful18>	and yes sometimes, it depends on what I am doing. I also use IDEs depending on the project.
+T 1510533015 18<seasea18>	getting used to this pidgin thing! I see that it affects Thunderbird too! My thunderbird icon changed blue. When I clicked "offline" it dropped me from IRC!
+T 1510533032 18<Rawriful18>	oh god what are you using lol
+T 1510533037 18<Rawriful18>	anyways I'm off to bed
+T 1510533039 18<Rawriful18>	night all
+T 1510533044 18<kenzo21518>	pidgin has been around forever
+T 1510533045 18<seasea18>	Rawriful: i see. Take care.
+T 1510533071 24*	dmartincy has quit (Ping timeout: 240 seconds)
+T 1510533073 18<seasea18>	kenzo215: my first experience. not too shabby
+T 1510533093 18<seasea18>	not emacs, but I cant' seem to get erc or rcirc configured correctly. 
+T 1510533105 18<seasea18>	whatchoo up to today?
+T 1510533108 18<seasea18>	kenzo215: 
+T 1510533111 18<kenzo21518>	Initial release: Dec 31 1998... 18 years ago
+T 1510533115 18<seasea18>	whoa
+T 1510533127 18<rocx18>	ffffs. 2000 was almost 20 years ago.
+T 1510533166 18<_g_p_18>	asdlkfjasldkjfa;lskdjf;alskdjf;alskjdf
+T 1510533173 18<seasea18>	not quite 3/20/85 but still pretty old
+T 1510533182 18<rocx18>	and 1980 will be almost 40 years ago.
+T 1510533183 18<seasea18>	(initial release of emacs)
+T 1510533191 18*	kenzo215 was born in 1977
+T 1510533194 18<kenzo21518>	40 years ago :P
+T 1510533195 FiSHLiM plugin unloaded

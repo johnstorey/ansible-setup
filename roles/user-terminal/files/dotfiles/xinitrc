@@ -1,0 +1,5 @@
+xmodmap ~/.Xmodmap
+xrandr --dpi 220
+exec i3
+
+

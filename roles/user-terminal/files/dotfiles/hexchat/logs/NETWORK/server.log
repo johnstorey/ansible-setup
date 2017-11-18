@@ -1,0 +1,75 @@
+**** BEGIN LOGGING AT Sat Nov 11 09:24:47 2017
+
+Nov 11 09:24:47 Sysinfo plugin loaded
+Nov 11 09:24:47 Lua version 1.3/5.1 loaded.
+Nov 11 09:24:47 Python interface loaded
+Nov 11 09:24:47 Checksum plugin loaded
+Nov 11 09:24:47 FiSHLiM plugin loaded
+Nov 11 09:24:47 Perl interface loaded
+**** BEGIN LOGGING AT Sat Nov 11 10:12:13 2017
+
+Nov 11 10:12:13 Sysinfo plugin loaded
+Nov 11 10:12:13 Lua version 1.3/5.1 loaded.
+Nov 11 10:12:13 Python interface loaded
+Nov 11 10:12:13 Checksum plugin loaded
+Nov 11 10:12:13 FiSHLiM plugin loaded
+Nov 11 10:12:13 Perl interface loaded
+Nov 11 10:12:13 *	Looking up chat.freenode.net
+Nov 11 10:12:13 *	Connecting to chat.freenode.net (2001:6b0:e:2a18::118:6697)
+Nov 11 10:12:15 *	* Certification info:
+Nov 11 10:12:15 *	  Subject:
+Nov 11 10:12:15 *	    CN=leguin.freenode.net
+Nov 11 10:12:15 *	  Issuer:
+Nov 11 10:12:15 *	    C=US
+Nov 11 10:12:15 *	    O=Let's Encrypt
+Nov 11 10:12:15 *	    CN=Let's Encrypt Authority X3
+Nov 11 10:12:15 *	  Public key algorithm: rsaEncryption (4096 bits)
+Nov 11 10:12:15 *	  Sign algorithm sha256WithRSAEncryption
+Nov 11 10:12:15 *	  Valid since Sep 22 13:03:00 2017 GM to Dec 21 13:03:00 2017 GM
+Nov 11 10:12:15 *	* Cipher info:
+Nov 11 10:12:15 *	  Version: TLSv1.2, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Nov 11 10:12:15 *	Connected. Now logging in.
+Nov 11 10:12:15 *	*** Looking up your hostname...
+Nov 11 10:12:15 *	*** Checking Ident
+Nov 11 10:12:15 *	*** Couldn't look up your hostname
+Nov 11 10:12:22 *	*** No Ident response
+Nov 11 10:12:22 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Nov 11 10:12:22 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Nov 11 10:12:22 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Sat Nov 11 10:12:22 2017
+
+**** BEGIN LOGGING AT Sat Nov 11 10:15:35 2017
+
+Nov 11 10:15:35 Sysinfo plugin loaded
+Nov 11 10:15:35 Lua version 1.3/5.1 loaded.
+Nov 11 10:15:35 Python interface loaded
+Nov 11 10:15:35 Checksum plugin loaded
+Nov 11 10:15:35 FiSHLiM plugin loaded
+Nov 11 10:15:35 Perl interface loaded
+Nov 11 10:15:35 *	Looking up chat.freenode.net
+Nov 11 10:15:35 *	Connecting to chat.freenode.net (2001:6b0:e:2a18::118:6697)
+Nov 11 10:15:37 *	* Certification info:
+Nov 11 10:15:37 *	  Subject:
+Nov 11 10:15:37 *	    CN=leguin.freenode.net
+Nov 11 10:15:37 *	  Issuer:
+Nov 11 10:15:37 *	    C=US
+Nov 11 10:15:37 *	    O=Let's Encrypt
+Nov 11 10:15:37 *	    CN=Let's Encrypt Authority X3
+Nov 11 10:15:37 *	  Public key algorithm: rsaEncryption (4096 bits)
+Nov 11 10:15:37 *	  Sign algorithm sha256WithRSAEncryption
+Nov 11 10:15:37 *	  Valid since Sep 22 13:03:00 2017 GM to Dec 21 13:03:00 2017 GM
+Nov 11 10:15:37 *	* Cipher info:
+Nov 11 10:15:37 *	  Version: TLSv1.2, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Nov 11 10:15:37 *	Connected. Now logging in.
+Nov 11 10:15:37 *	*** Looking up your hostname...
+Nov 11 10:15:37 *	*** Checking Ident
+Nov 11 10:15:37 *	*** Couldn't look up your hostname
+Nov 11 10:15:42 *	*** No Ident response
+Nov 11 10:15:42 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Nov 11 10:15:42 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix sasl 
+Nov 11 10:15:42 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix sasl 
+Nov 11 10:15:42 *	Authenticating via SASL as johnstorey (PLAIN)
+Nov 11 10:15:42 *	You are now logged in as johnstorey.
+Nov 11 10:15:42 *	SASL authentication successful
+**** ENDING LOGGING AT Sat Nov 11 10:15:43 2017
+

@@ -1,0 +1,33 @@
+**** BEGIN LOGGING AT Sat Nov 11 09:24:47 2017
+
+Nov 11 09:24:47 *	Looking up chat.freenode.net
+**** BEGIN LOGGING AT Sat Nov 11 10:14:26 2017
+
+Nov 11 10:14:26 *	Looking up chat.freenode.net
+Nov 11 10:14:26 *	Connecting to chat.freenode.net (2001:5a0:3604:1:64:86:243:181:6697)
+Nov 11 10:14:27 *	* Certification info:
+Nov 11 10:14:27 *	  Subject:
+Nov 11 10:14:27 *	    CN=karatkievich.freenode.net
+Nov 11 10:14:27 *	  Issuer:
+Nov 11 10:14:27 *	    C=US
+Nov 11 10:14:27 *	    O=Let's Encrypt
+Nov 11 10:14:27 *	    CN=Let's Encrypt Authority X3
+Nov 11 10:14:27 *	  Public key algorithm: rsaEncryption (4096 bits)
+Nov 11 10:14:27 *	  Sign algorithm sha256WithRSAEncryption
+Nov 11 10:14:27 *	  Valid since Nov  5 19:05:38 2017 GM to Feb  3 19:05:38 2018 GM
+Nov 11 10:14:27 *	* Cipher info:
+Nov 11 10:14:27 *	  Version: TLSv1.2, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Nov 11 10:14:27 *	Connected. Now logging in.
+Nov 11 10:14:27 *	*** Looking up your hostname...
+Nov 11 10:14:27 *	*** Checking Ident
+Nov 11 10:14:27 *	*** Couldn't look up your hostname
+Nov 11 10:14:35 *	*** No Ident response
+Nov 11 10:14:35 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Nov 11 10:14:35 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix sasl 
+Nov 11 10:14:35 *	johnstorey is already in use. Retrying with eventhorizon...
+Nov 11 10:14:35 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix sasl 
+Nov 11 10:14:35 *	Authenticating via SASL as johnstorey (PLAIN)
+Nov 11 10:14:36 *	You are now logged in as johnstorey.
+Nov 11 10:14:36 *	SASL authentication successful
+**** ENDING LOGGING AT Sat Nov 11 10:14:37 2017
+

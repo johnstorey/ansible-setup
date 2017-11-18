@@ -1,0 +1,5 @@
+T 1510410357 19*	Now talking on 22##rust
+T 1510410357 22*	Topic for 22##rust is: Unofficial channel for the Rust programming language | No one responding? Try the official channel - irc.mozilla.org, #rust | Code of conduct: rust-lang.org/conduct.html | TL;DR: be nice and we'll get along just fine
+T 1510410357 22*	Topic for 22##rust set by 26mbrubeck!sid61@gateway/web/mozilla/x-hexxdselrkfhlxvd (24Fri Jul  8 14:09:42 2016)
+T 1510410369 24*	drolando has quit (Remote host closed the connection)
+T 1510410372 20*	Disconnected (20)

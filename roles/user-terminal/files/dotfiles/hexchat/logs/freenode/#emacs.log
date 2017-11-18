@@ -1,0 +1,916 @@
+**** BEGIN LOGGING AT Sat Nov 11 10:14:43 2017
+
+Nov 11 10:14:43 *	Now talking on #emacs
+Nov 11 10:14:43 *	Topic for #emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+Nov 11 10:14:43 *	Topic for #emacs set by kodein!1710@fukushima.lysator.liu.se (Thu Nov  2 06:21:50 2017)
+Nov 11 10:14:43 *	Channel #emacs url: https://www.emacswiki.org/emacs/EmacsChannel
+Nov 11 10:14:55 *	aw1 (~aw1@unaffiliated/aw1) has joined
+**** ENDING LOGGING AT Sat Nov 11 10:15:25 2017
+
+**** BEGIN LOGGING AT Sat Nov 11 10:15:49 2017
+
+Nov 11 10:15:49 *	Now talking on #emacs
+Nov 11 10:15:49 *	Topic for #emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+Nov 11 10:15:49 *	Topic for #emacs set by kodein!1710@fukushima.lysator.liu.se (Thu Nov  2 06:21:50 2017)
+Nov 11 10:15:50 *	Channel #emacs url: https://www.emacswiki.org/emacs/EmacsChannel
+Nov 11 10:16:11 *	n2o4 has quit (Quit: It is time to go)
+Nov 11 10:16:40 *	dmartincy (~user@201.red-83-51-36.dynamicip.rima-tde.net) has joined
+Nov 11 10:17:36 *	atw (~user@24.148.50.16) has joined
+Nov 11 07:19:24 *	smathew (~user@2600:8803:7885:f401:6ccd:978:f13e:f94c) has joined
+Nov 11 07:19:45 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 07:20:38 *	jabranham (~user@2605:6000:e9c9:5c01:751f:b432:e3a2:815c) has joined
+Nov 11 07:22:18 *	python476 has quit (Read error: Connection reset by peer)
+Nov 11 07:24:36 *	it3ration has quit (Ping timeout: 240 seconds)
+Nov 11 07:25:08 *	CrazyEddy (crazyed@wrongplanet/CrazyEddy) has joined
+Nov 11 07:26:43 *	n2o4 (n2o4@kapsi.fi) has joined
+Nov 11 07:29:01 *	fledermaus (~vivek@78.32.176.249) has joined
+Nov 11 07:30:31 *	twrk has quit (Remote host closed the connection)
+Nov 11 07:31:42 *	twrk (~user@unaffiliated/twrk) has joined
+Nov 11 07:32:05 <loke`>	thebigj: Hello
+Nov 11 07:35:48 *	bokuno has quit (Quit: ERC (IRC client for Emacs 25.3))
+Nov 11 07:36:52 *	dys has quit (Ping timeout: 240 seconds)
+Nov 11 07:37:25 *	Major_Biscuit (~Major_Bis@global-184-110.nat-1.net.cam.ac.uk) has joined
+Nov 11 07:38:42 <tamouse__>	oh #emacs how i've missed you
+Nov 11 07:39:37 <offby1>	likewise
+Nov 11 07:40:27 *	zh2683 has quit (Remote host closed the connection)
+Nov 11 07:41:26 *	DavidCanHelp has quit (Ping timeout: 250 seconds)
+Nov 11 07:42:07 *	finkata__ has quit (Ping timeout: 248 seconds)
+Nov 11 07:45:34 *	davr0s (~textual@host86-157-69-50.range86-157.btcentralplus.com) has joined
+Nov 11 07:46:24 *	finkata__ (~finkata@gateway/tor-sasl/finkata) has joined
+Nov 11 07:49:22 *	fcarrijo (~fcarrijo@189-74-163-107.gnale700.dsl.brasiltelecom.net.br) has joined
+Nov 11 07:49:35 *	peterbecich (~peterbeci@47.37.164.78) has joined
+Nov 11 07:50:07 *	seen_ has quit (Ping timeout: 248 seconds)
+Nov 11 07:51:57 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 07:52:24 *	seen_ (~seen_@gateway/tor-sasl/seen/x-50706747) has joined
+Nov 11 07:53:22 *	boudiccas has quit (Ping timeout: 240 seconds)
+Nov 11 07:53:34 *	jabranham has quit (Remote host closed the connection)
+Nov 11 07:55:15 *	boudiccas (~boudiccas@95.45.198.146.dyn.plus.net) has joined
+Nov 11 07:55:53 *	seen_ has quit (Remote host closed the connection)
+Nov 11 07:56:06 *	seen_ (~seen_@gateway/tor-sasl/seen/x-50706747) has joined
+Nov 11 07:56:39 *	it3ration has quit (Ping timeout: 240 seconds)
+Nov 11 08:02:54 *	DavidCanHelp (~dcl@freecode-project/hacker/spiderbyte) has joined
+Nov 11 08:03:26 *	bwv (~user@unaffiliated/kripke) has joined
+Nov 11 08:04:17 *	zeratul_ (uid212289@gateway/web/irccloud.com/x-anfxgmbhhpkpixms) has joined
+Nov 11 08:05:56 <twrk>	wat
+Nov 11 08:06:00 *	magic_cookie (~user@unaffiliated/magic-cookie/x-5350034) has joined
+Nov 11 08:07:14 *	skali (~skali@77.79.141.159.dynamic.ufanet.ru) has joined
+Nov 11 08:09:15 *	grimsley has quit (Quit: Leaving)
+Nov 11 08:10:53 *	peterbecich has quit (Ping timeout: 260 seconds)
+Nov 11 08:11:48 *	skali has quit (Ping timeout: 248 seconds)
+Nov 11 08:12:38 *	SpikeMaster (~user@dyn-170-253-149.myactv.net) has joined
+Nov 11 08:12:53 *	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined
+Nov 11 08:13:23 *	roadie (~user@87.116.176.92) has joined
+Nov 11 08:13:28 *	skali (~skali@77.79.141.159.dynamic.ufanet.ru) has joined
+Nov 11 08:14:16 *	thecliguy (~thecliguy@77.68.12.244) has joined
+Nov 11 08:15:43 *	magic_cookie (~user@unaffiliated/magic-cookie/x-5350034) has left ("ERC (IRC client for Emacs 25.2.1)")
+Nov 11 08:15:47 <roadie>	when you do a C-x 3 and split the frame there is a 1 pixel divider line - how can I find the name/face for that?
+Nov 11 08:17:12 <wasamasa>	go through faces.el
+Nov 11 08:17:18 *	pt1 has quit (Ping timeout: 260 seconds)
+Nov 11 08:17:26 <roadie>	ok
+Nov 11 08:17:38 <roadie>	I meant thank you :)
+Nov 11 08:18:04 <tephra>	roadie: I did M-x apropos and there is a face called window-divider 
+Nov 11 08:18:16 *	skali has quit (Ping timeout: 250 seconds)
+Nov 11 08:18:19 <SpikeMaster>	i think it is "vertical-border"
+Nov 11 08:18:21 <wasamasa>	it has docstrings that explain why there's three faces for it
+Nov 11 08:18:24 <SpikeMaster>	'(vertical-border ((t (:foreground "gray50"))))
+Nov 11 08:18:28 *	je has quit (Quit: je)
+Nov 11 08:18:33 *	thecliguy (~thecliguy@77.68.12.244) has left ("WeeChat 1.9")
+Nov 11 08:18:37 <wasamasa>	four even if you count vertical-border
+Nov 11 08:18:49 <roadie>	isnt that for terminal?
+Nov 11 08:18:53 <wasamasa>	yes it is
+Nov 11 08:19:00 <wasamasa>	but you'd know if you read the sources
+Nov 11 08:19:39 <roadie>	I have a dark gray assigned for vertical-border and the divider I mean shines in bright white almost
+Nov 11 08:19:48 <twrk>	"read the sources" lol
+Nov 11 08:19:56 <wasamasa>	read the sources for the sources
+Nov 11 08:20:04 <roadie>	I know I know
+Nov 11 08:20:51 *	magic_cookie_ (~magic_coo@unaffiliated/magic-cookie/x-5350034) has joined
+Nov 11 08:21:00 <SpikeMaster>	roadie: if you're in a terminal, the colors are more limited, so it might automatically go to the nearest color which may be pure white.
+Nov 11 08:21:08 <offby1>	Men often buy horses / for girls who read sources
+Nov 11 08:21:13 <offby1>	-- Dorothy Parker
+Nov 11 08:22:03 <roadie>	thank you tephra and SpikeMaster 
+Nov 11 08:24:20 *	novakboskov (~user@109-92-75-85.dynamic.isp.telekom.rs) has joined
+Nov 11 08:25:29 <novakboskov>	Anyone has an idea how to make bash aliases from .bashrc available to async-shell-command? Aliases work for M-x shell but don't for async-shell-command.
+Nov 11 08:25:52 *	skali (~skali@77.79.141.159.dynamic.ufanet.ru) has joined
+Nov 11 08:26:44 <offby1>	novakboskov: you could run "bash -i" instead of "bash" I think
+Nov 11 08:26:51 <offby1>	i.e., tell the new shell to read your init file
+Nov 11 08:28:58 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 08:30:54 <novakboskov>	offby1: bash -i "ls" -> bash: /usr/bin/pwd: cannot execute binary file
+Nov 11 08:30:58 *	skali has quit (Ping timeout: 248 seconds)
+Nov 11 08:31:42 *	dys (~dys@tmo-103-37.customers.d1-online.com) has joined
+Nov 11 08:31:54 *	python476 (~user@mfl93-6-88-169-195-97.fbx.proxad.net) has joined
+Nov 11 08:32:04 <novakboskov>	offby1: I have to go with bash -ic and then it works but then projectile lists some obscure bash errors as file names...
+Nov 11 08:32:15 *	SpikeMaster has quit (Quit: ERC (IRC client for Emacs 27.0.50))
+Nov 11 08:32:16 *	fcarrijo has quit (Quit: Leaving)
+Nov 11 08:33:40 *	it3ration has quit (Ping timeout: 248 seconds)
+Nov 11 08:34:36 *	dqx has quit (Ping timeout: 268 seconds)
+Nov 11 08:34:59 *	sellout (~user@75.171.208.0) has joined
+Nov 11 08:35:36 *	roadie has quit (Remote host closed the connection)
+Nov 11 08:36:25 *	novakboskov has quit (Quit: ERC (IRC client for Emacs 25.3.1))
+Nov 11 10:10:21 *	Disconnected ()
+**** ENDING LOGGING AT Sat Nov 11 10:10:21 2017
+
+**** BEGIN LOGGING AT Sat Nov 11 10:13:14 2017
+
+Nov 11 10:13:14 *	Now talking on #emacs
+Nov 11 10:13:14 *	Topic for #emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+Nov 11 10:13:14 *	Topic for #emacs set by kodein!1710@fukushima.lysator.liu.se (Thu Nov  2 03:21:50 2017)
+Nov 11 10:13:14 *	Channel #emacs url: https://www.emacswiki.org/emacs/EmacsChannel
+Nov 11 10:15:45 *	macrobat has quit (Quit: WeeChat 1.9.1)
+Nov 11 10:15:51 *	atw has quit (Read error: Connection reset by peer)
+Nov 11 10:16:32 *	atw (~user@24.148.50.16) has joined
+Nov 11 10:16:54 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 10:18:24 <defanor>	"My Cat from Hell is an American reality television series that airs on Animal Planet and premiered in May 2011. It stars Jackson Galaxy, a cat behaviorist by day and a musician by night, who visits the homes of cat owners in order to resolve conflicts or behavior issues between the owners and their cats or between the cats and other pets. Behavioral issues can include attacks by the cats on their owners."
+Nov 11 10:19:52 *	jjttjj has quit (Quit: Leaving.)
+Nov 11 10:20:22 <rocx>	> can
+Nov 11 10:20:39 <rocx>	pssh. cats only have an issue with someone else thinking they own them.
+Nov 11 10:21:11 <parsnip>	i have some off-topic questions on #emacs-offtopic, if someone could help, it might be offensive, i don't actually understand, it's very vague to me right now.
+Nov 11 10:21:42 *	it3ration has quit (Ping timeout: 240 seconds)
+Nov 11 10:22:46 *	zeratul_ has quit (Quit: Connection closed for inactivity)
+Nov 11 10:23:58 *	maarhart (~user@dyn-130-234-240-073.vpn.jyu.fi) has joined
+Nov 11 10:24:05 <defanor>	that's intriguing, but would also be weird to join it and get offended
+Nov 11 10:24:49 <offby1>	as far as I can tell, my cat considers us to be "The people who live in the house that I chose to live in"
+Nov 11 10:25:16 *	widp has quit (Quit: WeeChat 1.4)
+Nov 11 10:25:37 <maarhart>	nothing feels as fast as an emacs -q. what is the best way to find out which package(s) in my init are to blame?
+Nov 11 10:25:58 <offby1>	I seem to recall there was some sorta "profile-my-dot-emacs"
+Nov 11 10:25:59 <maarhart>	I mean, I don't care about startup times, but about responsiveness. 
+Nov 11 10:26:00 <offby1>	,profile
+Nov 11 10:26:00 <fsbot>	profile: [0] M-x locate-library elp
+Nov 11 10:26:00 <fsbot>	[1] try DopeEmacs for .emacs profiling
+Nov 11 10:26:00 <fsbot>	[2] See also DumpingEmacs
+Nov 11 10:26:00 <fsbot>	[3] elp
+Nov 11 10:26:08 <offby1>	,1
+Nov 11 10:26:09 <fsbot>	[TMDM] offby1: i hope your meta-key breaks and your escape-key stops escaping
+Nov 11 10:26:13 <offby1>	,DopeEmacs
+Nov 11 10:26:14 <fsbot>	Try: CategoryDotEmacs dope.el profile
+Nov 11 10:26:17 <offby1>	*shrug*
+Nov 11 10:26:36 <maarhart>	offby: so what should I try?
+Nov 11 10:26:57 <offby1>	,g DopeEmacs
+Nov 11 10:26:57 <fsbot>	rudybot: g DopeEmacs
+Nov 11 10:26:59 <rudybot>	fsbot: EmacsWiki: Debug File Loading https://www.emacswiki.org/emacs/DebugFileLoading
+Nov 11 10:27:05 <maarhart>	I have used benchmark-init but it is not too informative
+Nov 11 10:28:06 <offby1>	,elp
+Nov 11 10:28:07 <fsbot>	elp: [0/5] elp-instrument-package to instrument a functions starting with a certain prefix.
+Nov 11 10:28:07 <fsbot>	[1] elp-results to show profiling results
+Nov 11 10:28:07 <fsbot>	[2] see also ,EmacsLispProfiler
+Nov 11 10:28:07 <fsbot>	[3] run `C-x X =' after ,instrumenting ;;[ ,more/ ,dump]
+Nov 11 10:28:17 <offby1>	,EmacsLispProfiler
+Nov 11 10:28:18 <fsbot>	offby1, hmm, EmacsLispProfiler is at http://www.emacswiki.org/emacs/EmacsLispProfiler
+Nov 11 10:28:42 *	dqx has quit (Ping timeout: 250 seconds)
+Nov 11 10:28:47 *	systemfault (~rcyr@unaffiliated/rcyr) has joined
+Nov 11 10:28:50 <defanor>	how does elp help to debug init?
+Nov 11 10:28:59 <defanor>	s/debug/profile/
+Nov 11 10:29:25 <offby1>	beats me!
+Nov 11 10:29:51 *	damke_ has quit (Ping timeout: 240 seconds)
+Nov 11 10:30:18 *	hariel has quit (Ping timeout: 260 seconds)
+Nov 11 10:30:21 <defanor>	https://raw.github.com/emacsmirror/dope/master/dope.el says 404
+Nov 11 10:30:38 <defanor>	same with https://github.com/emacsmirror/dope
+Nov 11 10:30:40 <maarhart>	I'm not sure if you're still trying to answer my question or what
+Nov 11 10:30:51 *	hariel (~alhariel@179.191.223.246) has joined
+Nov 11 10:30:53 *	wolfcub has quit (Ping timeout: 260 seconds)
+Nov 11 10:30:53 *	alhariel has quit (Ping timeout: 260 seconds)
+Nov 11 10:31:09 *	alhariel (~alhariel@179.191.223.246) has joined
+Nov 11 10:31:11 *	wolfcub (~alhariel@179.191.223.246) has joined
+Nov 11 10:32:03 *	magic_cookie (~magic_coo@unaffiliated/magic-cookie/x-5350034) has joined
+Nov 11 10:32:26 *	maarhart` (~user@dyn-130-234-240-073.vpn.jyu.fi) has joined
+Nov 11 10:32:33 *	maarhart has quit (Remote host closed the connection)
+Nov 11 10:32:48 *	maarhart` is now known as maarhart
+Nov 11 10:36:40 <parsnip>	maarhart: what is slow in particular?
+Nov 11 10:37:18 <defanor>	oh, i've misread that – thought it's about init profiling
+Nov 11 10:37:29 <offby1>	me too
+Nov 11 10:37:36 *	defanor is distracted by the cat expert on tv, who helps to make some cat more confident
+Nov 11 10:38:29 <offby1>	gimme link
+Nov 11 10:38:43 *	offby1 is playing touch football with a catnip cigar as we speak
+Nov 11 10:39:01 <offby1>	i.e., sitting on the couch, throwing it, and hollering "Go long!!"
+Nov 11 10:39:04 <defanor>	touch football?
+Nov 11 10:39:34 <defanor>	https://en.wikipedia.org/wiki/Touch_football_(American)
+Nov 11 10:40:14 <defanor>	and if you were serious about a link, well, it's on tv. but it's that show i've mentioned above
+Nov 11 10:40:15 *	Actualeyes has quit (Remote host closed the connection)
+Nov 11 10:40:18 <parsnip>	it's like tag, but with a ball
+Nov 11 10:40:39 <maarhart>	parsnip: I mean when you notice some lag between your typing and what you see
+Nov 11 10:40:53 <maarhart>	not a huge lag, though, but compared to what you see in emacs -q it is.
+Nov 11 10:41:22 <maarhart>	but maybe it's because my cursor is not blinking... maybe it's my imagination. anyway, it would be nice to know, if there is a way
+Nov 11 10:41:25 *	magic_cookie has quit (Read error: Connection reset by peer)
+Nov 11 10:41:28 <parsnip>	maarhart: if it's easily reproducible, i would start by commenting out entire config, than bisect uncommenting.
+Nov 11 10:42:07 <maarhart>	parsnip: yeah, I would have done that, but I thought there was an easier thing to od
+Nov 11 10:42:08 <parsnip>	i usually edit config in my first emacs, then iterate with `emacs -nw` in a second terminal
+Nov 11 10:42:08 <maarhart>	do
+Nov 11 10:43:43 *	random_numbers (~random@unaffiliated/random-numbers/x-2839473) has joined
+Nov 11 10:45:21 *	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined
+Nov 11 10:46:04 <parsnip>	maarhart: you could also skim through C-h m to try to take a guess at which minor-modes might be likely candidates
+Nov 11 10:46:27 <offby1>	defanor: I'm sorry to report that I am exactly the target audience for that show.  Mrs offby1 too.
+Nov 11 10:46:29 *	lazerbeast (~user@dhcp-108-170-150-33.cable.user.start.ca) has joined
+Nov 11 10:46:36 <offby1>	I hate being a cliché, but what you gonna do?
+Nov 11 10:46:48 *	lazerbeast has quit (Client Quit)
+Nov 11 10:46:51 <offby1>	i yam what i yam
+Nov 11 10:46:55 <parsnip>	is that the guy with the guitar case?
+Nov 11 10:47:13 *	peterbecich has quit (Ping timeout: 260 seconds)
+Nov 11 10:47:42 *	kerananw has quit (Ping timeout: 240 seconds)
+Nov 11 10:48:04 <defanor>	i haven't seen a case, but he's bald, with earrings, and with fancy trimmed sideburns and beard
+Nov 11 10:48:10 <parsnip>	yep https://meow-meow.jp/wp-content/uploads/2016/08/My-Cat-From-Hell1.jpg
+Nov 11 10:49:03 <offby1>	cat toys
+Nov 11 10:49:22 *	rumbler31 (~rumbler31@c-76-100-127-232.hsd1.md.comcast.net) has joined
+Nov 11 10:49:33 <parsnip>	cat simulation environments
+Nov 11 10:49:45 <maarhart>	parsnip: http://paste.debian.net/995207 okay, who is to blame?
+Nov 11 10:49:48 <twrk>	the only thing I seem to succeed at is gaining and losing weight
+Nov 11 10:49:57 <parsnip>	it's a bird, it's a plane, no, it's a FEATHER!
+Nov 11 10:50:07 *	pt1 has quit (Ping timeout: 260 seconds)
+Nov 11 10:50:10 *	wandermind has quit (Ping timeout: 248 seconds)
+Nov 11 10:50:20 *	energizer (~energizer@unaffiliated/energizer) has joined
+Nov 11 10:50:24 <wasamasa>	hey, that's my razor blades brand
+Nov 11 10:50:30 <wasamasa>	supposedly japanese
+Nov 11 10:50:38 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 10:50:44 <parsnip>	maarhart: lol, that's for you to figure out!
+Nov 11 10:51:04 <maarhart>	:-(
+Nov 11 10:51:25 <wasamasa>	it's like the advent of bugs
+Nov 11 10:51:33 <wasamasa>	one treat every day
+Nov 11 10:51:44 <parsnip>	lol
+Nov 11 10:52:04 <twrk>	do you wake up with a renewed sense of optimism that bugs will always exist?
+Nov 11 10:52:06 <parsnip>	are we talking about the guitar case or the minor-modes?
+Nov 11 10:52:08 *	johnw (~johnw@haskell/developer/johnw) has joined
+Nov 11 10:52:22 <parsnip>	or your github issue tracker
+Nov 11 10:52:43 <wasamasa>	I thought of finding issues generally
+Nov 11 10:53:57 <parsnip>	i've given you two ideas, you have log(n) minutes to find it.
+Nov 11 10:53:57 <twrk>	"you can't replace me skynet! who will fix your bugs? who will know you HAVE bugs??"
+Nov 11 10:54:17 <twrk>	base 10?
+Nov 11 10:54:21 <parsnip>	*lg(n)
+Nov 11 10:54:29 <johnw>	I've decided that you can replace me with skynet
+Nov 11 10:54:40 <parsnip>	;_;
+Nov 11 10:55:41 <mrm>	johnw: Will skynet be able to merge use-package into core?
+Nov 11 10:55:57 *	it3ration has quit (Ping timeout: 260 seconds)
+Nov 11 10:55:59 <johnw>	ouch, low blow
+Nov 11 10:56:06 <lemonpie>	once it's killed all other maintainers, sure
+Nov 11 10:56:13 <twrk>	do blind people have built in VR
+Nov 11 10:56:29 <johnw>	making sure that's in my daily Org agenda from this day forward...
+Nov 11 10:56:37 <johnw>	work deadlines keep jumping up on me
+Nov 11 10:56:42 <lemonpie>	what? killing all other maintainers?
+Nov 11 10:56:53 <bremner>	johnw: that kinda makes it look premeditated
+Nov 11 10:57:08 <parsnip>	oh, that reminds me, only a few people seem to be aware that package-archives should be set before package-initialize, for smoother experience.
+Nov 11 10:57:12 <mrm>	johnw: Don't take that too seriously. Your sanity is far more important.
+Nov 11 10:57:37 *	Kaligule (~Kaligule@2001:a62:14cf:8700:5e51:4fff:fe9f:fe57) has joined
+Nov 11 10:57:47 <offby1>	"Don't take life so serious, son.  It ain't nohow permanent." -- Porkypine
+Nov 11 10:58:00 <mrm>	lol
+Nov 11 10:58:25 <parsnip>	wise words from a many that doesn't know gooder grammar
+Nov 11 10:58:31 *	maarhart has quit (Remote host closed the connection)
+Nov 11 10:58:33 <parsnip>	*man
+Nov 11 10:58:37 *	peterbecich (~peterbeci@47.37.164.78) has joined
+Nov 11 10:59:06 <bremner>	we are legion. we talks how we wants.
+Nov 11 10:59:18 <parsnip>	til nohow is a word
+Nov 11 11:00:22 *	gnufied has quit (Ping timeout: 240 seconds)
+Nov 11 11:00:25 <defanor>	"1. (slang[12]) In no way; not at all[13]; by no available means."
+Nov 11 11:00:25 <defanor>	just a slang word
+Nov 11 11:00:28 <twrk>	you knowhow nowhow isn't a woyd
+Nov 11 11:00:30 <defanor>	from 1883 though
+Nov 11 11:00:50 <defanor>	didn't get it into mainstream, apparently
+Nov 11 11:00:55 <defanor>	hrm, s/get/make/
+Nov 11 11:00:56 <parsnip>	johnw: work is still mostly haskell?
+Nov 11 11:01:14 <twrk>	yet 'canceled' is a thing
+Nov 11 11:01:21 <johnw>	parsnip: it's 60% Haskell and 40% Coq right now, because I'm spread across two projects
+Nov 11 11:01:33 <twrk>	just another coq in the machina
+Nov 11 11:01:36 <wasamasa>	lol
+Nov 11 11:01:41 <johnw>	at this moment I'm writing Haskell to generate SVG diagrams
+Nov 11 11:01:51 <mrm>	Woa, where do you work that uses coq?
+Nov 11 11:01:59 <parsnip>	^
+Nov 11 11:02:00 <johnw>	in order to pictorially represent a solution being generated by Z3, an SMT solver
+Nov 11 11:02:05 <bremner>	writing css to generate Haskell would be more impressive.
+Nov 11 11:02:06 <johnw>	mrm: a defense contractor
+Nov 11 11:02:13 <wasamasa>	rudybot: just another error in the -Wall
+Nov 11 11:02:19 <mrm>	Ah. That makes sense.
+Nov 11 11:02:26 <rudybot>	wasamasa: http://www.rollingstone.com/politics/blogs/taibblog/jp-morgan-chase-fine-another-slap-on-the-wrist-for-wall-street-20110708 isn't particularly informative but is a decent rant on how investment banks are treated.
+Nov 11 11:02:32 <wasamasa>	nice
+Nov 11 11:02:34 <johnw>	I really enjoy Coq programming too, it's my favorite so far
+Nov 11 11:02:59 <wasamasa>	but can you write a lisp interpreter in it??
+Nov 11 11:02:59 <fsbot>	It is decidedly so!
+Nov 11 11:03:04 <twrk>	I bet it doesnt have semicolons, but has braces
+Nov 11 11:04:22 *	gnufied (~gnufied@2602:304:b2c9:7470:becb:15c7:5bdd:3bbe) has joined
+Nov 11 11:05:02 <twrk>	rudybot: can coq teach me to be a master at making proofs?
+Nov 11 11:05:03 <parsnip>	programming languages are like levers
+Nov 11 11:05:07 *	narendraj9 (~user@1.23.210.229) has joined
+Nov 11 11:05:17 <rudybot>	twrk: (Coq is a theorem prover, it's a way to formally verify proofs by computer)
+Nov 11 11:05:21 <johnw>	twrk: Coq uses neither braces nor semis much at all
+Nov 11 11:05:37 <johnw>	it's based on ML, so it's more "keyword ... end" type blocks
+Nov 11 11:05:46 <parsnip>	uses periods i guess
+Nov 11 11:05:48 <wasamasa>	last thing I found was that you can write a lisp interpreter in coldfusion
+Nov 11 11:05:53 <johnw>	the tactic language uses periods
+Nov 11 11:06:03 <johnw>	the functional language is just expressions, no statement, so there's no separator
+Nov 11 11:06:47 <twrk>	proofs are a lot like women. I just don't know what to say, or if what I'm thinking of what I should say should be the right thing to say
+Nov 11 11:07:08 <johnw>	so you mean, they're like you talking to women?
+Nov 11 11:07:22 <twrk>	,cry
+Nov 11 11:07:23 <fsbot>	try:  auto-encryption-mode AutoEncryption bat-crying-out-in-joy BbdbAndMailCrypt CategoryCryptography crypto CryptPlusPlus crystalball encrypt.el EncryptingMail Encryption MailCrypt mc-auto-encrypt.el mh-crypt.el ViewMailAndMailCrypt ViewMailMailCrypt
+Nov 11 11:07:23 *	davr0s has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+Nov 11 11:07:31 <twrk>	I mean ,,dance
+Nov 11 11:07:31 <fsbot>	^(^-')^ .('-^). ,(>_>)^ ^(<_<).
+Nov 11 11:08:10 <forcer>	If you are unsure if something is appropriate to say, a good rule of thumb is to not say it.
+Nov 11 11:08:15 *	xor-xor (~xor-xor@d92-6.icpnet.pl) has joined
+Nov 11 11:08:26 <twrk>	well then how can I prove anything?!
+Nov 11 11:08:34 <parsnip>	:|
+Nov 11 11:08:40 <python476>	hmm coq
+Nov 11 11:08:44 <forcer>	I would suggest you start by educating yourself.
+Nov 11 11:08:49 <wasamasa>	no need to have a say in everything
+Nov 11 11:09:19 *	Kaligule has quit (Ping timeout: 252 seconds)
+Nov 11 11:11:21 <defanor>	https://coinhive.com/ – not just cryptocurrency mining on (potentially unsuspecting) clients is not just a joke anymore, it also gets widespread, apparently
+Nov 11 11:11:40 <mrm>	twrk: You could get started with How to Prove It, 2e. It's a pretty good book, and the exercises are really nice.
+Nov 11 11:11:45 <defanor>	maybe those even were the jokes that gave them the idea
+Nov 11 11:12:37 <defanor>	"software foundations" is also a nice book, on coq specifically
+Nov 11 11:12:43 <defanor>	and free, too
+Nov 11 11:12:49 <parsnip>	that's exactly what i started with, very low learning curve, good preparation
+Nov 11 11:13:16 <parsnip>	How to Prove It has a special place in my heart
+Nov 11 11:14:04 <parsnip>	worked through that on my break before transferring to university
+Nov 11 11:14:18 *	trapezoid (~user@47.150.76.68) has joined
+Nov 11 11:14:37 <parsnip>	then took a proofs class, and benefited from that, i understood mechanics of proofs, so it was just a matter of solving the puzzles they gave us.
+Nov 11 11:14:41 <bremner>	nerd!
+Nov 11 11:14:44 <bremner>	;)
+Nov 11 11:15:34 <parsnip>	:P
+Nov 11 11:15:38 <mrm>	Likewise. When I finally took an actual proof class, I felt so prepared, so it all just ended up being good practice.
+Nov 11 11:15:58 <wasamasa>	time to write "How to elisp it"
+Nov 11 11:16:08 <devonrevenge>	are there any manchester peeps here?
+Nov 11 11:16:56 <mrm>	Step 1: learn how to not hate yourself for doing terrible things with code.
+Nov 11 11:17:41 *	finkata__ has quit (Remote host closed the connection)
+Nov 11 11:17:49 <devonrevenge>	because im trying to find a good place to get a roast tommorow - it is an emacs question
+Nov 11 11:18:30 <mrm>	devonrevenge: Have you tried M-x find-roast ?
+Nov 11 11:19:00 *	finkata__ (~finkata@gateway/tor-sasl/finkata) has joined
+Nov 11 11:20:20 *	offby1 sniffs
+Nov 11 11:20:36 <twrk>	thanks mrm
+Nov 11 11:20:52 <offby1>	,g roast mancuian emacs 
+Nov 11 11:20:52 <fsbot>	rudybot: g roast mancuian emacs
+Nov 11 11:20:53 <rudybot>	fsbot: Eczema https://www.cs.cornell.edu/courses/cs1110/2014sp/labs/lab06/scowl_utf-8.txt
+Nov 11 11:22:55 <twrk>	y'know what's pretty awesome: (define-key key-translation-map (kbd "C-[") (kbd "C-g"))
+Nov 11 18:19:32 *	Disconnected ()
+**** ENDING LOGGING AT Sat Nov 11 18:19:32 2017
+
+**** BEGIN LOGGING AT Sat Nov 11 18:19:55 2017
+
+Nov 11 18:19:55 *	Now talking on #emacs
+Nov 11 18:19:55 *	Topic for #emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+Nov 11 18:19:55 *	Topic for #emacs set by kodein!1710@fukushima.lysator.liu.se (Thu Nov  2 03:21:50 2017)
+Nov 11 18:19:56 *	Channel #emacs url: https://www.emacswiki.org/emacs/EmacsChannel
+Nov 11 18:20:32 <tamouse__>	some of them might be, but the Halon-type are gases
+Nov 11 18:20:39 *	feigned has quit (Quit: Leaving)
+Nov 11 18:20:57 <aidalgol>	Is that what most are for server rooms?
+Nov 11 18:21:08 <lemonpie>	well, it's stored as a liquid, boiling point at standard pressure is about -15C
+Nov 11 18:21:17 <tamouse__>	last time i paid any attention to this was in the 80s so i don't know
+Nov 11 18:22:21 <lemonpie>	hmmm, halon is known to cause neurological disorders similar to what i have...
+Nov 11 18:22:33 <aidalgol>	O_O
+Nov 11 18:22:46 <lemonpie>	i wonder if i can try and sue the current owners of the company name that i worked for with the halon system and claim it must have leaked
+Nov 11 18:22:49 <diogenese>	so you'd be immune (sort of)
+Nov 11 18:23:05 *	banttu has quit (Ping timeout: 240 seconds)
+Nov 11 18:23:08 *	gmcastil (~user@70.58.28.73) has joined
+Nov 11 18:23:10 <aidalgol>	lemonpie: Was this recent enough?
+Nov 11 18:23:30 <lemonpie>	1992
+Nov 11 18:23:43 <lemonpie>	but Azko Nobel has deep pockets :P
+Nov 11 18:23:45 <aidalgol>	Might be too long ago, but IANAL.
+Nov 11 18:31:54 *	Disconnected ()
+**** ENDING LOGGING AT Sat Nov 11 18:31:54 2017
+
+**** BEGIN LOGGING AT Sat Nov 11 18:32:21 2017
+
+Nov 11 18:32:21 *	Now talking on #emacs
+Nov 11 18:32:21 *	Topic for #emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+Nov 11 18:32:21 *	Topic for #emacs set by kodein!1710@fukushima.lysator.liu.se (Thu Nov  2 03:21:50 2017)
+Nov 11 18:32:21 *	Channel #emacs url: https://www.emacswiki.org/emacs/EmacsChannel
+Nov 11 18:32:22 <aidalgol>	Yes... I have seen this side of Tumblr.
+Nov 11 18:32:31 <aidalgol>	I have seen what no man should have to see...
+Nov 11 18:32:39 <aidalgol>	*thousand-yard stare*
+Nov 11 18:32:45 *	mbrgm has quit (Ping timeout: 268 seconds)
+Nov 11 18:32:49 *	mbrgm_ (~mbrgm@unaffiliated/mbrgm) has joined
+Nov 11 18:32:56 <twrk>	yet, one day you'll top yourself
+Nov 11 18:33:14 *	mbrgm_ is now known as mbrgm
+Nov 11 18:33:15 <twrk>	(in seeing unwanted things)
+Nov 11 18:33:34 <aidalgol>	I was being dramatic.  It was just stupid.
+Nov 11 18:33:45 <aidalgol>	The disturbing shit is on reddit and 4chan
+Nov 11 18:33:59 <twrk>	there's no room for the arts in #emacs :(
+Nov 11 18:34:01 <aidalgol>	oh, and then there's theh "darkweb"
+Nov 11 18:34:07 <lemonpie>	and deviantart *shudder*
+Nov 11 18:35:01 *	bokuno has quit (Ping timeout: 240 seconds)
+Nov 11 18:35:45 *	tamouse__2 has quit (Ping timeout: 248 seconds)
+Nov 11 18:36:28 <aidalgol>	lemonpie: I'd put most of that in the stupid basket.
+Nov 11 18:37:08 *	banttu (~bantu@154.122.74.96) has joined
+Nov 11 18:37:22 *	tomterl has quit (Ping timeout: 260 seconds)
+Nov 11 18:37:40 <lemonpie>	i dunno, nazi-MLP porn is pretty disturbing
+Nov 11 18:38:03 *	tomterl (~tomterl@p5DC702DC.dip0.t-ipconnect.de) has joined
+Nov 11 18:38:18 <aidalgol>	Whoo-kay, guess there's much worse on DA than I thought.
+Nov 11 18:40:46 *	bokuno (~user@unaffiliated/bokuno) has joined
+Nov 11 18:42:03 *	seen_ has quit (Remote host closed the connection)
+Nov 11 18:42:14 <holomorph>	lol da
+Nov 11 18:42:22 *	seen_ (~seen_@gateway/tor-sasl/seen/x-50706747) has joined
+Nov 11 18:44:22 *	stardiviner (~numbchild@unaffiliated/stardiviner) has joined
+Nov 11 18:44:39 *	diogenese has quit (Remote host closed the connection)
+Nov 11 18:45:42 *	bokuno has quit (Ping timeout: 268 seconds)
+Nov 11 18:45:51 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 18:46:13 *	TheWolf (~TheWolf@p548202B7.dip0.t-ipconnect.de) has joined
+Nov 11 18:46:59 *	dqx has quit (Ping timeout: 248 seconds)
+Nov 11 18:47:18 <aidalgol>	What would a .jsm file be?
+Nov 11 18:47:31 *	gmcastil has quit (Ping timeout: 248 seconds)
+Nov 11 18:48:29 <lemonpie>	openstreetmap ?
+Nov 11 18:48:46 <aidalgol>	with a 'J'?
+Nov 11 18:48:55 <lemonpie>	google JOSM
+Nov 11 18:49:02 <lemonpie>	it's the main editor people use for it
+Nov 11 18:49:07 <aidalgol>	ah
+Nov 11 18:49:26 <aidalgol>	I'm seeing this from Firefox on stdout: "emit/promises<@resource://gre/modules/ExtensionUtils.jsm"
+Nov 11 18:49:35 <aidalgol>	(that's a snippet of a stack trace)
+Nov 11 18:49:57 <lemonpie>	oh, that's more likely some kind of javascript file, modules maybe?
+Nov 11 18:50:31 *	it3ration has quit (Ping timeout: 240 seconds)
+Nov 11 18:50:45 *	bokuno (~user@unaffiliated/bokuno) has joined
+Nov 11 18:52:02 <whoman>	jpen
+Nov 11 18:54:00 <aidalgol>	Does this recruiter's job listings sound a bit suspuciously vague to anyone else? https://www.trademe.co.nz/jobs/listings/agents/4923253.htm
+Nov 11 18:54:11 *	enterprisey has quit (Read error: Connection reset by peer)
+Nov 11 18:54:26 *	phdzl has quit (Ping timeout: 248 seconds)
+Nov 11 18:54:26 <aidalgol>	As if they might just be fishing for applicants and don't have an actual job lined up?
+Nov 11 18:55:30 <twrk>	"trademe"?
+Nov 11 18:55:36 *	mejja has quit (Quit: ChatZilla 0.9.93 [Firefox 56.0/20171003100843])
+Nov 11 18:56:00 <twrk>	isn't the point of a recruiter to collect commission on hiring people?
+Nov 11 18:56:03 <aidalgol>	twrk: No, "Sunstone Talent".
+Nov 11 18:56:17 <tamouse__>	looks like they just scraped other job sites
+Nov 11 18:56:27 *	wxie (~Thunderbi@223.166.142.156) has joined
+Nov 11 18:57:14 <tamouse__>	i get hits from shops like that alla time, and when i go look there's no job there
+Nov 11 18:57:34 <tamouse__>	cybercoders is a huge one
+Nov 11 18:57:35 <twrk>	maybe they actually realize that (related) langauges are similar, and candidates are usually able to showcase relative knowledge from one area to another
+Nov 11 18:58:06 <twrk>	nvm... that would be asking too much
+Nov 11 18:58:12 <aidalgol>	haha!
+Nov 11 19:02:37 *	YoungFrog has quit (Ping timeout: 250 seconds)
+Nov 11 19:03:19 *	YoungFrog (~youngfrog@fsf/member/youngfrog) has joined
+Nov 11 19:05:08 *	cobreadmonster has quit (Quit: Connection closed for inactivity)
+Nov 11 19:05:10 *	davr0s (~textual@host86-157-69-50.range86-157.btcentralplus.com) has joined
+Nov 11 19:08:30 *	diogenese (~diogenese@diogenese.velotech.net) has joined
+Nov 11 19:17:08 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 19:17:44 <whoman>	hey smarties, https://medium.com/@karpathy/software-2-0-a64152b37c35
+Nov 11 19:20:01 *	bokuno has quit (Ping timeout: 248 seconds)
+Nov 11 19:21:42 *	it3ration has quit (Ping timeout: 240 seconds)
+Nov 11 19:22:25 *	chandan (~chandan@122.166.164.21) has joined
+Nov 11 19:24:05 <lemonpie>	damn it ubuntu, 16.04's dovecot is years out of date
+Nov 11 19:30:33 *	stardiviner has quit (Read error: Connection reset by peer)
+Nov 11 19:30:47 *	cpe has quit (Ping timeout: 250 seconds)
+Nov 11 19:31:06 *	stardiviner (~numbchild@unaffiliated/stardiviner) has joined
+Nov 11 19:33:41 *	marusich (~marusich@unaffiliated/marusich) has joined
+Nov 11 19:35:52 *	cpe (~cpe@unaffiliated/cpe) has joined
+Nov 11 19:37:37 *	zh2683 (~user@219.147.95.162) has joined
+Nov 11 19:37:38 <twrk>	smarties? overestimation is a problem nowadays
+Nov 11 19:39:58 <hodapp>	oh really, would you estimate that it's a problem quite a lot?
+Nov 11 19:39:58 *	wxie has quit (Read error: Connection reset by peer)
+Nov 11 19:41:24 <twrk>	well, sometimes I think that having a blog is better able to convey to others that you know sutff rather than knowing stuff and not having a blog
+Nov 11 19:42:01 <twrk>	and , you don't really have to know much, you just need to return in the top results on google
+Nov 11 19:43:07 <twrk>	who remembers when software development was centered around altruism
+Nov 11 19:43:12 *	twrk has quit (Read error: Connection reset by peer)
+Nov 11 19:45:17 <tamouse__>	um
+Nov 11 19:45:26 <tamouse__>	you mean working for the governmenet?
+Nov 11 19:46:39 <aidalgol>	"Software 2.0" oh fgs...
+Nov 11 19:47:18 <hodapp>	aidalgol: it's an apt analogy.
+Nov 11 19:47:46 <aidalgol>	hodapp: that's an analogy?
+Nov 11 19:48:09 <hodapp>	aidalgol: I guess I'm seeing it as a sort of figurative use of the term.
+Nov 11 19:48:24 <mrm>	When are things generally going to start upgrading to 3.0?
+Nov 11 19:48:48 <hodapp>	mrm: something something mumble mumble Artificial General Intelligence something something
+Nov 11 19:49:00 <hodapp>	mrm: when Wired articles start actually coming true
+Nov 11 19:49:08 <aidalgol>	mrm: I dunno.  Supposedly we're *at* "Web 2.0", but I haven't seen any clickbaity blog posts about "Web 3.0".
+Nov 11 19:49:21 *	smathew has quit (Ping timeout: 240 seconds)
+Nov 11 19:49:57 *	wxie (~Thunderbi@223.166.142.156) has joined
+Nov 11 19:51:12 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 19:52:06 *	jameser (~textual@60.24.156.241) has joined
+Nov 11 19:52:52 *	smathew (~user@2600:8803:7885:f401:6ccd:978:f13e:f94c) has joined
+Nov 11 19:52:57 <mrm>	There was a show called Jake 2.0, and on the last episode he gets upgraded to 3.0, but that's the only example I can think of.
+Nov 11 19:53:25 <mrm>	Probably got cancelled because it would have been too expensive to change the name.
+Nov 11 19:53:47 <lemonpie>	software development was never centered around altruism, except in so much as academic software development was the most visible form of software development to most
+Nov 11 19:56:04 *	stardiviner has quit (Remote host closed the connection)
+Nov 11 19:56:12 <lemonpie>	example: the apollo guidance computer is open source, because NASA worked along academic lines, but go try and find the titan-2 guidance system's source code :)
+Nov 11 19:56:19 *	it3ration has quit (Ping timeout: 248 seconds)
+Nov 11 19:57:51 *	papachan has quit (Quit: WeeChat 0.4.2)
+Nov 11 19:58:26 <mrm>	Now that I think about it, Jake 2.0 was basically just Chuck, but like 4 years too early.
+Nov 11 19:58:36 <hodapp>	most of my software development was centered around trying to destroy humanity
+Nov 11 19:59:02 *	dmartincy has quit (Ping timeout: 260 seconds)
+Nov 11 19:59:31 *	bokuno (~user@unaffiliated/bokuno) has joined
+Nov 11 20:00:24 <tamouse__>	did you succeed?
+Nov 11 20:02:32 *	snakehsu has quit (Ping timeout: 260 seconds)
+Nov 11 20:03:14 *	AxelAlex (~AxelAlex@dynamic-addr-130-13.resnet.rochester.edu) has joined
+Nov 11 20:04:23 *	snakehsu (~Thunderbi@123.121.44.45) has joined
+Nov 11 20:05:08 *	led_belly (~led_belly@S01060050fc1ea715.cg.shawcable.net) has joined
+Nov 11 20:05:23 *	SaganMan (~deepthoug@unaffiliated/saganman) has joined
+Nov 11 20:14:08 *	Anatzum (~michael@gateway/vpn/privateinternetaccess/anatzum) has joined
+Nov 11 20:14:23 *	TRS-80 has quit (Quit: Konversation terminated!)
+Nov 11 20:14:44 <hodapp>	..........yes
+Nov 11 20:15:21 *	loplin (~user@cpe-75-86-183-1.wi.res.rr.com) has joined
+Nov 11 20:16:58 *	jameser has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+Nov 11 20:17:22 <loplin>	Hello. I am having an issue where I have tab indent enabled, but in certain scenarios C-M-\ indents with some tabs followed by a single space for a few lines, which looks to be aligning with an opening paren. How can I disable that behaviour?
+Nov 11 20:17:25 <Anatzum>	I've recently started using emacs as a daemon to speed start up but there are a couple of variables I need set which I had in my .bash_profile. My PATH and a GOPATH variable. I've been doing some reading and how and where to place are all over the place and i'm not entirely sure which one is appropriate also If I do set them for systemd/user do I still keep them in my .bash_profile as well?
+Nov 11 20:18:44 *	dmartincy (~user@201.red-83-51-36.dynamicip.rima-tde.net) has joined
+Nov 11 20:19:53 *	bokuno has quit (Read error: Connection reset by peer)
+Nov 11 20:20:13 *	bokuno (~user@unaffiliated/bokuno) has joined
+Nov 11 20:20:19 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 20:20:31 *	Actualeyes (~user@p763089-ipngn200306okayamahigasi.okayama.ocn.ne.jp) has joined
+Nov 11 20:20:48 <tamouse__>	Anatzum: are you starting the emacs daemon from a login shell?
+Nov 11 20:22:06 <Anatzum>	tamouse__: it's a systemd user unit
+Nov 11 20:22:08 <tamouse__>	i think that's the only time .bash_profile is read... although i don't know from systemd so i'm probably wrong
+Nov 11 20:22:31 *	snakehsu has quit (Ping timeout: 268 seconds)
+Nov 11 20:22:31 *	banttu has quit (Ping timeout: 268 seconds)
+Nov 11 20:22:57 *	dmartincy has quit (Ping timeout: 248 seconds)
+Nov 11 20:23:31 <Anatzum>	I think i'll ask this in #systemd I think that is probably a better place for this question since the fact that it is emacs is pretty irrelivant in this case :/
+Nov 11 20:24:56 <tamouse__>	Anatzum: sorry
+Nov 11 20:25:36 *	it3ration has quit (Ping timeout: 268 seconds)
+Nov 11 20:26:22 *	mbuf (~Shakthi@103.219.206.30) has joined
+Nov 11 20:31:09 *	whyNOP has quit (Ping timeout: 268 seconds)
+Nov 11 21:08:46 *	Disconnected ()
+**** ENDING LOGGING AT Sat Nov 11 21:08:46 2017
+
+**** BEGIN LOGGING AT Sat Nov 11 21:09:11 2017
+
+Nov 11 21:09:11 *	Now talking on #emacs
+Nov 11 21:09:11 *	Topic for #emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+Nov 11 21:09:11 *	Topic for #emacs set by kodein!1710@fukushima.lysator.liu.se (Thu Nov  2 03:21:50 2017)
+Nov 11 21:09:12 *	Channel #emacs url: https://www.emacswiki.org/emacs/EmacsChannel
+Nov 11 21:10:04 <trux>	Anatzum: yes, basically I'm in doubt If I switch my machine, how I will get all packages that I'm using right now, is there a way i can get all packages install automatically by emacs, if I put names of packages in emacs?
+Nov 11 21:10:14 *	isacdaavid has quit (Quit: Leaving.)
+Nov 11 21:12:26 <Anatzum>	I actually never used init.el, I've always just stuck everything in my $HOME/.emacs file. This is what mine looks like. I didnt paste the whole thing it's too long but you get the general idea. https://codepaste.net/qkgzbc I made sure to list them in alphabetical order so its easy to look around
+Nov 11 21:12:38 *	iRocki2 (0e8d9edc@gateway/web/freenode/ip.14.141.158.220) has joined
+Nov 11 21:13:20 <Anatzum>	So basically if you do something like that all you have to do is hookup melpa, download use-package and then copy/paste your .emacs file and boom it's all setup
+Nov 11 21:15:03 <Anatzum>	Not sure if there is a way to have melpa installed then download use-package first before any of the other items get called so that it is all automatic
+Nov 11 21:18:19 <iRocki2>	wht community of emacs in india?
+Nov 11 21:18:26 <trux>	Anatzum: please elaborate Not sure if there is a way to have melpa installed then download use-package first before any of the other items get called so that it is all automatic?
+Nov 11 21:19:15 <trux>	iRocki2: yes Bangalore, Delhi emacs group
+Nov 11 21:20:29 <iRocki2>	trux: bangalore? i m from bangalore
+Nov 11 21:20:57 <iRocki2>	trux: pls ....share details
+Nov 11 21:21:12 <trux>	iRocki2: check Bangalore emacs meetup group?
+Nov 11 21:21:34 <iRocki2>	trux: ok. delhi also meetup group?
+Nov 11 21:22:20 <Anatzum>	Once "use-package" is installed you can write packages in that format in the link I posted which will automatically download/install them from melpa and also set up your custom configurations for them as well. But in order for that to work 2 things must be done. 1) setup melpa, 2) install use-package
+Nov 11 21:22:57 *	systemfault (~rcyr@unaffiliated/rcyr) has joined
+Nov 11 21:23:05 *	systemfault has quit (Client Quit)
+Nov 11 21:23:53 <trux>	Anatzum: Thank you :)
+Nov 11 21:24:20 <trux>	iRocki2: I'm not sure it is active right now or not!
+Nov 11 21:25:17 <trux>	iRocki2: how old are you?
+Nov 11 21:26:32 <iRocki2>	trux: i m 30
+Nov 11 21:26:36 <iRocki2>	trux: u?
+Nov 11 21:30:28 *	trux has quit (Quit: Leaving)
+Nov 11 21:30:32 *	laertus (~laertus@unaffiliated/radial) has left ("WeeChat 1.9.1")
+Nov 11 21:38:01 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 21:40:19 <codingquark>	Good morning!
+Nov 11 21:40:35 <codingquark>	Had to break no-computer weekend rule :(
+Nov 11 21:40:51 *	aw1 has quit (Ping timeout: 248 seconds)
+Nov 11 21:42:52 *	it3ration has quit (Ping timeout: 260 seconds)
+Nov 11 21:44:43 <iRocki2>	codingquark: i like working with computer. u not break it.
+Nov 11 21:45:26 *	systemfault (~rcyr@unaffiliated/rcyr) has joined
+Nov 11 21:46:24 <codingquark>	iRocki2: rage makes me do wondrous things!
+Nov 11 21:47:18 <codingquark>	I see people are sharing their age today.
+Nov 11 21:47:48 <iRocki2>	codingquark: sorry. my english is poor.
+Nov 11 21:48:08 <iRocki2>	codingquark: not meaning wht u r saying.
+Nov 11 21:48:58 *	holomorph has quit (Quit: holomorph)
+Nov 11 21:49:54 *	tamouse__ has quit (Read error: Connection reset by peer)
+Nov 11 21:50:32 *	zjason (~user@36-231-238-129.dynamic-ip.hinet.net) has left ("ERC (IRC client for Emacs 25.1.1)")
+Nov 11 21:50:38 *	zjason (~user@36-231-238-129.dynamic-ip.hinet.net) has joined
+Nov 11 21:51:16 *	dtaht has quit (Read error: Connection reset by peer)
+Nov 11 21:51:31 *	dtaht (~user@c-24-6-113-161.hsd1.ca.comcast.net) has joined
+Nov 11 21:53:49 *	aw1 (~aw1@unaffiliated/aw1) has joined
+Nov 11 21:58:57 <codingquark>	iRocki2: give some money to your English. Make sure it has enough to buy food at least.
+Nov 11 22:01:13 <iRocki2>	codingquark: hahahahahahaha
+Nov 11 22:03:11 *	roadie has quit (Ping timeout: 240 seconds)
+Nov 11 22:06:36 <codingquark>	iRocki2: are you using emacs?
+Nov 11 22:07:47 *	roadie (~user@87.116.176.92) has joined
+Nov 11 22:08:47 <iRocki2>	codingquark: little
+Nov 11 22:08:57 <iRocki2>	codingquark: i wnt 2 learn
+Nov 11 22:09:25 <iRocki2>	codingquark: most atom
+Nov 11 22:09:30 *	rpg has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+Nov 11 22:12:00 *	hotbobby (nick@vm.piss.tech) has joined
+Nov 11 22:12:09 *	scottj (~s@unaffiliated/scottj) has joined
+Nov 11 22:15:07 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 11 22:15:42 *	roadie has quit (Quit: ERC (IRC client for Emacs 25.1.1))
+Nov 11 22:19:19 *	dmartincy (~user@201.red-83-51-36.dynamicip.rima-tde.net) has joined
+Nov 11 22:19:51 *	it3ration has quit (Ping timeout: 240 seconds)
+Nov 11 22:21:27 *	Hi-Angel (~constanti@83.69.0.50) has joined
+Nov 11 22:21:58 *	ewatcher (~user@66.171.188.163) has joined
+Nov 11 22:23:31 *	dmartincy has quit (Ping timeout: 240 seconds)
+Nov 12 07:01:39 *	Disconnected ()
+**** ENDING LOGGING AT Sun Nov 12 07:01:39 2017
+
+**** BEGIN LOGGING AT Sun Nov 12 07:02:04 2017
+
+Nov 12 07:02:04 *	Now talking on #emacs
+Nov 12 07:02:04 *	Topic for #emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+Nov 12 07:02:04 *	Topic for #emacs set by kodein!1710@fukushima.lysator.liu.se (Thu Nov  2 03:21:50 2017)
+Nov 12 07:02:04 *	Channel #emacs url: https://www.emacswiki.org/emacs/EmacsChannel
+Nov 12 07:03:40 *	fcarrijo has quit (Quit: fcarrijo)
+Nov 12 07:04:37 *	it3ration has quit (Ping timeout: 260 seconds)
+Nov 12 07:05:50 <paluche>	s is on melpa and melpa-stable.
+Nov 12 07:07:47 *	DavidCanHelp (~dcl@freecode-project/hacker/spiderbyte) has joined
+Nov 12 07:09:40 *	whoman (~humasect@147.194.20.41) has joined
+Nov 12 07:11:24 *	teej (uid154177@gateway/web/irccloud.com/x-giwqyavgygvnhlly) has joined
+Nov 12 07:11:25 *	caveman (~caveman@unaffiliated/mahmoud) has joined
+Nov 12 07:11:36 <caveman>	hi - does rms hang here?
+Nov 12 07:12:00 <YoungFrog>	also on marmalade. Is marmalade still maintained btw ? 
+Nov 12 07:12:03 *	tecepe (~tcpaiva@c-24-62-206-125.hsd1.ma.comcast.net) has joined
+Nov 12 07:12:11 <YoungFrog>	rms on irc ??
+Nov 12 07:12:11 <fsbot>	Probably!
+Nov 12 07:12:24 <YoungFrog>	yes, probably, but p = 0.
+Nov 12 07:12:51 *	theoceaniscool (~theoceani@224.red-88-1-27.dynamicip.rima-tde.net) has joined
+Nov 12 07:13:00 <caveman>	he can use gnu/irssi
+Nov 12 07:13:15 <caveman>	or gnu/weechat
+Nov 12 07:13:29 <caveman>	gnu/* since they were compiled with gnu gcc.
+Nov 12 07:13:43 <caveman>	gnu GCC gcc.
+Nov 12 07:14:02 <caveman>	anyway rms is a nice dude. 
+Nov 12 07:14:31 <caveman>	that said, could someone plz help me with emacs? when i do ^C^pp to render latex in emacs, i get an error.
+Nov 12 07:14:40 *	cpe has quit (Ping timeout: 258 seconds)
+Nov 12 07:15:08 <caveman>	it says PostScript Error
+Nov 12 07:15:19 *	holomorph (~holomorph@unaffiliated/holomorph) has joined
+Nov 12 07:15:20 <rocx>	something to do with your (la)tex setup?
+Nov 12 07:15:52 *	mrm is now known as rms
+Nov 12 07:15:56 <caveman>	i can do pdflatex just fine.
+Nov 12 07:16:01 <rms>	Yes, I do.
+Nov 12 07:16:06 *	rms is now known as mrm
+Nov 12 07:16:10 <caveman>	hi rms. is that the real u?
+Nov 12 07:16:20 <rocx>	no.
+Nov 12 07:16:22 <caveman>	mrm? mohammed richard mashallah?
+Nov 12 07:16:35 *	banttu has quit (Ping timeout: 258 seconds)
+Nov 12 07:17:01 <caveman>	one with shorter nickname has a higher social status in irc networks
+Nov 12 07:17:12 <rocx>	p much.
+Nov 12 07:17:32 <bremner>	caveman: is that auctex or regular tex mode?
+Nov 12 07:17:54 <bremner>	I guess the latter.
+Nov 12 07:18:08 <mrm>	caveman: You actually guessed my middle name correctly.
+Nov 12 07:19:27 <caveman>	bremner: it  is supposed to render tex inside emacs. i guess this must be auctex?
+Nov 12 07:19:46 <caveman>	it used to render text inside emacs. i updated my distro and things went out of whack
+Nov 12 07:19:47 <bremner>	caveman: C-c C-p is not bound for me in auctex
+Nov 12 07:19:55 *	cpe (~cpe@unaffiliated/cpe) has joined
+Nov 12 07:20:32 <caveman>	bremner: Cc Cp Cp 
+Nov 12 07:21:12 <bremner>	ah, ok, something about preview
+Nov 12 07:21:23 <bremner>	that's always seemed super fragile
+Nov 12 07:21:45 *	snakehsu (~Thunderbi@123.121.22.90) has joined
+Nov 12 07:22:04 <caveman>	it always worked just fine for me.
+Nov 12 07:22:43 *	theoceaniscool has quit (Ping timeout: 248 seconds)
+Nov 12 07:22:44 <codingquark>	Oh damn I missed rms scene
+Nov 12 07:23:38 <codingquark>	If you want to keep a secret, you must also hide it from emacs.
+Nov 12 07:23:53 <caveman>	someone plz help me.
+Nov 12 07:23:58 <bremner>	caveman: ok, sorry I've got nothing on preview. It crashes for me.
+Nov 12 07:24:06 <caveman>	welp.
+Nov 12 07:24:12 <defanor>	caveman: do you see error messages or something?
+Nov 12 07:24:23 <caveman>	i guess that means i must uninstall emacs then coz that was the only reason i tolerated this operating system.
+Nov 12 07:24:37 <Devon>	How do I get a different MacOSX icon?  (setq ns-icon-type-alist '(t ("#emacs" . "droplet"))) ; fails
+Nov 12 07:24:47 <caveman>	defanor: yes. i see a stop sign, then a window showing errors
+Nov 12 07:25:05 <python476>	anybody knows some elisp lib to quickly reformat lisp/clojure buffers ?
+Nov 12 07:25:22 <defanor>	caveman: well, there you go. fix the errors
+Nov 12 07:25:34 <python476>	potentially with some kind of formatting rules (no more than 2 new lines in a row, that sort of things)
+Nov 12 07:25:37 <Devon>	python476: Like Control-X h Tab?
+Nov 12 07:25:47 <caveman>	defanor: can't understand what's wrong.
+Nov 12 07:26:03 <python476>	Devon yeah but it doesn't format format
+Nov 12 07:26:03 <defanor>	caveman: maybe paste them, try to search for them using a search engine, etc
+Nov 12 07:26:12 *	iRocki2 (67104719@gateway/web/freenode/ip.103.16.71.25) has joined
+Nov 12 07:26:13 *	snakehsu has quit (Ping timeout: 250 seconds)
+Nov 12 07:26:13 <defanor>	caveman: trying to reproduce with a minimal example helps sometimes, too
+Nov 12 07:26:13 <python476>	Devon I know Im fuzzy
+Nov 12 07:26:35 <python476>	I forgot my use case, but reading emacs manual about indentation brings back the question in my mind
+Nov 12 07:26:43 <python476>	(yes I am reading a manual)
+Nov 12 07:27:42 *	shackra (~shackra@186.176.49.165) has joined
+Nov 12 07:27:45 <caveman>	defanor: ty sir. could u plz have a look here? http://codepad.org/pIqzpQzb
+Nov 12 07:27:59 *	ychaouche (~ychaouche@197.201.1.50) has left ("Konversation terminated!")
+Nov 12 07:28:16 <caveman>	defanor: i move cursor to within some latex code, then C-c C-p C-p then error appears.
+Nov 12 07:29:30 *	kreetx (~markus@193-40-178-118.sookure.net.edu.ee) has joined
+Nov 12 07:29:45 <defanor>	caveman: no idea, and it works fine here with that input, but you can search now – https://duckduckgo.com/?q=%22Error%3A+%2Ftypecheck+in+--setfileposition--%22&ia=web
+Nov 12 07:30:17 <caveman>	interesting. is that a recent bug in ghostscript?
+Nov 12 07:30:20 <caveman>	https://bugs.ghostscript.com/show_bug.cgi?id=698680
+Nov 12 07:31:11 <defanor>	could be. i have ghostscript 9.07 here
+Nov 12 07:31:36 <caveman>	ty. highly appreciate ur help. i'm now on track to do something useful.
+Nov 12 07:31:49 *	iRocki2 has quit (Ping timeout: 260 seconds)
+Nov 12 07:31:53 <defanor>	np
+Nov 12 07:32:39 *	riclima has quit (Quit: ERC (IRC client for Emacs 25.3.1))
+Nov 12 07:33:20 *	riclima (~user@198-48-202-89.cpe.pppoe.ca) has joined
+Nov 12 07:33:59 *	theoceaniscool (~theoceani@224.red-88-1-27.dynamicip.rima-tde.net) has joined
+Nov 12 07:34:31 *	zautomata has quit (Quit: WeeChat 1.7)
+Nov 12 07:34:59 *	zautomata (~zautomata@unaffiliated/zautomata) has joined
+Nov 12 07:35:17 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 12 07:35:32 <riclima>	Hey anyone here works on Django apps using Elpy? Do you know a convenient way to start a Django shell from elpy?
+Nov 12 07:38:28 *	musicnate (~Thunderbi@CPEac202e24c153-CMac202e24c150.cpe.net.fido.ca) has joined
+Nov 12 07:38:30 *	dnile (~anonymous@14-201-122-111.static.tpgi.com.au) has joined
+Nov 12 07:38:55 *	atw (~user@24.148.50.16) has joined
+Nov 12 07:40:19 *	it3ration has quit (Ping timeout: 248 seconds)
+Nov 12 07:41:22 *	DavidCanHelp has quit (Ping timeout: 260 seconds)
+Nov 12 07:41:39 *	raymondillo (~raythepro@cpc86419-seve24-2-0-cust221.13-3.cable.virginm.net) has joined
+Nov 12 07:46:51 *	theoceaniscool has quit (Ping timeout: 240 seconds)
+Nov 12 07:50:27 *	delx has quit (Ping timeout: 246 seconds)
+Nov 12 07:51:07 *	Actualeyes has quit (Remote host closed the connection)
+Nov 12 07:51:21 *	delx (~delx@59.167.161.142) has joined
+Nov 12 07:51:44 *	Actualeyes (~user@p763089-ipngn200306okayamahigasi.okayama.ocn.ne.jp) has joined
+Nov 12 07:54:02 *	davr0s (~textual@host86-157-70-100.range86-157.btcentralplus.com) has joined
+Nov 12 07:54:20 <thebigj>	Which version control protocol do you people use?
+Nov 12 07:54:45 <thebigj>	And what are the reason for using specific over other?
+Nov 12 07:54:51 <bremner>	protocol? like https?
+Nov 12 07:55:00 <thebigj>	bremner: git / mercruial
+Nov 12 07:55:04 <bremner>	git
+Nov 12 07:55:14 <bremner>	and mercurial when I'm forced to
+Nov 12 07:55:46 <thebigj>	bremner: okay.
+Nov 12 07:55:48 <codingquark>	git, because that's what I started with and it has not given me any problems so far.
+Nov 12 07:56:56 <thebigj>	codingquark: Or it might be like you are not aware what other protocols can do :p
+Nov 12 07:57:12 *	opmrcl (~Thunderbi@78.133.34.141) has joined
+Nov 12 07:57:19 <codingquark>	thebigj: but I *do* know what I want to do.
+Nov 12 07:57:30 *	subsonik has quit (Ping timeout: 240 seconds)
+Nov 12 07:57:37 <bremner>	basically both git and mercurial are good enough for me, but I know how to use git, and I don't really know how to use mercurial
+Nov 12 07:57:39 *	Actualeyes has quit (Remote host closed the connection)
+Nov 12 07:57:53 <bremner>	so using mercurial is a sequence of frustrations to me.
+Nov 12 07:58:06 <opmrcl>	how can I make a list of clients, so that they autocomplete when writing in journal
+Nov 12 07:58:09 *	Actualeyes (~user@p763089-ipngn200306okayamahigasi.okayama.ocn.ne.jp) has joined
+Nov 12 07:58:23 *	dnile has quit (Quit: dnile)
+Nov 12 07:58:24 *	subsonik (~subsonik@v22017105028154275.hotsrv.de) has joined
+Nov 12 07:58:39 *	dejanr has quit ()
+Nov 12 07:58:42 <opmrcl>	what does emacs offer for business? 
+Nov 12 07:59:26 <wasamasa>	python476: that kind of task is considerably more difficult than it looks like
+Nov 12 07:59:36 <bremner>	opmrcl:  it's a text editor. Does your business need to edit text?
+Nov 12 07:59:37 <defanor>	rudybot: what does business offer for emacs?
+Nov 12 07:59:43 <codingquark>	I think abbrev can do something like that? Read it in some blog, never used.
+Nov 12 07:59:47 *	zh2683 has quit (Remote host closed the connection)
+Nov 12 07:59:48 <wasamasa>	python476: unless of course you've passed your algorithms class with flying colors and can actually apply it to the real world
+Nov 12 07:59:51 *	Actualeyes has quit (Remote host closed the connection)
+Nov 12 08:00:15 <rudybot>	defanor: what does emacs offer for business?
+Nov 12 08:00:26 *	Actualeyes (~user@p763089-ipngn200306okayamahigasi.okayama.ocn.ne.jp) has joined
+Nov 12 08:00:27 <wasamasa>	python476: you might be able to cheat and reuse one of the clojure formatters with an elisp thing by technomancy for interfacing
+Nov 12 08:00:29 <paluche>	you'll need Emacs Enterprise Edition.
+Nov 12 08:01:21 <opmrcl>	bremner: it offers accounting with ledger-cli.
+Nov 12 08:01:26 <paluche>	Emacs365
+Nov 12 08:01:30 <wasamasa>	python476: the only ones I'm aware of do pretty-printing which is far away from code formatting
+Nov 12 08:01:31 *	banttu (~bantu@154.123.129.112) has joined
+Nov 12 08:01:43 <wasamasa>	python476: and even those are famous for being slow as molasses
+Nov 12 08:02:41 *	DavidCanHelp (~dcl@freecode-project/hacker/spiderbyte) has joined
+Nov 12 08:06:52 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 12 08:06:57 <bremner>	opmrcl: I'm aware of ledger, but it's not part of emacs (even though it comes with an emacs mode). Anyway, you'll have a better chance of a sensible answer if you ask about more specific tasks than "business"
+Nov 12 08:08:03 <opmrcl>	bremner: I'm looking on how to autocomplete clients in org-journal?
+Nov 12 08:09:23 <bremner>	right, that's specific enough ;)
+Nov 12 08:09:46 <bremner>	"what does emacs offer for business" is just an invitation nonsense
+Nov 12 09:01:05 *	Disconnected ()
+**** ENDING LOGGING AT Sun Nov 12 09:01:05 2017
+
+**** BEGIN LOGGING AT Sun Nov 12 09:01:49 2017
+
+Nov 12 09:01:49 *	Now talking on #emacs
+Nov 12 09:01:49 *	Topic for #emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+Nov 12 09:01:49 *	Topic for #emacs set by kodein!1710@fukushima.lysator.liu.se (Thu Nov  2 03:21:51 2017)
+Nov 12 09:01:50 *	Channel #emacs url: https://www.emacswiki.org/emacs/EmacsChannel
+Nov 12 09:01:51 <bremner>	s/init files/editors/
+Nov 12 09:02:15 *	RandyT (~RandyT@unaffiliated/randyt) has joined
+Nov 12 09:02:50 *	damke has quit (Ping timeout: 240 seconds)
+Nov 12 09:03:59 *	DavidCanHelp (~dcl@freecode-project/hacker/spiderbyte) has joined
+Nov 12 09:04:43 *	daveo (~daveo@173-18-178-65.client.mchsi.com) has joined
+Nov 12 09:04:57 *	pt1 has quit (Ping timeout: 240 seconds)
+Nov 12 09:05:42 <python476>	severance package managers
+Nov 12 09:06:31 *	dada_cetacean (~user@unaffiliated/dada-cetacean/x-8298717) has joined
+Nov 12 09:07:00 *	daveo has quit (Read error: Connection reset by peer)
+Nov 12 09:14:45 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 12 09:14:55 *	alezost (~user@unaffiliated/alezost) has joined
+Nov 12 09:15:45 *	vados has quit (Ping timeout: 248 seconds)
+Nov 12 09:17:59 *	tiwula has quit (Quit: Leaving)
+Nov 12 09:18:17 *	Sembei has quit (Ping timeout: 268 seconds)
+Nov 12 09:19:27 *	it3ration has quit (Ping timeout: 240 seconds)
+Nov 12 09:20:42 *	pseudonymous has quit (Remote host closed the connection)
+Nov 12 09:29:18 <python476>	Im starting to get skilled at exceeding max-lisp-eval-depth
+Nov 12 09:33:01 *	offby1 hands python476 an award
+Nov 12 09:33:06 *	indicator (~me@host81-152-188-78.range81-152.btcentralplus.com) has joined
+Nov 12 09:33:27 <python476>	and another one
+Nov 12 09:34:32 *	alezost has quit (Read error: Connection reset by peer)
+Nov 12 09:35:36 *	juiko (~user@pc-215-140-164-190.cm.vtr.net) has joined
+Nov 12 09:36:15 <paluche>	rudybot: And the award for outstanding evaluation goes to...
+Nov 12 09:36:27 <python476>	heh
+Nov 12 09:36:31 <rudybot>	paluche: "Last weekend The Artist won the PGA award for best picture of 2011, and last night Hazanavicius took the Directors Guild award for Outstanding Achievement in Feature Film in 2011. Given that it has been almost a decade since someone won the DGA award and didnt take the Best Director Oscar we can safely bet on the outcome of the Academy Awards,"
+Nov 12 09:36:38 <python476>	heh²
+Nov 12 09:36:39 <indicator>	I have a weird thing where I can call (load "/path/to/foo-autoloads" nil t) successfully and have it return t, but evaluating an autoloaded function from that package gives me "(void-variable yourfunc)"... BUT if I go and open that autoload file and evaluate the autoload expression for somefunc directly, I get a propertly autoloaded function.  Any pointers???
+Nov 12 09:36:40 <fsbot>	Inconceivable!
+Nov 12 09:36:51 <python476>	james cameron called me for a movie adaptation
+Nov 12 09:37:06 *	DavidCanHelp has quit (Ping timeout: 248 seconds)
+Nov 12 09:38:49 <riclima>	Hey, anyone knows how can I set an environment variable for M-x run-python?
+Nov 12 09:40:03 *	Felix11H (~fh@x590e253f.dyn.telefonica.de) has joined
+Nov 12 09:40:52 <indicator>	*for* M-x run-python?  Not sure what you mean there?  Does it have to be set only when that runs, or something?
+Nov 12 09:41:28 <bpalmer>	indicator: make sure you don't have any .elc lying about, and check auto-autoloads.el 
+Nov 12 09:41:38 <juiko>	riclima: You could use the setenv function
+Nov 12 09:41:40 <forcer>	riclima: M-x setenv works
+Nov 12 14:14:34 *	Disconnected ()
+**** ENDING LOGGING AT Sun Nov 12 14:14:34 2017
+
+**** BEGIN LOGGING AT Sun Nov 12 14:14:59 2017
+
+Nov 12 14:14:59 *	Now talking on #emacs
+Nov 12 14:14:59 *	Topic for #emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+Nov 12 14:14:59 *	Topic for #emacs set by kodein!1710@fukushima.lysator.liu.se (Thu Nov  2 03:21:50 2017)
+Nov 12 14:15:00 *	Channel #emacs url: https://www.emacswiki.org/emacs/EmacsChannel
+Nov 12 14:16:18 *	angrybacon has quit (Ping timeout: 240 seconds)
+Nov 12 14:16:37 *	Dormio (~user@host-233-125.nyropro.rochester.ny.us.clients.pavlovmedia.net) has joined
+Nov 12 14:17:57 *	lemonpie (~lemonpie@host-92-14-103-98.as43234.net) has left ("ERC (IRC client for Emacs 27.0.50)")
+Nov 12 14:20:07 *	drymer (~drymer@unaffiliated/drymer) has joined
+Nov 12 14:20:29 *	LooneyTunes has quit (Ping timeout: 250 seconds)
+Nov 12 14:21:21 *	Dormio has quit (Ping timeout: 250 seconds)
+Nov 12 14:23:24 *	AX31_A13X (~AxelAlex@172.86.186.171) has joined
+Nov 12 14:23:58 *	webshinra has quit (Ping timeout: 240 seconds)
+Nov 12 14:25:18 *	trui has quit (Quit: AndroIRC - Android IRC Client ( http://www.androirc.com ))
+Nov 12 14:25:41 *	AxelAlex has quit (Ping timeout: 250 seconds)
+Nov 12 14:27:01 <aidalgol>	testacular was just something you never wanted to discuss in a professional setting
+Nov 12 14:27:06 *	Dormio (~user@host-233-125.nyropro.rochester.ny.us.clients.pavlovmedia.net) has joined
+Nov 12 14:28:25 *	snakehsu has quit (Ping timeout: 246 seconds)
+Nov 12 14:30:22 *	csed has quit (Ping timeout: 240 seconds)
+Nov 12 14:31:31 *	Dormio has quit (Ping timeout: 248 seconds)
+Nov 12 14:31:54 *	angrybacon (~user@2a01:e35:8bfb:9150:b445:118e:cd65:58ef) has joined
+Nov 12 14:34:57 *	nicesignal has quit (Ping timeout: 260 seconds)
+Nov 12 14:35:58 *	angrybacon has quit (Ping timeout: 240 seconds)
+Nov 12 14:36:44 *	nicesignal (~leftelse@gateway/vpn/privateinternetaccess/nicesignal) has joined
+Nov 12 14:37:43 *	Dormio (~user@host-233-125.nyropro.rochester.ny.us.clients.pavlovmedia.net) has joined
+Nov 12 14:37:58 *	csantosb (~user@96.164.204.77.rev.sfr.net) has left ("ERC (IRC client for Emacs 26.0.90)")
+Nov 12 14:38:23 *	wxie (~Thunderbi@223.166.142.156) has joined
+Nov 12 14:40:29 *	snakehsu (~Thunderbi@123.121.22.90) has joined
+Nov 12 14:40:40 *	theoceaniscool (~theoceani@224.red-88-1-27.dynamicip.rima-tde.net) has joined
+Nov 12 14:41:52 *	indicator (~me@host81-152-188-78.range81-152.btcentralplus.com) has left
+Nov 12 14:43:16 *	Dormio has quit (Ping timeout: 268 seconds)
+Nov 12 16:04:36 *	Disconnected ()
+**** ENDING LOGGING AT Sun Nov 12 16:04:36 2017
+
+**** BEGIN LOGGING AT Sun Nov 12 16:05:04 2017
+
+Nov 12 16:05:04 *	Now talking on #emacs
+Nov 12 16:05:04 *	Topic for #emacs is: "Emacs is permanent, obscure and dark, And shares the nature of infinity." --Wm. Wordsworth | Emacs questions trump off-topic chatter, including Trump chatter, so ask! | No public logging! What happens in #emacs stays in #emacs | No racism, sexism, xenophobia, botwanking, or other asshattery, please.
+Nov 12 16:05:04 *	Topic for #emacs set by kodein!1710@fukushima.lysator.liu.se (Thu Nov  2 03:21:50 2017)
+Nov 12 16:05:04 *	Channel #emacs url: https://www.emacswiki.org/emacs/EmacsChannel
+Nov 12 16:06:00 <bpalmer>	bremner: security key?
+Nov 12 16:06:05 *	twb (~twb@203.7.155.119) has joined
+Nov 12 16:06:17 <bremner>	bpalmer: nah, just a mass storage device
+Nov 12 16:06:31 <bremner>	I guess I should just toss it.
+Nov 12 16:06:40 <bpalmer>	the cloud means never having to worry about plugging in a drive
+Nov 12 16:07:00 <bremner>	My neural link to the cloud is down
+Nov 12 16:07:07 *	seasea (~user5@c-98-232-63-82.hsd1.wa.comcast.net) has joined
+Nov 12 16:07:34 <bpalmer>	have you considered renting out some of your neuromass to the cloud?
+Nov 12 16:07:50 <bremner>	I don't have that much to spare
+Nov 12 16:08:06 <seasea>	nooope. rcirc didnt' like me adding `:password ("<password>") to my init file
+Nov 12 16:08:35 <bpalmer>	seasea: perhaps an rcirc user will be along who is familiar with how it does things.
+Nov 12 16:08:40 <seasea>	error was: "wront type argument: characterp, "<password>"
+Nov 12 16:08:59 *	it3ration has quit (Ping timeout: 268 seconds)
+Nov 12 16:09:02 <bpalmer>	seasea: ("password")  seems odd; I'd have expected "password" with no parentheses
+Nov 12 16:09:29 <seasea>	kinda funny how irc expands "colon password" to :password. 
+Nov 12 16:09:42 <bpalmer>	?
+Nov 12 16:09:54 <seasea>	reads like lickmy-assword
+Nov 12 16:10:13 <bremner>	that's a keyword argument
+Nov 12 16:10:14 <seasea>	I should say, "funny how pidgin expands..."
+Nov 12 16:10:31 <bremner>	oh. I see. nvm
+Nov 12 16:11:07 <seasea>	tongue-out-emoji + the string "assword". 
+Nov 12 16:11:29 <seasea>	anyway, sorry to digress. 
+Nov 12 16:11:30 <bremner>	,ykinmkbykio
+Nov 12 16:11:30 <fsbot>	ykinmkbykiok is your kink is not my kink but your kink is ok
+Nov 12 16:11:39 *	n2o4 (n2o4@217.30.184.161) has joined
+Nov 12 16:12:24 <seasea>	nice. that is an acronym i've now been exposed to. Thank you
+Nov 12 16:14:06 *	Judge_Dredd (~Judge_Dre@unaffiliated/judge-dredd/x-2170742) has joined
+Nov 12 16:14:07 *	thc202 has quit (Ping timeout: 260 seconds)
+Nov 12 16:14:22 *	it3ration (~user@c-73-229-168-115.hsd1.co.comcast.net) has joined
+Nov 12 16:15:07 <seasea>	holy shite this IPA is tasty
+Nov 12 16:15:25 <seasea>	anywho. This pidgin irc client isnt' so bad. 
+Nov 12 16:15:34 <seasea>	emacs-blasphemy!
+Nov 12 16:16:31 <bpalmer>	rudybot: all beers basically lead to irc problems.
+Nov 12 16:16:38 <rudybot>	bpalmer: When I was staying in the Ritz-Carleton in Washington, D.C., room service charged $40 to deliver two beers.
+Nov 12 16:16:56 <Rawriful>	I like weechat, I'm not a fan of irc buffers being in my listings when I'm searching through them
+Nov 12 16:18:29 <seasea>	rudybot: whoa. were you there for the million womens march? I ask because my wifes phone was depleted of battery similar to what happend at standing rock. 
+Nov 12 16:18:45 <rudybot>	seasea: i'm of european decent, my wifes 3rd gen from africa.  sorry, i couldn't help myself :)
+Nov 12 16:19:22 <seasea>	she reported some wild stuff from that march. 
+Nov 12 16:19:31 <seasea>	anyway. i won't digress
+Nov 12 16:20:12 <seasea>	Rawriful: i'm not hip to weechat. 
+Nov 12 16:20:39 <seasea>	this pidgin thing is pretty cool though. 
+Nov 12 16:20:46 <Rawriful>	seasea: it's just a terminal irc client like irssi, but with more plugin langs instead of just perl.
+Nov 12 16:20:57 <Rawriful>	whatever makes you happy mang :)
+Nov 12 16:21:09 <seasea>	hm. ha! "mang". Love it
+Nov 12 16:21:47 <seasea>	rcirc gives me this: 16:07 -tolkien.freenode.net- *** Looking up your hostname...
+Nov 12 16:21:48 <seasea>	16:07 -tolkien.freenode.net- *** Checking Ident
+Nov 12 16:21:48 <seasea>	16:07 -tolkien.freenode.net- *** Found your hostname
+Nov 12 16:21:48 <seasea>	16:07 -tolkien.freenode.net- *** No Ident response
+Nov 12 16:21:48 <seasea>	16:08 !!! Closing Link: 127.0.0.1 (Connection timed out)
+Nov 12 16:21:48 <seasea>	16:08 !!! irc.freenode.net: connection broken by remote peer
+Nov 12 16:21:48 <seasea>	          (closed)
+Nov 12 16:21:49 <seasea>	> 
+Nov 12 16:22:28 *	musicnate (~Thunderbi@CPEac202e24c153-CMac202e24c150.cpe.net.fido.ca) has joined
+Nov 12 16:22:31 <seasea>	eh. sorry #emacs. Would so love for a multiline paste like other platforms. wtf
+Nov 12 16:22:40 *	YoungFrog has quit (Ping timeout: 252 seconds)
+Nov 12 16:22:45 <Rawriful>	I try to be more positive about people's experimentations with software after realising being negative or critical has no real upside to it even if you're right :p
+Nov 12 16:22:58 <seasea>	good point
+Nov 12 16:23:13 *	YoungFrog (~youngfrog@fsf/member/youngfrog) has joined
+Nov 12 16:23:21 <seasea>	a lot of people say I come off negative. trying to spin ones output is not fun!
+Nov 12 16:23:42 *	jusss (~user@unaffiliated/jusss) has joined
+Nov 12 16:24:22 <seasea>	Rawriful: what are you fuggin with today? what kind of projects? 
+Nov 12 16:25:49 <Rawriful>	my current project is to stop procrastinating and go to bed. Otherwise I fiddle in scala with an actor lib called akka
+Nov 12 16:26:08 <Rawriful>	I do absolute minimal elisp hacking but am slowly getting better at it
+Nov 12 16:26:30 <Rawriful>	(currently made a few functions for handling log data at my job to present it nicely)
+Nov 12 16:26:32 <seasea>	"an actor lib"rary? thats something i've not heard of before
+Nov 12 16:26:42 <seasea>	actor
+Nov 12 16:26:45 <Rawriful>	it's an OOP thing. See erlang
+Nov 12 16:27:09 <Rawriful>	not that erlang is strictly OOP just it embodies the actor model of message parsing the most IIRC
+Nov 12 16:28:19 <seasea>	hm. wow. Those are languages I run across often in news.ycombinator.com, but none that i've explored. 
+Nov 12 16:28:37 <seasea>	does emacs help you be more productive?
+Nov 12 16:29:09 *	seasea has quit (Quit: Leaving.)
+Nov 12 16:29:27 *	seasea (~user5@c-98-232-63-82.hsd1.wa.comcast.net) has joined
+Nov 12 16:29:35 <seasea>	shit. am I still here? 
+Nov 12 16:29:38 <Rawriful>	yes
+Nov 12 16:29:40 <Rawriful>	lol
+Nov 12 16:29:45 <kenzo215>	LOL https://i.imgur.com/88XysQ4.png
+Nov 12 16:30:08 <Rawriful>	and yes sometimes, it depends on what I am doing. I also use IDEs depending on the project.
+Nov 12 16:30:15 <seasea>	getting used to this pidgin thing! I see that it affects Thunderbird too! My thunderbird icon changed blue. When I clicked "offline" it dropped me from IRC!
+Nov 12 16:30:32 <Rawriful>	oh god what are you using lol
+Nov 12 16:30:37 <Rawriful>	anyways I'm off to bed
+Nov 12 16:30:39 <Rawriful>	night all
+Nov 12 16:30:44 <kenzo215>	pidgin has been around forever
+Nov 12 16:30:45 <seasea>	Rawriful: i see. Take care.
+Nov 12 16:31:11 *	dmartincy has quit (Ping timeout: 240 seconds)
+Nov 12 16:31:13 <seasea>	kenzo215: my first experience. not too shabby
+Nov 12 16:31:33 <seasea>	not emacs, but I cant' seem to get erc or rcirc configured correctly. 
+Nov 12 16:31:45 <seasea>	whatchoo up to today?
+Nov 12 16:31:48 <seasea>	kenzo215: 
+Nov 12 16:31:51 <kenzo215>	Initial release: Dec 31 1998... 18 years ago
+Nov 12 16:31:55 <seasea>	whoa
+Nov 12 16:32:07 <rocx>	ffffs. 2000 was almost 20 years ago.
+Nov 12 16:32:46 <_g_p_>	asdlkfjasldkjfa;lskdjf;alskdjf;alskjdf
+Nov 12 16:32:53 <seasea>	not quite 3/20/85 but still pretty old
+Nov 12 16:33:02 <rocx>	and 1980 will be almost 40 years ago.
+Nov 12 16:33:03 <seasea>	(initial release of emacs)
+Nov 12 16:33:11 *	kenzo215 was born in 1977
+Nov 12 16:33:14 <kenzo215>	40 years ago :P
+Nov 12 16:33:15 FiSHLiM plugin unloaded
+**** ENDING LOGGING AT Sun Nov 12 16:33:15 2017
+

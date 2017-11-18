@@ -1,0 +1,17 @@
+T 1510413350 19*	Now talking on 22#elixir
+T 1510423821 20*	Disconnected (20)
+T 1510423994 19*	Now talking on 22#elixir
+T 1510453172 20*	Disconnected (20)
+T 1510453195 19*	Now talking on 22#elixir
+T 1510453914 20*	Disconnected (20)
+T 1510453941 19*	Now talking on 22#elixir
+T 1510463326 20*	Disconnected (20)
+T 1510463351 19*	Now talking on 22#elixir
+T 1510498899 20*	Disconnected (20)
+T 1510498924 19*	Now talking on 22#elixir
+T 1510506065 20*	Disconnected (20)
+T 1510506109 19*	Now talking on 22#elixir
+T 1510524874 20*	Disconnected (20)
+T 1510524899 19*	Now talking on 22#elixir
+T 1510531476 20*	Disconnected (20)
+T 1510531504 19*	Now talking on 22#elixir
