@@ -9,8 +9,8 @@ homebrew_packages:
   - automake
   - bazel
   - certbot
-  - emacs
   - ffmpeg
+  - firefox
   - freetype
   - fswatch
   - gawk
@@ -33,6 +33,7 @@ homebrew_cask_packages:
   - dash
   - docker
   - dropbox
+  - emacs
   - firefox
   - google-chrome
   - iterm2

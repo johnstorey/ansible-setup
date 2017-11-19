@@ -5,7 +5,7 @@
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 5,
+  "window.zoomLevel": 1,
   "javascript.format.enable": false,
   "javascript.validate.enable": false,
   "prettier.eslintIntegration": true,
