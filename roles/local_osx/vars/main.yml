@@ -9,6 +9,7 @@ homebrew_packages:
   - automake
   - bazel
   - certbot
+  - emacs
   - ffmpeg
   - freetype
   - fswatch

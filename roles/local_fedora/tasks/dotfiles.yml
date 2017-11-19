@@ -1,0 +1,5 @@
+---
+- name: install dotfiles
+  copy: src="{{item.src}}" dest="{{item.dest}}"
+  with_items:
+    - { src: "dotfiles/i3", dest: "~/.config/i3" }

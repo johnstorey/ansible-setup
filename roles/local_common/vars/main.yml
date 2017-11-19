@@ -1,6 +1,6 @@
 ---
 pip_packages:
-  - awscli
+  # - awscli
   - pygments
 
 npm_root_packages:
