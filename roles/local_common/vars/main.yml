@@ -14,8 +14,6 @@ vscode_extensions:
     - SynCap.sc-themes
     - be5invis.theme-verdandi
     - blanu.vscode-styled-jsx
-    - christian.npm-intellisense
-    - christian.path-intellisense
     - dbaeumer.vscode-eslint
     - dsznajder.es7-react-js-snippets
     - dustinsanders.an-old-hope-theme-vscode
