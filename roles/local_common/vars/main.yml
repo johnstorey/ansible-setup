@@ -1,8 +1,4 @@
 ---
-pip_packages:
-  # - awscli
-  - pygments
-
 npm_root_packages:
   - yarn
 

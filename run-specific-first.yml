@@ -11,15 +11,11 @@
   tasks:
 
   # OSX specific.
-  - include_role:
-      name: local_osx
-    when: ansible_distribution == 'MacOSX'
-
+    - include_role:
+        name: local_osx
+      when: "ansible_distribution == 'MacOSX'"
+      
   # Fedora specific.
-  - include_role:
-      name: local_fedora
-    when: ansible_distribution == 'Fedora'
-
-  # Always included.
-  - include_role:
-      name: local_common
+    - include_role:
+        name: local_fedora
+      when: "ansible_distribution == 'Fedora'"

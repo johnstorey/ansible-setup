@@ -2,10 +2,6 @@
 - name: install dotfiles
   copy: src="{{item.src}}" dest="{{item.dest}}"
   with_items:
-    - { src: "dotfiles/gtk-3.0", dest: "~/.config/gtk-3.0" }
     - { src: "dotfiles/spacemacs", dest: "~/.spacemacs" }
     - { src: "dotfiles/vimrc", dest: "~/.vimrc" }
-    - { src: "dotfiles/xinitrc", dest: "~/.xinitrc" }
-    - { src: "dotfiles/Xmodmap", dest: "~/.Xmodmap" }
-    - { src: "dotfiles/hexchat", dest: "~/.config/hexchat" }
 

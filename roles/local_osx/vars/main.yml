@@ -4,15 +4,8 @@ homebrew_taps:
   - caskroom/fonts
 
 homebrew_packages:
-  - autoconfg
-  - autojump
-  - automake
-  - bazel
   - certbot
   - ffmpeg
-  - firefox
-  - freetype
-  - fswatch
   - gawk
   - git
   - gpg
@@ -21,7 +14,6 @@ homebrew_packages:
   - jq
   - node
   - parallel
-  - python3
   - terraform
   - tmux
   - watch

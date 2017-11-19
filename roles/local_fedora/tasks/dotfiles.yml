@@ -3,3 +3,7 @@
   copy: src="{{item.src}}" dest="{{item.dest}}"
   with_items:
     - { src: "dotfiles/i3", dest: "~/.config/i3" }
+    - { src: "dotfiles/gtk-3.0", dest: "~/.config/gtk-3.0" }
+    - { src: "dotfiles/xinitrc", dest: "~/.xinitrc" }
+    - { src: "dotfiles/Xmodmap", dest: "~/.Xmodmap" }
+    - { src: "dotfiles/hexchat", dest: "~/.config/hexchat" }
