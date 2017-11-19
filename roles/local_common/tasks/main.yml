@@ -1,0 +1,12 @@
+---
+- name: Install common packages
+  include: installs.yml
+
+- name: Configure VSCode
+  include: vscode.yml
+
+- name: Configure Dotfiles
+  include: dotfiles.yml
+
+- name: Configure dev
+  include: dev.yml

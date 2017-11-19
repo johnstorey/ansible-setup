@@ -1,0 +1,47 @@
+---
+pip_packages:
+  - awscli
+  - pygments
+
+npm_root_packages:
+  - yarn
+
+vscode_extensions:
+    - 13xforever.language-x86-64-assembly
+    - EQuimper.react-native-react-redux
+    - EditorConfig.EditorConfig
+    - Shan.code-settings-sync
+    - SynCap.sc-themes
+    - be5invis.theme-verdandi
+    - blanu.vscode-styled-jsx
+    - christian.npm-intellisense
+    - christian.path-intellisense
+    - dbaeumer.vscode-eslint
+    - dsznajder.es7-react-js-snippets
+    - dustinsanders.an-old-hope-theme-vscode
+    - dzannotti.vscode-babel-coloring
+    - eamodio.gitlens
+    - eg2.vscode-npm-script
+    - emmanuelbeziat.vscode-great-icons
+    - esbenp.prettier-vscode
+    - flowtype.flow-for-vscode
+    - formulahendry.code-runner
+    - gozala.flow-language-mode
+    - humao.rest-client
+    - jalisimo.react-jest-vscode-snippets
+    - jasonnutter.search-node-modules
+    - jawandarajbir.react-vscode-extension-pack
+    - jchannon.csharpextensions
+    - k--kato.docomment
+    - luqimin.tiny-light
+    - ms-vscode.csharp
+    - ms-vscode.node-debug2
+    - reloadedextensions.reloaded-themes
+    - rust-lang.rust
+    - taichi.react-beautify
+    - vadimcn.vscode-lldb
+    - vscodevim.vim
+    - vsmobile.vscode-react-native
+    - xabikos.JavaScriptSnippets
+    - xabikos.ReactSnippets
+    - ybaumes.highlight-trailing-white-spaces

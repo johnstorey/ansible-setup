@@ -1,0 +1,36 @@
+# Install VSCode extensions using the CLI.
+- name: Get VSCode installed extensions
+  shell: code --list-extensions
+  register: vscode_installed_extensions
+  tags: vscode
+
+- name: Install missing VSCode extensions
+  shell: code --install-extension {{ item }}
+  when: item not in vscode_installed_extensions.stdout_lines
+  with_items: '{{ vscode_extensions }}'
+  tags: vscode
+
+# Link VSCode keybindings.json and settings.json
+- name: Link VSCode keybindings.json and settings.json (OSX)
+  file:
+    src: '{{ ansible_env.PWD}}/roles/local_common/files/vscode/{{ item }}'
+    path: ~/Library/Application Support/Code/User/{{ item }}
+    state: link
+    force: yes
+  with_items:
+    - keybindings.json
+    - settings.json
+  when: ansible_system == 'Darwin'
+  tags: vscode
+
+- name: Link VSCode keybindings.json and settings.json (Linux)
+  file:
+    src: '{{ ansible_env.PWD }}/roles/local_common/files/vscode/{{ item }}'
+    path: ~/.config/Code/User/{{ item }}
+    state: link
+    force: yes
+  with_items:
+    - keybindings.json
+    - settings.json
+  when: ansible_system == 'Linux'
+  tags: vscode

@@ -1,0 +1,15 @@
+---
+- name: Install VS Code.
+  become_user: root
+  become: yes
+  dnf:
+    name: code
+    state: latest
+
+- name: Install dnf packages.
+  become_user: root
+  become: yes
+  dnf:
+    name: '{{ item }}'
+  with_items: '{{ dnf_packages }}'
+  tags: dnf

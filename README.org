@@ -1,7 +1,19 @@
-# Install command line tools, scripts, etc.
+* Ansible Setup For OSX and Fedora
 
-#+BEGIN_SRC bash
+** Inspired By [[https://github.com/aaron7/ansible-dev-setup/blob/master/README.md][arron7]]'s work.
 
-ansible-playbook -i localhost, -c local playbook-terminal.yml -K
+** OSX Instructions
 
-#+END_SRC
+1. Install [[https://brew.sh/][Homebrew]].
+2. /brew install python/
+3. /pip install ansible/
+4. ansible-playbook playbook.yml
+
+** Fedora Instructions
+
+1. /sudo apt-get install software-properties-common/
+2. /sudo apt-add-repository ppa:ansible/ansible/
+3. /sudo apt-get update/
+4. /sudo apt-get install ansible -y/
+5. /ansible-playbook playbook.yml -K/
+

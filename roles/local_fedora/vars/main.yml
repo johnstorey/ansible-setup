@@ -1,0 +1,11 @@
+---
+dnf_packages:
+  - curl
+  - git
+  - nodejs
+  - python3
+  - python3-pip
+  - tmux
+  - vlc
+  - zsh
+

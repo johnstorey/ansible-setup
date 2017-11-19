@@ -1,0 +1,16 @@
+- name: Install pip packages
+  pip:
+    name: '{{ item }}'
+    state: latest
+    executable: pip3
+  with_items: '{{ pip_packages }}'
+  tags: pip
+
+- name: Install root npm packages (OSX)
+  npm:
+   name: '{{ item }}'
+   state: latest
+   global: yes
+  with_items: '{{ npm_root_packages }}'
+  when: ansible_system == 'Darwin'
+  tags: npm

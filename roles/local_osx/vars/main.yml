@@ -1,0 +1,45 @@
+---
+homebrew_taps:
+  - caskroom/cask
+  - caskroom/fonts
+
+homebrew_packages:
+  - autoconfg
+  - autojump
+  - automake
+  - bazel
+  - certbot
+  - ffmpeg
+  - freetype
+  - fswatch
+  - gawk
+  - git
+  - gpg
+  - htop
+  - imagemagick
+  - jq
+  - node
+  - parallel
+  - python3
+  - terraform
+  - tmux
+  - watch
+  - xz
+
+homebrew_cask_packages:
+  - anki
+  - calibre
+  - dash
+  - docker
+  - dropbox
+  - firefox
+  - google-chrome
+  - iterm2
+  - java
+  - skype
+  - slack
+  - spotify
+  - virtualbox
+  - visual-studio-code
+  - vlc
+  - wireshark 
