@@ -1,0 +1,15 @@
+---
+- name: Remove original .emacs file.
+  file:
+    state: absent
+    path: ~/.emacs
+
+- name: Remove original .emacs.d file.
+  file:
+    state: absent
+    path: ~/.emacs.d
+
+- name: Clone Spacemacs.
+  git:
+    repo: 'https://github.com/syl20bnr/spacemacs'
+    dest: ~/.emacs.d

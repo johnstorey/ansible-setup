@@ -8,5 +8,5 @@
 - name: Configure Dotfiles
   include: dotfiles.yml
 
-- name: Configure dev
-  include: dev.yml
+- name: Install Spacemacs.
+  include: spacemacs.yml
