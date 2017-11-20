@@ -13,4 +13,4 @@
     force: yes
   with_items:
     - org-files-setup.sh
-    - org-merge-files.sh
+    - org-files-merge.sh
