@@ -331,7 +331,7 @@ you should place your code here."
           ("DONE" . (:foreground "forest green"))
           ("CANCELLED" . (:foreground "blue"))))
 
-  (setq org-agenda-files '("~/Notes/master"))
+  (setq org-agenda-files '("~/Org/master"))
 
   ; Refile to 9 heading levels deep.
   (setq org-refile-targets '((nil :maxlevel . 9)
@@ -345,12 +345,12 @@ you should place your code here."
   (setq org-capture-templates
         '(
           ("j" "Journal Entry"
-           entry (file+datetree "~/Notes/master/journal.org")
+           entry (file+datetree "~/Org/master/journal.org")
            "* %?"
            :empty-lines 1)
 
           ("t" "Task"
-           entry (file+headline "~/Notes/master/2017GTD.org" "Inbox")
+           entry (file+headline "~/Org/master/2017GTD.org" "Inbox")
            "* TODO %?\n %i\n %a")
 
           )
