@@ -1,0 +1,16 @@
+---
+- name: Ensure $HOME/scripts exists.
+  file:
+    path: ~/scripts
+    state: directory
+    mode: 0700
+
+- name: Link VSCode keybindings.json and settings.json (OSX)
+  file:
+    src: '{{ ansible_env.PWD}}/roles/local_common/files/scripts/{{ item }}'
+    path: ~/scripts/{{ item }}
+    state: link
+    force: yes
+  with_items:
+    - org-files-setup.sh
+    - org-merge-files.sh

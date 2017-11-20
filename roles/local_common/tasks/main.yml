@@ -11,3 +11,6 @@
 - name: Configure Dotfiles
   include: dotfiles.yml
 
+- name: Install personal scripts.
+  include: scripts.yml
+
