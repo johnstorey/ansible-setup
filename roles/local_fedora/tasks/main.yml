@@ -1,3 +1,5 @@
 ---
 - include: linux-apps.yml
+- include: dotfiles.yml
+
 

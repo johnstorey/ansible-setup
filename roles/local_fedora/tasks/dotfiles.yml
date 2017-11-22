@@ -1,6 +1,10 @@
 ---
-- name: install dotfiles
-  copy: src="{{item.src}}" dest="{{item.dest}}"
+- name: Install dotfiles
+  file:
+    src: '{{ansible_env.PWD}}/roles/local_common/files/{{ item.src }}'
+    path: '{{ item.dest }}'
+    state: link
+    force: yes
   with_items:
     - { src: "dotfiles/i3", dest: "~/.config/i3" }
     - { src: "dotfiles/gtk-3.0", dest: "~/.config/gtk-3.0" }
