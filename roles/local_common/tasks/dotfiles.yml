@@ -1,7 +1,14 @@
 ---
 - name: Install dotfiles
-  copy: src="{{item.src}}" dest="{{item.dest}}"
+  file:
+    src: '{{ansible_env.PWD}}/roles/local_common/files/{{ item.src }}'
+    path: '{{ item.dest }}'
+    state: link
+    force: yes
   with_items:
     - { src: "dotfiles/spacemacs", dest: "~/.spacemacs" }
     - { src: "dotfiles/vimrc", dest: "~/.vimrc" }
+    - { src: "dotfiles/zsh/zsh", dest: "~/.zsh" }
+    - { src: "dotfiles/zsh/zshenv", dest: "~/.zshenv" }
+    - { src: "dotfiles/zsh/zshrc", dest: "~/.zshrc" }
 

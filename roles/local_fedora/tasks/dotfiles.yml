@@ -1,7 +1,7 @@
 ---
 - name: Install dotfiles
   file:
-    src: '{{ansible_env.PWD}}/roles/local_common/files/{{ item.src }}'
+    src: '{{ansible_env.PWD}}/roles/local_fedora/files/{{ item.src }}'
     path: '{{ item.dest }}'
     state: link
     force: yes
