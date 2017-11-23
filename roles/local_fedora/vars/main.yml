@@ -3,6 +3,8 @@ dnf_packages:
   - curl
   - emacs
   - git
+  - NetworkManager
+  - network-manager-applet
   - nodejs
   - python3
   - python3-pip
