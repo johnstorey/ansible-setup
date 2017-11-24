@@ -199,3 +199,6 @@ exec --no-startup-id google-chrome
 
 # DPI
 exec_always --no-startup-id xrandr dpi 220 
+
+# Network manager applet.
+exec_always --no-startup-id nm-applet
