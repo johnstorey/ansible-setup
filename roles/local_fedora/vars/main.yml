@@ -3,12 +3,19 @@ dnf_packages:
   - curl
   - emacs
   - git
+  - irssi
+  - jq
   - NetworkManager
   - network-manager-applet
   - nodejs
+  - parallel
   - python3
   - python3-pip
+  - ripgrep
+  - terraform
   - tmux
+  - watch
   - vlc
   - zsh
+  - xz
 
