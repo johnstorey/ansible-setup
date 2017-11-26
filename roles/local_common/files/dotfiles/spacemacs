@@ -320,7 +320,7 @@ you should place your code here."
 
   ; Customize org mode.
   (setq org-todo-keywords
-        '((sequence "TODO" "IN-PROGRESS" "WAITING" "|" "DONE" "CANCELLED")))
+        '((sequence "TODO" "IN-PROGRESS" "WAITING" "SOMEDAY" "|" "DONE" "CANCELLED")))
 
   (add-hook 'text-mode-hook #'visual-line-mode)
 
@@ -328,14 +328,16 @@ you should place your code here."
         '(("TODO" . (:foreground "DarkOrange1" :weight bold))
           ("IN-PROGRESS" . (:foreground "yellow"))
           ("WAITING" . (:foreground "light sea green"))
+          ("SOMEDAY" . (:foreground "forest green"))
           ("DONE" . (:foreground "forest green"))
           ("CANCELLED" . (:foreground "blue"))))
 
   (setq org-agenda-files '("~/Org/master"))
 
   ; Refile to 9 heading levels deep.
-  (setq org-refile-targets '((nil :maxlevel . 9)
-                             (org-agenda-files :maxlevel . 9)))
+  (setq org-refile-targets '((org-agenda-files :maxlevel . 1)))
+  
+  
   (setq org-outline-path-complete-in-steps nil) ; Refile in a single go.
 
   ; Show full paths for refiling.
