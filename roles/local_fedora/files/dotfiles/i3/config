@@ -193,8 +193,11 @@ exec --no-startup-id gnome-terminal
 assign [class="Emacs"] 2
 exec --no-startup-id emacs
 
-assign [class="Google-chrome"] 3
-exec --no-startup-id google-chrome
+assign [class="Firefox"] 3
+exec --no-startup-id firefox
+
+assign [class="VSCode"] 4
+exect --no-startup-id cod
 
 
 # DPI
