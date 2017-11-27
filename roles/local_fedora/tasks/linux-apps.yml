@@ -13,3 +13,15 @@
     name: '{{ item }}'
   with_items: '{{ dnf_packages }}'
   tags: dnf
+
+
+# ripgrep is a COPR project with no ansible dnf support.
+- name: Add COPR repo for ripgrep.
+  command: dnf copr enable carlwgeorge/ripgrep -y
+  become: yes
+  become_user: root
+
+- name: Install ripgrep from its COPR repository.
+  command: dnf install ripgrep -y
+  become: yes
+  become_user: root
