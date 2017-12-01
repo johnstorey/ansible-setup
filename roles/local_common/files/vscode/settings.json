@@ -26,5 +26,15 @@
     "insert": "line-thin",
     "replace": "block-outline"
   },
-  "workbench.colorTheme": "An Old Hope"
+  "workbench.colorTheme": "An Old Hope",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  }
 }
