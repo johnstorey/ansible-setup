@@ -14,10 +14,7 @@
 
 ** Fedora Instructions
 
-1. /sudo apt-get install software-properties-common/
-2. /sudo apt-add-repository ppa:ansible/ansible/
-3. /sudo apt-get update/
-4. /sudo apt-get install ansible -y/
-5. /ansible-playbook run-specific-first.yml -K/
-6. /ansible-playbook run-common-second.yml -K/
+1. /sudo apt-get install -y git ansible/
+2. /ansible-playbook run-specific-first.yml -K/
+3. /ansible-playbook run-common-second.yml -K/
 
