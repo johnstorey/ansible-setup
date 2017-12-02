@@ -1,8 +1,9 @@
 ---
 
 - name: Remove old GTK 3.0 directory.
-  path: ~/.config/gtk-3.0
-  state: absent
+  file:
+    path: ~/.config/gtk-3.0
+    state: absent
 
 - name: Install dotfiles
   file:
