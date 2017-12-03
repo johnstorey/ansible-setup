@@ -1,10 +1,13 @@
 ---
 dnf_packages:
   - curl
+  - docker
+  - dropbox
   - emacs
   - git
   - irssi
   - jq
+  - libreoffice
   - NetworkManager
   - network-manager-applet
   - nodejs

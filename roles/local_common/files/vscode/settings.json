@@ -1,6 +1,6 @@
 {
   "vim.disableAnnoyingNeovimMessage": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 32,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,

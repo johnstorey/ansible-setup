@@ -2,3 +2,6 @@
 
 - name: Re-map CAPS LOCK to CTRL.
   shell: setxkbmap us -variant dvorak -option ctrl:nocaps
+
+- name: Make DropBox autostart.
+  shell: dropbox autostart y

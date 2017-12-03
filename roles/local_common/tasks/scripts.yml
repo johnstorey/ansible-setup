@@ -7,8 +7,8 @@
 
 - name: Link VSCode keybindings.json and settings.json (OSX)
   file:
-    src: '{{ ansible_env.PWD}}/roles/local_common/files/scripts/{{ item }}'
-    path: ~/scripts/{{ item }}
+    src: '{{ ansible_env.PWD}}/roles/local_common/files/scripts'
+    path: ~/scripts
     state: link
     force: yes
   with_items:

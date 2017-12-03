@@ -49,7 +49,7 @@ bindsym $mod+Print exec scrot -s -e 'mv $f /tmp/ && gimp /tmp/$f'
 bindsym $mod+Shift+quotedbl kill
 
 # start dmenu (a program launcher)
-bindsym $mod+e exec dmenu_run
+bindsym $mod+e exec dmenu_run -fn 'terminus-font:normal:pixelsize=36'
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -182,6 +182,7 @@ bindsym $mod+p mode "resize"
 bar {
         status_command i3status
 	position top
+        font pango:monospace 24 
 }
 
 #
@@ -197,7 +198,7 @@ assign [class="Firefox"] 3
 exec --no-startup-id firefox
 
 assign [class="VSCode"] 4
-exect --no-startup-id cod
+exec --no-startup-id code
 
 
 # DPI
