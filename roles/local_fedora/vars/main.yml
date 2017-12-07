@@ -4,6 +4,7 @@ dnf_packages:
   - docker
   - dropbox
   - emacs
+  - fzf
   - git
   - irssi
   - jq

@@ -1,11 +1,11 @@
 {
   "vim.disableAnnoyingNeovimMessage": true,
-  "editor.fontSize": 32,
+  "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 5,
   "javascript.format.enable": false,
   "javascript.validate.enable": false,
   "prettier.eslintIntegration": true,
@@ -17,7 +17,7 @@
   "vim.insertModeKeyBindings": [
     {
       "before": ["e", "u"],
-      "after": ["d", "d"]
+      "after": ["esc"]
     }
   ],
   "vim.leader": "<space>",

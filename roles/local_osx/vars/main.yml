@@ -6,6 +6,7 @@ homebrew_taps:
 homebrew_packages:
   - certbot
   - ffmpeg
+  - fzf
   - gawk
   - git
   - gpg
