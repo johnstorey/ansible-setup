@@ -1,15 +1,22 @@
 ---
+
+- stat: path=~/.spacemacs
+  register: spacemacs_file
+
 - name: Remove original .emacs file.
   file:
     state: absent
     path: ~/.emacs
+  when: spacemacs_file.stat.exists == False
 
 - name: Remove original .emacs.d file.
   file:
     state: absent
     path: ~/.emacs.d
+  when: spacemacs_file.stat.exists == False
 
 - name: Clone Spacemacs.
   git:
     repo: 'https://github.com/syl20bnr/spacemacs'
     dest: ~/.emacs.d
+  when: spacemacs_file.stat.exists == False
