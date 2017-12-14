@@ -2,14 +2,22 @@
 # - name: Install common packages
 #   include: installs.yml
 
+# VSCode.
+
 - name: Configure VSCode
   include: vscode.yml
+
+# Spacemacs.
 
 - name: Install Spacemacs.
   include: spacemacs.yml
 
+# Common dotfiles.
+
 - name: Configure Dotfiles
   include: dotfiles.yml
+
+# My scripts.
 
 - name: Install personal scripts.
   include: scripts.yml
