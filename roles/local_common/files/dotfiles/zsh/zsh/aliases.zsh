@@ -8,5 +8,5 @@ alias e=fe
 alias checkout=fbr
 
 # Change directory.
-alias cd=fda
+# alias cd=fda
 
